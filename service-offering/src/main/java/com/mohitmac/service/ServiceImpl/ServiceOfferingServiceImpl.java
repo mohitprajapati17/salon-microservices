@@ -33,18 +33,14 @@ public class ServiceOfferingServiceImpl implements ServiceOfferingService {
     }
 
     @Override
-    public ServiceOffering updateService(Long serviceId, ServiceOffering serviceOffering) {
-        ServiceOffering serviceOffering1=serviceOfferingRespository.getById(serviceId);
-        if(serviceOffering==null){
-            throw new RuntimeException("not  found service offering "+serviceId);
+    public ServiceOffering updateService(Long serviceId, ServiceOfferingDTO serviceOfferingDTO) {
+        ServiceOffering serviceOffering1=serviceOfferingRespository.findById(serviceId).orElseThrow(()->new RuntimeException("not  found service offering "+serviceId));
 
-
-        }
-        serviceOffering1.setName(serviceOffering.getName());
-        serviceOffering1.setDescription(serviceOffering.getDescription());
-        serviceOffering1.setPrice(serviceOffering.getPrice());
-        serviceOffering1.setDuration(serviceOffering.getDuration());
-        serviceOffering1.setImage(serviceOffering.getImage());
+        serviceOffering1.setName(serviceOfferingDTO.getName());
+        serviceOffering1.setDescription(serviceOfferingDTO.getDescription());
+        serviceOffering1.setPrice(serviceOfferingDTO.getPrice());
+        serviceOffering1.setDuration(serviceOfferingDTO.getDuration());
+        serviceOffering1.setImage(serviceOfferingDTO.getImage());
         return serviceOfferingRespository.save(serviceOffering1);
     }
 
