@@ -1,4 +1,4 @@
-package com.mohitmac.payload_DTO;
+package com.mohitmac.catergory.Service.payload_DTO;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

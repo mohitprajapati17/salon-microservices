@@ -31,7 +31,7 @@ public class SalonCategoryController {
         return  ResponseEntity.ok(catergory2);
     }
 
-    @PostMapping()
+    @PostMapping("/{id}")
     public ResponseEntity<String> deleteCategory(@PathVariable Long id) throws Exception{
         SalonDTO salonDTO =new SalonDTO();
         salonDTO.setId(1L);

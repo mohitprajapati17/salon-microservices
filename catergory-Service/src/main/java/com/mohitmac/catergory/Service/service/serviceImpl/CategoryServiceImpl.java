@@ -1,15 +1,16 @@
 package com.mohitmac.catergory.Service.service.serviceImpl;
 
 import java.util.Set;
-import java.util.Locale.Category;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.mohitmac.catergory.Service.model.Catergory;
 import com.mohitmac.catergory.Service.payload_DTO.SalonDTO;
 import com.mohitmac.catergory.Service.repository.CategoryRepository;
 import com.mohitmac.catergory.Service.service.CatergoryService;
 
+@Service
 public class CategoryServiceImpl implements CatergoryService{
 
 
@@ -30,7 +31,7 @@ public class CategoryServiceImpl implements CatergoryService{
     @Override
     public Set<Catergory> getAllbySalon(Long id) {
         return categoryRepository
-        .getAllbySalonId(id);
+        .findBySalonId(id);
     }
 
     @Override
