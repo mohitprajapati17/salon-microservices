@@ -1,0 +1,27 @@
+package com.mohitmac.catergory.Service.model;
+
+import org.hibernate.annotations.GeneratorType;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.Data;
+
+@Data
+@Entity
+public class Catergory {
+    @Id
+    @GeneratedValue(strategy =GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(nullable = false)
+    private String name;
+
+    private String image;
+    @Column(nullable = false)
+
+    private Long salonId;
+    
+}
