@@ -1,13 +1,16 @@
 package main.java.com.mohitmac.model;
 
-import java.lang.annotation.Inherited;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
+import java.util.Set;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import main.java.com.mohitmac.domain.BookingStatus;
+
+import jakarta.persistence.ElementCollection;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.Data;
 
 @Data
 @Entity

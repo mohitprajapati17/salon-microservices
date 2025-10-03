@@ -1,19 +1,14 @@
-package com.mohitmac.payload_DTO;
+package main.java.com.mohitmac.payload_DTO;
 
 
 import java.time.LocalTime;
 import java.util.List;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
 public class SalonDTO {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String address;

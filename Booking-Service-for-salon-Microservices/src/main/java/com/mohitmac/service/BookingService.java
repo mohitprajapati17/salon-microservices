@@ -2,15 +2,16 @@
 
 package main.java.com.mohitmac.service;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
-import java.time.LocalDate;
 
+import main.java.com.mohitmac.domain.BookingStatus;
 import main.java.com.mohitmac.model.Booking;
 import main.java.com.mohitmac.model.SalonReport;
 import main.java.com.mohitmac.payload_DTO.BookingRequest;
-import main.java.com.mohitmac.payload_DTO.ServiceOfferingDTO;
 import main.java.com.mohitmac.payload_DTO.SalonDTO;
+import main.java.com.mohitmac.payload_DTO.ServiceOfferingDTO;
 import main.java.com.mohitmac.payload_DTO.UserDTO;
 
 public interface BookingService {

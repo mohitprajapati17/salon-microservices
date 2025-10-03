@@ -1,15 +1,22 @@
-
-
 package main.java.com.mohitmac.service.serviceImpl;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
-import com.mohitmac.payload_DTO.SalonDTO;
-import com.mohitmac.payload_DTO.UserDTO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import main.java.com.mohitmac.domain.BookingStatus;
 import main.java.com.mohitmac.model.Booking;
 import main.java.com.mohitmac.model.SalonReport;
+import main.java.com.mohitmac.payload_DTO.BookingRequest;
+import main.java.com.mohitmac.payload_DTO.SalonDTO;
+import main.java.com.mohitmac.payload_DTO.ServiceOfferingDTO;
+import main.java.com.mohitmac.payload_DTO.UserDTO;
+import main.java.com.mohitmac.repository.BookingServiceRepository;
 import main.java.com.mohitmac.service.BookingService;
 
 @Service
@@ -23,7 +30,7 @@ public class BookingServiceImpl implements BookingService {
         
         int totalDuration =setserviceOfferingDTO.stream().mapToInt(ServiceOfferingDTO::getDuration).sum();
         LocalDateTime BookingStartTime=bookingRequest.getStartTime();
-        LocalDateTime BookingEndTime=BookingstartTime.plusMinutes(totalDuration);
+        LocalDateTime BookingEndTime=BookingStartTime.plusMinutes(totalDuration);
 
         Boolean isTimeSlotAvailable=isTimeSlotAvailable(salonDTO,BookingStartTime,BookingEndTime);
 
@@ -48,8 +55,8 @@ public class BookingServiceImpl implements BookingService {
 
     public Boolean isTimeSlotAvailable(SalonDTO salonDTO,LocalDateTime startTime,LocalDateTime endTime){
         List<Booking> existingBooking=getBookingsBySalonId(salonDTO.getId());
-        LocaLDateTime   salonOpenTime=salonDTO.getOpenTime().atDate(startTime.toLocalDate());
-        LocaLDateTime   salonCloseTime=salonDTO.getCloseTime().atDate(startTime.toLocalDate());
+        LocalDateTime   salonOpenTime=salonDTO.getOpenTime().atDate(startTime.toLocalDate());
+        LocalDateTime   salonCloseTime=salonDTO.getCloseTime().atDate(startTime.toLocalDate());
         if(startTime.isBefore(salonOpenTime) || endTime.isAfter(salonCloseTime)){
             throw new RuntimeException("Booking Time must be within salon's working  hours");
         }

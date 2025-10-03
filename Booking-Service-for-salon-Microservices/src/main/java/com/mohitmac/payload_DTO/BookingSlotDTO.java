@@ -1,18 +1,13 @@
 
-
 package main.java.com.mohitmac.payload_DTO;
 
 import java.time.LocalDateTime;
-import java.util.Set;
 
 import lombok.Data;
 
 @Data
-public class BookingRequest {
-
+public class BookingSlotDTO {
+    
     private LocalDateTime startTime;
     private LocalDateTime endTime;
-    
-    private Set<Long> serviceIds;
-    
 }

@@ -1,4 +1,3 @@
-
 package main.java.com.mohitmac.model;
 
 import lombok.Data;
@@ -12,5 +11,5 @@ public class SalonReport {
     private Double totalRevenue;
     private Integer totalBookings;
     private Integer cancelledBookings;
-    private Integer totalRefunds;
+    private Integer totalRefund;
 }
