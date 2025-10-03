@@ -1,4 +1,4 @@
-package main.java.com.mohitmac.service.serviceImpl;
+package com.mohitmac.service.serviceImpl;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -9,15 +9,15 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import main.java.com.mohitmac.domain.BookingStatus;
-import main.java.com.mohitmac.model.Booking;
-import main.java.com.mohitmac.model.SalonReport;
-import main.java.com.mohitmac.payload_DTO.BookingRequest;
-import main.java.com.mohitmac.payload_DTO.SalonDTO;
-import main.java.com.mohitmac.payload_DTO.ServiceOfferingDTO;
-import main.java.com.mohitmac.payload_DTO.UserDTO;
-import main.java.com.mohitmac.repository.BookingServiceRepository;
-import main.java.com.mohitmac.service.BookingService;
+import com.mohitmac.domain.BookingStatus;
+import com.mohitmac.model.Booking;
+import com.mohitmac.model.SalonReport;
+import com.mohitmac.payload_DTO.BookingRequest;
+import com.mohitmac.payload_DTO.SalonDTO;
+import com.mohitmac.payload_DTO.ServiceOfferingDTO;
+import com.mohitmac.payload_DTO.UserDTO;
+import com.mohitmac.repository.BookingServiceRepository;
+import com.mohitmac.service.BookingService;
 
 @Service
 public class BookingServiceImpl implements BookingService {

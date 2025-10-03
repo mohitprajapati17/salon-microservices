@@ -1,5 +1,5 @@
 
-package main.java.com.mohitmac.controller;
+package com.mohitmac.controller;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import com.mohitmac.service.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,17 +20,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import main.java.com.mohitmac.domain.BookingStatus;
-import main.java.com.mohitmac.mapper.BookingMapper;
-import main.java.com.mohitmac.model.Booking;
-import main.java.com.mohitmac.model.SalonReport;
-import main.java.com.mohitmac.payload_DTO.BookingDTO;
-import main.java.com.mohitmac.payload_DTO.BookingRequest;
-import main.java.com.mohitmac.payload_DTO.BookingSlotDTO;
-import main.java.com.mohitmac.payload_DTO.SalonDTO;
-import main.java.com.mohitmac.payload_DTO.UserDTO;
-import main.java.com.mohitmac.service.BookingService;
-import main.java.com.mohitmac.payload_DTO.ServiceOfferingDTO;
+//import java.com.mohitmac.domain.BookingStatus;
+//import
+import com.mohitmac.mapper.BookingMapper;
+import com.mohitmac.model.Booking;
+import com.mohitmac.model.SalonReport;
+import com.mohitmac.payload_DTO.BookingDTO;
+import com.mohitmac.payload_DTO.BookingRequest;
+import com.mohitmac.payload_DTO.BookingSlotDTO;
+import com.mohitmac.payload_DTO.SalonDTO;
+import com.mohitmac.payload_DTO.UserDTO;
+
+import com.mohitmac.payload_DTO.ServiceOfferingDTO;
 
 @RestController
 @RequestMapping("/api/booking")
@@ -119,7 +121,6 @@ public class BookingController {
         SalonReport report=bookingService.getSalonReport(1L);
         return ResponseEntity.ok(report);
         
-
   }
 
 

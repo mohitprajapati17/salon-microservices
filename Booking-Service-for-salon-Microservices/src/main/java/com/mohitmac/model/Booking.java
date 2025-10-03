@@ -1,9 +1,9 @@
-package main.java.com.mohitmac.model;
+package com.mohitmac.model;
 
 import java.time.LocalDateTime;
 import java.util.Set;
 
-import main.java.com.mohitmac.domain.BookingStatus;
+import com.mohitmac.domain.BookingStatus;
 
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;

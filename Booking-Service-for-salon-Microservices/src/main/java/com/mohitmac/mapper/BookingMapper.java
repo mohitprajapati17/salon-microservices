@@ -1,8 +1,8 @@
 
-package main.java.com.mohitmac.mapper;
-import main.java.com.mohitmac.model.Booking;
-import main.java.com.mohitmac.payload_DTO.BookingDTO;
-import main.java.com.mohitmac.domain.BookingStatus;
+package com.mohitmac.mapper;
+import com.mohitmac.model.Booking;
+import com.mohitmac.payload_DTO.BookingDTO;
+import com.mohitmac.domain.BookingStatus;
 
 public class BookingMapper {
 

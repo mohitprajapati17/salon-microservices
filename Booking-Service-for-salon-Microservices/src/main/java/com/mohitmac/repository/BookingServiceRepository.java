@@ -1,13 +1,13 @@
 
 
-package main.java.com.mohitmac.repository;
+package com.mohitmac.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import main.java.com.mohitmac.model.Booking;
+import com.mohitmac.model.Booking;
 
 
 @Repository

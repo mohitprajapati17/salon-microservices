@@ -1,4 +1,4 @@
-package main.java.com.mohitmac.payload_DTO;
+package com.mohitmac.payload_DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

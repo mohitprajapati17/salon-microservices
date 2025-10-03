@@ -1,11 +1,11 @@
-package main.java.com.mohitmac.payload_DTO;
+package com.mohitmac.payload_DTO;
 
 import java.time.LocalDateTime;
 import java.util.Set;
 
 import lombok.Data;
 
-import main.java.com.mohitmac.domain.BookingStatus;
+import com.mohitmac.domain.BookingStatus;
 
 @Data
 public class BookingDTO {

@@ -1,6 +1,6 @@
 
 
-package main.java.com.mohitmac.domain;
+package com.mohitmac.domain;
 import java.util.*;
 
 

@@ -1,4 +1,4 @@
-package main.java.com.mohitmac.model;
+package com.mohitmac.model;
 
 import lombok.Data;
 

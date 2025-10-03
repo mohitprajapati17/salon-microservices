@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5a6ba65-61e8-4d4f-8462-39d2181f4ef5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/salon_microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/salon_microservices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/BookingServiceForSalonMicroservicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/BookingServiceForSalonMicroservicesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/domain/BookingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/domain/BookingStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/mapper/BookingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/mapper/BookingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/model/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/model/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/model/SalonReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/model/SalonReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/BookingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/BookingDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/BookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/BookingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/BookingSlotDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/BookingSlotDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/SalonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/SalonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/ServiceOfferingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/ServiceOfferingDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/payload_DTO/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/repository/BookingServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/repository/BookingServiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/service/serviceImpl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/src/main/java/com/mohitmac/service/serviceImpl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/model/ServiceOffering.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/model/ServiceOffering.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="33U4qyOiPTjdESTrwq2it1T0vKc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PaymentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServiceOfferingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohit/salon_microservices&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5a6ba65-61e8-4d4f-8462-39d2181f4ef5" name="Changes" comment="" />
+      <created>1759358511929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759358511929</updated>
+    </task>
+    <servers />
+  </component>
+</project>
