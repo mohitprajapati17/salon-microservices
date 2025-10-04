@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/../Downloads/Payment-Service/pom.xml" />
         <option value="$PROJECT_DIR$/Payment-Service/pom.xml" />
         <option value="$PROJECT_DIR$/Booking-Service-for-salon-Microservices/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Booking-Service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

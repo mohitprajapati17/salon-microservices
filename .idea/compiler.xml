@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
         <module name="userService" />
       </profile>
       <profile name="Annotation profile for salon-service" enabled="true">
@@ -18,25 +19,30 @@
         </processorPath>
         <module name="salon-service" />
       </profile>
-      <profile name="Annotation profile for Payment-Service" enabled="true">
+      <profile name="Annotation profile for service-offering" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.40/lombok-1.18.40.jar" />
         </processorPath>
-        <module name="Booking-Service-for-salon-Microservices" />
-        <module name="Payment-Service" />
+        <module name="Booking-Service" />
         <module name="service-offering" />
         <module name="catergory-Service" />
+        <module name="Payment-Service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Booking-Service-for-salon-Microservices" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Booking-Service" options="-parameters" />
       <module name="Booking-Service-for-salon-Microservices" options="-parameters" />
       <module name="Payment-Service" options="-parameters" />
       <module name="catergory-Service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="salon-service" options="-parameters" />
       <module name="service-offering" options="-parameters" />
       <module name="userService" options="-parameters" />
