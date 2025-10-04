@@ -1,0 +1,24 @@
+
+server:
+  port: 5004
+spring:
+  application:
+    name: service-offering
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Service_offering_db
+    username: postgres
+    password: 2006
+    driver-class-name: org.postgresql.Driver
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: "http://localhost:8070/eureka"

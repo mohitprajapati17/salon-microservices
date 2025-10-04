@@ -2,10 +2,15 @@
 
 package com.mohitmac.Payment.Service.controller;
 
+import com.mohitmac.Payment.Service.domain.PaymentMethod;
+import com.mohitmac.Payment.Service.model.PaymentOrder;
+import com.mohitmac.Payment.Service.payloadResponse.PaymentLinkResponse;
 import com.mohitmac.Payment.Service.payloadResponse.payload_DTO.BookingDTO;
-import org.springframework.web.bind.annotation.*;
+import com.mohitmac.Payment.Service.payloadResponse.payload_DTO.UserDTO;
 import com.mohitmac.Payment.Service.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/payment")
@@ -15,7 +20,7 @@ public class PaymentController {
     private PaymentService paymentService;
 
     @PostMapping("/create")
-    public ResponseEntity<PaymentLinkReponse> createPayment(@RequestBody BookingDTO bookingDTO, @RequestParam PaymentMethod paymentMethod){
+    public ResponseEntity<PaymentLinkResponse> createPayment(@RequestBody BookingDTO bookingDTO, @RequestParam PaymentMethod paymentMethod){
         
         UserDTO userDTO=new UserDTO();
         userDTO.setId(1L);

@@ -2,13 +2,12 @@ package com.mohitmac.Payment.Service.model;
 
 import com.mohitmac.Payment.Service.domain.PaymentMethod;
 import com.mohitmac.Payment.Service.domain.PaymentOrderStatus;
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
+@Entity
+
 public class PaymentOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
