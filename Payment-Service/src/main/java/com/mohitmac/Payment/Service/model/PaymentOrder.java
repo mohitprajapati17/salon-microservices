@@ -23,7 +23,7 @@ public class PaymentOrder {
     private PaymentMethod paymentMethod;
 
     @Column(nullable = false)
-    private String paymentLink;
+    private String paymentLinkId;
 
 
     @Column(nullable = false)

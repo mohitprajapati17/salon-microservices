@@ -2,5 +2,5 @@ package com.mohitmac.Payment.Service.domain;
 
 
 public enum PaymentOrderStatus {
-    PENDING,CANCELLED,COMPLETED
+    PENDING,CANCELLED,SUCCESS
 }
