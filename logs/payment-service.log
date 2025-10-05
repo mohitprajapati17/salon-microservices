@@ -1,0 +1,117 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.mohitmac:Payment-Service >--------------------
+[INFO] Building Payment-Service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.3:run (default-cli) > test-compile @ Payment-Service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Payment-Service ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Payment-Service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 17 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Payment-Service ---
+[INFO] skip non existing resourceDirectory /Users/mohit/salon_microservices/Payment-Service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Payment-Service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.4.3:run (default-cli) < test-compile @ Payment-Service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.3:run (default-cli) @ Payment-Service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-05T20:27:11.664+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : Starting PaymentServiceApplication using Java 17.0.16 with PID 80134 (/Users/mohit/salon_microservices/Payment-Service/target/classes started by mohit in /Users/mohit/salon_microservices/Payment-Service)
+2025-10-05T20:27:11.670+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-05T20:27:11.760+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-05T20:27:11.761+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-05T20:27:12.921+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-05T20:27:13.158+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 222 ms. Found 1 JPA repository interface.
+2025-10-05T20:27:13.464+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3bb2e6a5-a380-397b-b565-41d6c04109cb
+2025-10-05T20:27:14.084+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5006 (http)
+2025-10-05T20:27:14.109+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-05T20:27:14.109+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-05T20:27:14.169+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-05T20:27:14.170+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2408 ms
+2025-10-05T20:27:14.375+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-05T20:27:14.451+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-10-05T20:27:14.487+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-05T20:27:14.831+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-05T20:27:14.869+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-05T20:27:15.126+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c25fe1b
+2025-10-05T20:27:15.128+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-05T20:27:15.325+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-05T20:27:17.261+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-05T20:27:17.657+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-05T20:27:18.223+05:30  WARN 80134 --- [PAYMENT-SERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-05T20:27:18.783+05:30  WARN 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-05T20:27:18.856+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-05T20:27:18.911+05:30  WARN 80134 --- [PAYMENT-SERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-05T20:27:18.936+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-05T20:27:18.963+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-05T20:27:18.967+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:27:18.982+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-05T20:27:18.983+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-05T20:27:18.983+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-05T20:27:18.983+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-05T20:27:18.983+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-05T20:27:18.983+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-05T20:27:18.983+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-05T20:27:20.969+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-05T20:27:20.974+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-05T20:27:20.977+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-05T20:27:20.980+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759676240979 with initial instances count: 3
+2025-10-05T20:27:20.986+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2025-10-05T20:27:20.987+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1759676240987, current=UP, previous=STARTING]
+2025-10-05T20:27:20.989+05:30  INFO 80134 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006: registering service...
+2025-10-05T20:27:21.017+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5006 (http) with context path '/'
+2025-10-05T20:27:21.019+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5006
+2025-10-05T20:27:21.046+05:30  INFO 80134 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : Started PaymentServiceApplication in 10.179 seconds (process running for 11.582)
+2025-10-05T20:27:21.046+05:30  INFO 80134 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - registration status: 204
+2025-10-05T20:32:19.001+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:39:12.761+05:30  WARN 80134 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s413ms).
+2025-10-05T20:42:16.424+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:47:16.445+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:52:16.465+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:57:16.524+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:02:16.545+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:07:16.564+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:12:16.588+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:17:16.592+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:22:16.649+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:27:16.677+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:39:13.286+05:30  WARN 80134 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s908ms).
+2025-10-05T21:49:45.817+05:30  WARN 80134 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s533ms).
+2025-10-05T21:49:54.259+05:30  INFO 80134 --- [PAYMENT-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - Re-registering apps/PAYMENT-SERVICE
+2025-10-05T21:49:54.262+05:30  INFO 80134 --- [PAYMENT-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006: registering service...
+2025-10-05T21:49:54.348+05:30  INFO 80134 --- [PAYMENT-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - registration status: 204
+2025-10-05T22:00:16.042+05:30  WARN 80134 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s225ms).
+2025-10-05T22:06:23.281+05:30  WARN 80134 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m7s239ms).
+2025-10-05T22:07:56.583+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:12:56.611+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:17:56.649+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:22:56.678+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:27:56.954+05:30  INFO 80134 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

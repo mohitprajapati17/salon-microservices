@@ -9,9 +9,11 @@
 #spring.datasource.driver-class-name=org.postgresql.Driver
 server:
   port: 5005
+
+
 spring:
   application:
-    name: Booking-Service
+    name: BOOKING-SERVICE
   jpa:
     hibernate:
       ddl-auto: update

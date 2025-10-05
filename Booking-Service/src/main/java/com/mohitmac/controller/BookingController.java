@@ -36,6 +36,7 @@ import com.mohitmac.payload_DTO.ServiceOfferingDTO;
 
 @RestController
 @RequestMapping("/api/booking")
+
 public class BookingController {
     
     @Autowired

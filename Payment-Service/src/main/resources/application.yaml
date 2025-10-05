@@ -1,9 +1,12 @@
 server:
   port: 5006
+  tomcat:
+    connection-timeout: 20000
+    keep-alive-timeout: 60000
 
 spring:
   application:
-    name: Payment-Service
+    name: PAYMENT-SERVICE
   jpa:
     show-sql: true
     hibernate:

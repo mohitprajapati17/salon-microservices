@@ -1,0 +1,47 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: GATEWAY-SERVER
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: USER-SERVICE
+          uri: http://localhost:5001
+          predicates:
+            - Path=/api/users/** , /api/auth/**  ,/users/** ,/api/admin/users/**
+        - id: BOOKING-SERVICE
+          uri: http://localhost:5005
+          predicates:
+            - Path=/api/booking/**
+        - id: SALON-SERVICE
+          uri: http://localhost:5002
+          predicates:
+            - Path=/api/salon/** ,/api/admin/salon/**  , /salon/**
+        - id: CATEGORY-SERVICE
+          uri: http://localhost:5003
+          predicates:
+            - Path=/api/categories/** ,/api/categories/salon-owner/**
+        - id: SERVICE-OFFERING
+          uri: http://localhost:5004
+          predicates:
+            - Path=/api/service-offering/** ,/api/service-offering/salon-owner/**
+        - id: PAYMENT-SERVICE
+          uri: http://localhost:5006
+          predicates:
+            - Path=/api/payment/**
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka

@@ -1,0 +1,117 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.mohitmac:service-offering >--------------------
+[INFO] Building service-offering 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.3:run (default-cli) > test-compile @ service-offering >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ service-offering ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ service-offering ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 11 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ service-offering ---
+[INFO] skip non existing resourceDirectory /Users/mohit/salon_microservices/service-offering/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ service-offering ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.4.3:run (default-cli) < test-compile @ service-offering <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.3:run (default-cli) @ service-offering ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-05T20:27:09.471+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] c.mohitmac.ServiceOfferingApplication    : Starting ServiceOfferingApplication using Java 17.0.16 with PID 80126 (/Users/mohit/salon_microservices/service-offering/target/classes started by mohit in /Users/mohit/salon_microservices/service-offering)
+2025-10-05T20:27:09.481+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] c.mohitmac.ServiceOfferingApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-05T20:27:09.610+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-05T20:27:09.622+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-05T20:27:11.206+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-05T20:27:11.496+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 273 ms. Found 1 JPA repository interface.
+2025-10-05T20:27:11.962+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f8b66177-dd4c-37af-b6e5-98b48feccf1a
+2025-10-05T20:27:12.764+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5004 (http)
+2025-10-05T20:27:12.779+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-05T20:27:12.780+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-05T20:27:12.842+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-05T20:27:12.844+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3210 ms
+2025-10-05T20:27:13.060+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-05T20:27:13.122+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-10-05T20:27:13.156+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-05T20:27:13.459+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-05T20:27:13.492+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-05T20:27:13.685+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@261835ef
+2025-10-05T20:27:13.687+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-05T20:27:13.785+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-05T20:27:14.881+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-05T20:27:15.044+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-05T20:27:15.744+05:30  WARN 80126 --- [SERVICE-OFFERING] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-05T20:27:16.546+05:30  WARN 80126 --- [SERVICE-OFFERING] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-05T20:27:16.690+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-05T20:27:16.780+05:30  WARN 80126 --- [SERVICE-OFFERING] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-05T20:27:16.842+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-05T20:27:16.907+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-05T20:27:16.915+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:27:16.934+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-05T20:27:16.935+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-05T20:27:16.936+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-05T20:27:16.936+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-05T20:27:16.936+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-05T20:27:16.936+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-05T20:27:16.937+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-05T20:27:17.837+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-05T20:27:17.840+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-05T20:27:17.844+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-05T20:27:17.847+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759676237846 with initial instances count: 3
+2025-10-05T20:27:17.857+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-OFFERING with eureka with status UP
+2025-10-05T20:27:17.859+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1759676237859, current=UP, previous=STARTING]
+2025-10-05T20:27:17.863+05:30  INFO 80126 --- [SERVICE-OFFERING] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-OFFERING/192.168.29.109:SERVICE-OFFERING:5004: registering service...
+2025-10-05T20:27:17.902+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5004 (http) with context path '/'
+2025-10-05T20:27:17.904+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5004
+2025-10-05T20:27:17.955+05:30  INFO 80126 --- [SERVICE-OFFERING] [  restartedMain] c.mohitmac.ServiceOfferingApplication    : Started ServiceOfferingApplication in 9.703 seconds (process running for 11.206)
+2025-10-05T20:27:17.996+05:30  INFO 80126 --- [SERVICE-OFFERING] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-OFFERING/192.168.29.109:SERVICE-OFFERING:5004 - registration status: 204
+2025-10-05T20:32:16.956+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:39:11.348+05:30  WARN 80126 --- [SERVICE-OFFERING] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s425ms).
+2025-10-05T20:42:14.385+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:47:14.406+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:52:14.428+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T20:57:14.484+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:02:14.507+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:07:14.522+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:12:14.539+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:17:14.545+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:22:14.561+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:27:14.577+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T21:39:11.778+05:30  WARN 80126 --- [SERVICE-OFFERING] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s914ms).
+2025-10-05T21:49:44.309+05:30  WARN 80126 --- [SERVICE-OFFERING] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s535ms).
+2025-10-05T22:00:14.535+05:30  WARN 80126 --- [SERVICE-OFFERING] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s226ms).
+2025-10-05T22:06:21.777+05:30  WARN 80126 --- [SERVICE-OFFERING] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m7s241ms).
+2025-10-05T22:07:54.466+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:12:54.485+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:17:54.505+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:22:54.517+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:27:54.541+05:30  INFO 80126 --- [SERVICE-OFFERING] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-05T22:28:08.087+05:30  INFO 80126 --- [SERVICE-OFFERING] [nio-5004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-05T22:28:08.088+05:30  INFO 80126 --- [SERVICE-OFFERING] [nio-5004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-05T22:28:08.222+05:30  INFO 80126 --- [SERVICE-OFFERING] [nio-5004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 131 ms

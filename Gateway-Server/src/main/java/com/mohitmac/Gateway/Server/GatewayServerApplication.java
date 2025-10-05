@@ -1,15 +1,14 @@
-package com.mohitmac;
+package com.mohitmac.Gateway.Server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 
-
-public class BookingServiceApplication {
+public class GatewayServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookingServiceApplication.class, args);
+		SpringApplication.run(GatewayServerApplication.class, args);
 	}
 
 }

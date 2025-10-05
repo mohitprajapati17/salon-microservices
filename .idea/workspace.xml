@@ -6,22 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="b5a6ba65-61e8-4d4f-8462-39d2181f4ef5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/BookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/BookingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Payment-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/domain/BookingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/domain/BookingStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/model/PaymentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/model/PaymentOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/serviceImpl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/serviceImpl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catergory-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/salon-service" beforeDir="false" afterPath="$PROJECT_DIR$/salon-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/salon-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/salon-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/salon-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/salon-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-offering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-offering/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-offering/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userService" beforeDir="false" afterPath="$PROJECT_DIR$/userService" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/mohitmac/userService/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/mohitmac/userService/UserServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +46,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="homebrew-17" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -54,6 +62,8 @@
     &quot;Application.BookingServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.CatergoryServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GatewayServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GatewayServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.PaymentServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.SalonServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.ServiceOfferingApplication.executor&quot;: &quot;Run&quot;,
@@ -63,8 +73,9 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/mohit/salon_microservices/Booking-Service/src/main/java/com/mohitmac&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -78,6 +89,19 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mohitmac.Payment.Service.domain" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="salon_microservices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="salon_microservices" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
