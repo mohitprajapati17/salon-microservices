@@ -13,6 +13,16 @@ spring:
     password: 2006
     driver-class-name: org.postgresql.Driver
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: always
 
 eureka:
   instance:

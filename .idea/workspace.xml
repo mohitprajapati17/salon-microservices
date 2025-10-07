@@ -8,14 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Booking-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catergory-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/salon-service" beforeDir="false" afterPath="$PROJECT_DIR$/salon-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/salon-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/salon-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/salon-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/salon-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-offering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService" beforeDir="false" afterPath="$PROJECT_DIR$/userService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userService/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

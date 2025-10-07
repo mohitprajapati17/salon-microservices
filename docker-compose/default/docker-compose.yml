@@ -1,0 +1,346 @@
+services:
+
+  userdb:
+    image: postgres
+    container_name: userdb
+    ports:
+      - "3301:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      timeout: 10s
+      retries: 10
+      interval: 10s
+      start_period: 10s
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 2006
+      POSTGRES_DB: Salon_User_db
+    networks:
+      - mohit
+
+  salondb:
+    image: postgres
+    container_name: salondb
+    ports:
+      - "3302:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      timeout: 10s
+      retries: 10
+      interval: 10s
+      start_period: 10s
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 2006
+      POSTGRES_DB: Salon_Service_db
+    networks:
+      - mohit
+
+  categorydb:
+    image: postgres
+    container_name: categorydb
+    ports:
+      - "3303:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      timeout: 10s
+      retries: 10
+      interval: 10s
+      start_period: 10s
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 2006
+      POSTGRES_DB: Catergory_Service_db
+    networks:
+      - mohit
+
+  serviceofferingdb:
+    image: postgres
+    container_name: serviceofferingdb
+    ports:
+      - "3304:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      timeout: 10s
+      retries: 10
+      interval: 10s
+      start_period: 10s
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 2006
+      POSTGRES_DB: Service_offering_db
+    networks:
+      - mohit
+
+  bookingdb:
+    image: postgres
+    container_name: bookingdb
+    ports:
+      - "3305:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      timeout: 10s
+      retries: 10
+      interval: 10s
+      start_period: 10s
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 2006
+      POSTGRES_DB: Booking_Services_db
+    networks:
+      - mohit
+
+  paymentdb:
+    image: postgres
+    container_name: paymentdb
+    ports:
+      - "3306:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      timeout: 10s
+      retries: 10
+      interval: 10s
+      start_period: 10s
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 2006
+      POSTGRES_DB: Payment_Service_db
+    networks:
+      - mohit
+
+
+  eurekaserver:
+    image: mohit1777/eureka-service-salon:v1
+    ports:
+      - "8070:8070"
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent eurekaserver:8070/actuator/health | grep UP || exit 1"]
+
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    container_name: eurekaserver
+
+
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - mohit
+
+
+
+
+  userservice:
+    image: mohit1777/user-service-salon:v1
+    container_name: userservice
+    ports:
+      - "5001:5001"
+    depends_on:
+      userdb:
+        condition: service_healthy
+      eurekaserver:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent localhost:5001/actuator/health | grep UP || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://userdb:5432/Salon_User_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 2006
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - mohit
+
+  salonservice:
+    image: mohit1777/salon-service-salon:v1
+    container_name: salonservice
+    ports:
+      - "5002:5002"
+    depends_on:
+      salondb:
+        condition: service_healthy
+      eurekaserver:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent localhost:5002/actuator/health | grep UP || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://salondb:5432/Salon_Service_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 2006
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - mohit
+
+  categoryservice:
+    image: mohit1777/category-service-salon:v1
+    container_name: categoryservice
+    ports:
+      - "5003:5003"
+    depends_on:
+      categorydb:
+        condition: service_healthy
+      eurekaserver:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent localhost:5003/actuator/health | grep UP || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://categorydb:5432/Catergory_Service_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 2006
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - mohit
+
+  serviceofferingservice:
+    image: mohit1777/service-offering-service-salon:v1
+    container_name: serviceofferingservice
+    ports:
+      - "5004:5004"
+    depends_on:
+      serviceofferingdb:
+        condition: service_healthy
+      eurekaserver:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent localhost:5004/actuator/health | grep UP || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://serviceofferingdb:5432/Service_offering_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 2006
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - mohit
+
+  bookingservice:
+    image: mohit1777/booking-service-salon:v1
+    container_name: bookingservice
+    ports:
+      - "5005:5005"
+    depends_on:
+      bookingdb:
+        condition: service_healthy
+      eurekaserver:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent localhost:5005/actuator/health | grep UP || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://bookingdb:5432/Booking_Services_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 2006
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - mohit
+
+  paymentservice:
+    image: mohit1777/payment-service-salon:v1
+    container_name: paymentservice
+    ports:
+      - "5006:5006"
+    depends_on:
+      paymentdb:
+        condition: service_healthy
+      eurekaserver:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent localhost:5006/actuator/health | grep UP || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://paymentdb:5432/Payment_Service_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 2006
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - mohit
+
+  gatewayserver:
+    image: mohit1777/gateway-service-salon:v1
+    container_name: gatewayserver
+    ports:
+      - "8085:8085"
+    depends_on:
+      eurekaserver:
+        condition: service_healthy
+      userservice:
+        condition: service_healthy
+      salonservice:
+        condition: service_healthy
+      categoryservice:
+        condition: service_healthy
+      serviceofferingservice:
+        condition: service_healthy
+      bookingservice:
+        condition: service_healthy
+      paymentservice:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent localhost:8085/actuator/health | grep UP || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - mohit
+
+
+
+
+networks:
+  mohit:
+    driver: "bridge"
+    
+  

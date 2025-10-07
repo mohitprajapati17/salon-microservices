@@ -13,27 +13,27 @@ spring:
           lower-case-service-id: true
       routes:
         - id: USER-SERVICE
-          uri: http://localhost:5001
+          uri: lb://USERSERVICE
           predicates:
             - Path=/api/users/** , /api/auth/**  ,/users/** ,/api/admin/users/**
         - id: BOOKING-SERVICE
-          uri: http://localhost:5005
+          uri: lb://BOOKING-SERVICE
           predicates:
             - Path=/api/booking/**
         - id: SALON-SERVICE
-          uri: http://localhost:5002
+          uri: lb://SALON-SERVICE
           predicates:
             - Path=/api/salon/** ,/api/admin/salon/**  , /salon/**
         - id: CATEGORY-SERVICE
-          uri: http://localhost:5003
+          uri: lb://CATERGORY-SERVICE
           predicates:
             - Path=/api/categories/** ,/api/categories/salon-owner/**
         - id: SERVICE-OFFERING
-          uri: http://localhost:5004
+          uri: lb://SERVICE-OFFERING
           predicates:
             - Path=/api/service-offering/** ,/api/service-offering/salon-owner/**
         - id: PAYMENT-SERVICE
-          uri: http://localhost:5006
+          uri: lb://PAYMENT-SERVICE
           predicates:
             - Path=/api/payment/**
 
