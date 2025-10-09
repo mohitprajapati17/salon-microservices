@@ -3,6 +3,7 @@ package com.mohitmac.userService.controller;
 
 import com.mohitmac.userService.model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import jakarta.validation.Valid;
@@ -22,6 +23,8 @@ public class UserController {
     @Autowired
     public UserRepository userRepository;
 
+
+    
 
     @GetMapping("")
     public List<Users> getUsers(){
@@ -51,4 +54,14 @@ public class UserController {
         userService.deleteUser(id);
 
     }
+
+
+
+
+    @GetMapping("/profile")
+    public ResponseEntity<Users>  getUserByProfile(@RequestHeader("Authorization") String jwt) throws Exception{
+
+        return ResponseEntity.ok(userService.getUserFromJWT(jwt));
+    }
+
 }

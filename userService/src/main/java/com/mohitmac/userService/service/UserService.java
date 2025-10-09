@@ -1,17 +1,22 @@
 package com.mohitmac.userService.service;
 
 import com.mohitmac.userService.model.Users;
+import com.mohitmac.userService.payload_response.dto.KeyCloakUserDTO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.mohitmac.userService.repository.UserRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserService {
 
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private KeycloakService keycloakService;
 
     public List<Users> getAllUsers() {
         return userRepository.findAll();
@@ -40,5 +45,13 @@ public class UserService {
     public void deleteUser(Long id) throws Exception {
         Users existing = userRepository.findById(id).orElseThrow(() -> new Exception("User not found: " + id));
         userRepository.delete(existing);
+    }
+
+    public Users getUserFromJWT(String jwt) throws Exception{
+        KeyCloakUserDTO user = keycloakService.fetchUserProfileByJWT(jwt);
+        Optional<Users> existing =userRepository.findByEmail(user.getEmail());
+
+        return existing.orElse(null);
+        
     }
 }

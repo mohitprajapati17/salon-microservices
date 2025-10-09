@@ -218,6 +218,38 @@ public class KeycloakService {
 
 
     }
+    public KeyCloakUserDTO fetchUserProfileByJWT(String token) throws Exception{
+        System.out.println("keycloak profile token " + token);
+        String url = KEYCLOAK_BASE_URL + "/realms/master/protocol/openid-connect/userinfo";
+        
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add("Authorization", token);
+        
+        // Create an HttpEntity with the headers
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+        
+        try {
+            // Send the GET request
+            ResponseEntity<KeyCloakUserDTO> response = restTemplate.exchange(
+                url,
+                HttpMethod.GET,
+                entity,
+                KeyCloakUserDTO.class
+            );
+            
+            // Extract and return the first user object
+            return response.getBody();
+        } catch (Exception e) {
+            System.out.println("Failed to fetch user details: " + e.getMessage());
+            throw new Exception("Failed to fetch user details: " + e.getMessage());
+        }
+
+        
+
+
+
+    }
 
 
 
