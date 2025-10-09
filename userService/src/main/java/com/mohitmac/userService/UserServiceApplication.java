@@ -7,9 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan({"com.mohitmac.userService", "controller", "service", "exception", "config"})
-@EnableJpaRepositories(basePackages = {"repository"})
-@EntityScan(basePackages = {"model"})
+@ComponentScan({"com.mohitmac.userService", "com/mohitmac/userService/controller", "com/mohitmac/userService/exception", "com/mohitmac/userService/config"})
+@EnableJpaRepositories(basePackages = {"com/mohitmac/userService/repository"})
+@EntityScan(basePackages = {"com/mohitmac/userService/model"})
 public class UserServiceApplication {
 
 	public static void main(String[] args) {

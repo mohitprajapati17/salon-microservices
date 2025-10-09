@@ -8,5 +8,7 @@
         }
     ],
     "java.jdt.ls.java.home": "/usr/local/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home",
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 12
 }

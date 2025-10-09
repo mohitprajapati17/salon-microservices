@@ -1,13 +1,13 @@
-package controller;
+package com.mohitmac.userService.controller;
 
 
-import model.Users;
+import com.mohitmac.userService.model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import jakarta.validation.Valid;
-import repository.UserRepository;
-import service.UserService;
+import com.mohitmac.userService.repository.UserRepository;
+import com.mohitmac.userService.service.UserService;
 
 import java.util.List;
 

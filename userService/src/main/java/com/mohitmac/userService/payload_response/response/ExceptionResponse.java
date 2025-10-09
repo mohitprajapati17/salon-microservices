@@ -1,4 +1,4 @@
-package payload_response;
+package com.mohitmac.userService.payload_response.response;
 
 import java.time.LocalDateTime;
 

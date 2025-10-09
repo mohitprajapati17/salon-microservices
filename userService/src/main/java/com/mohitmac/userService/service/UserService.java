@@ -1,9 +1,9 @@
-package service;
+package com.mohitmac.userService.service;
 
-import model.Users;
+import com.mohitmac.userService.model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.UserRepository;
+import com.mohitmac.userService.repository.UserRepository;
 
 import java.util.List;
 

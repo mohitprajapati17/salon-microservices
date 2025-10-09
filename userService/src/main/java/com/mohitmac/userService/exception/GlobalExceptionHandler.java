@@ -1,4 +1,4 @@
-package exception;
+package com.mohitmac.userService.exception;
 
 import java.time.LocalDateTime;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 
 
-import payload_response.ExceptionResponse;
+import com.mohitmac.userService.payload_response.response.ExceptionResponse;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
