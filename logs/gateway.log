@@ -35,47 +35,232 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-10-05T22:25:48.863+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : Starting GatewayServerApplication using Java 17.0.16 with PID 85368 (/Users/mohit/salon_microservices/Gateway-Server/target/classes started by mohit in /Users/mohit/salon_microservices/Gateway-Server)
-2025-10-05T22:25:48.866+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-10-05T22:25:48.924+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-05T22:25:48.924+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-05T22:25:50.002+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec2f461a-f4ea-3402-9e72-81cc9df7b1a3
-2025-10-05T22:25:51.132+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
-2025-10-05T22:25:51.132+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
-2025-10-05T22:25:51.133+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
-2025-10-05T22:25:51.134+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
-2025-10-05T22:25:51.134+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
-2025-10-05T22:25:51.134+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
-2025-10-05T22:25:51.395+05:30  WARN 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-10-05T22:25:51.431+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-10-05T22:25:51.463+05:30  WARN 85368 --- [GATEWAY-SERVER] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-10-05T22:25:51.504+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-10-05T22:25:51.539+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-10-05T22:25:51.549+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T22:25:51.561+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-10-05T22:25:51.561+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-10-05T22:25:51.561+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-10-05T22:25:51.561+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-10-05T22:25:51.561+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-10-05T22:25:51.561+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-10-05T22:25:51.562+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-10-05T22:25:51.968+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-10-05T22:25:51.971+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-10-05T22:25:51.973+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-10-05T22:25:51.975+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759683351974 with initial instances count: 8
-2025-10-05T22:25:51.978+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
-2025-10-05T22:25:51.978+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1759683351978, current=UP, previous=STARTING]
-2025-10-05T22:25:51.983+05:30  INFO 85368 --- [GATEWAY-SERVER] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/192.168.29.109:GATEWAY-SERVER:8085: registering service...
-2025-10-05T22:25:52.026+05:30  INFO 85368 --- [GATEWAY-SERVER] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/192.168.29.109:GATEWAY-SERVER:8085 - registration status: 204
-2025-10-05T22:25:52.213+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8085 (http)
-2025-10-05T22:25:52.215+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
-2025-10-05T22:25:52.256+05:30  INFO 85368 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : Started GatewayServerApplication in 4.002 seconds (process running for 4.754)
-2025-10-05T22:30:51.586+05:30  INFO 85368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:02:05.739+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : Starting GatewayServerApplication using Java 17.0.16 with PID 54754 (/Users/mohit/salon_microservices/Gateway-Server/target/classes started by mohit in /Users/mohit/salon_microservices/Gateway-Server)
+2025-10-10T00:02:05.741+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T00:02:05.787+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-10T00:02:05.787+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-10T00:02:07.289+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8cefd9f8-7cd2-3eba-901e-65b49ded7e05
+2025-10-10T00:02:08.580+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-10-10T00:02:08.580+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-10-10T00:02:08.922+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-10T00:02:09.178+05:30  WARN 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-10T00:02:09.194+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-10T00:02:09.225+05:30  WARN 54754 --- [GATEWAY-SERVER] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T00:02:09.285+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-10T00:02:09.311+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-10T00:02:09.316+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-10T00:02:09.779+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-10T00:02:09.781+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-10T00:02:09.783+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-10T00:02:09.785+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760034729784 with initial instances count: 2
+2025-10-10T00:02:09.788+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2025-10-10T00:02:09.789+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760034729789, current=UP, previous=STARTING]
+2025-10-10T00:02:09.790+05:30  INFO 54754 --- [GATEWAY-SERVER] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/192.168.29.109:GATEWAY-SERVER:8085: registering service...
+2025-10-10T00:02:09.842+05:30  INFO 54754 --- [GATEWAY-SERVER] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/192.168.29.109:GATEWAY-SERVER:8085 - registration status: 204
+2025-10-10T00:02:10.003+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8085 (http)
+2025-10-10T00:02:10.005+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-10-10T00:02:10.049+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : Started GatewayServerApplication in 4.79 seconds (process running for 5.793)
+2025-10-10T00:03:20.663+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-5] r.netty.http.client.HttpClientConnect    : [fadf1658-1, L:/192.168.29.109:62160 ! R:/192.168.29.109:5001] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2025-10-10T00:03:20.767+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-5] a.w.r.e.AbstractErrorWebExceptionHandler : [3fdfeb39-1]  500 Server Error for HTTP POST "/auth/login"
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/auth/login" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+
+2025-10-10T00:03:25.400+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-6] r.netty.http.client.HttpClientConnect    : [bdbfd0b5-1, L:/192.168.29.109:62167 ! R:/192.168.29.109:5001] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2025-10-10T00:03:25.404+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-6] a.w.r.e.AbstractErrorWebExceptionHandler : [3fdfeb39-2]  500 Server Error for HTTP POST "/auth/login"
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/auth/login" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+
+2025-10-10T00:07:09.376+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:09:54.413+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-9] r.netty.http.client.HttpClientConnect    : [0fa4e632-1, L:/192.168.29.109:62710 ! R:/192.168.29.109:5001] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2025-10-10T00:09:54.425+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-9] a.w.r.e.AbstractErrorWebExceptionHandler : [3967409b-3]  500 Server Error for HTTP POST "/auth/signup"
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/auth/signup" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+
+Adding realm role: ROLE_DEFAULT-ROLES-MASTER
+Adding realm role: ROLE_OFFLINE_ACCESS
+Adding realm role: ROLE_UMA_AUTHORIZATION
+Adding client role from salon-booking-client: ROLE_CUSTOMER
+Adding client role from account: ROLE_MANAGE-ACCOUNT
+Adding client role from account: ROLE_MANAGE-ACCOUNT-LINKS
+Adding client role from account: ROLE_VIEW-PROFILE
+Total authorities extracted: [ROLE_DEFAULT-ROLES-MASTER, ROLE_OFFLINE_ACCESS, ROLE_UMA_AUTHORIZATION, ROLE_CUSTOMER, ROLE_MANAGE-ACCOUNT, ROLE_MANAGE-ACCOUNT-LINKS, ROLE_VIEW-PROFILE]
+2025-10-10T00:11:19.866+05:30  WARN 54754 --- [GATEWAY-SERVER] [tor-http-nio-10] r.netty.http.client.HttpClientConnect    : [e24278bf-1, L:/192.168.29.109:62815 ! R:/192.168.29.109:5001] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2025-10-10T00:11:19.867+05:30 ERROR 54754 --- [GATEWAY-SERVER] [tor-http-nio-10] a.w.r.e.AbstractErrorWebExceptionHandler : [3967409b-4]  500 Server Error for HTTP POST "/api/users"
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/api/users" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+
+2025-10-10T00:12:09.433+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:17:09.425+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:22:09.445+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:27:09.467+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:32:09.498+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:37:09.513+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:42:09.530+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Adding realm role: ROLE_DEFAULT-ROLES-MASTER
+Adding realm role: ROLE_OFFLINE_ACCESS
+Adding realm role: ROLE_UMA_AUTHORIZATION
+Adding client role from salon-booking-client: ROLE_CUSTOMER
+Adding client role from account: ROLE_MANAGE-ACCOUNT
+Adding client role from account: ROLE_MANAGE-ACCOUNT-LINKS
+Adding client role from account: ROLE_VIEW-PROFILE
+Total authorities extracted: [ROLE_DEFAULT-ROLES-MASTER, ROLE_OFFLINE_ACCESS, ROLE_UMA_AUTHORIZATION, ROLE_CUSTOMER, ROLE_MANAGE-ACCOUNT, ROLE_MANAGE-ACCOUNT-LINKS, ROLE_VIEW-PROFILE]
+2025-10-10T00:44:40.834+05:30  WARN 54754 --- [GATEWAY-SERVER] [     parallel-8] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: SALON-SERVICE
+2025-10-10T00:47:32.477+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:56:29.040+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Adding realm role: ROLE_DEFAULT-ROLES-MASTER
+Adding realm role: ROLE_OFFLINE_ACCESS
+Adding realm role: ROLE_UMA_AUTHORIZATION
+Adding client role from salon-booking-client: ROLE_CUSTOMER
+Adding client role from account: ROLE_MANAGE-ACCOUNT
+Adding client role from account: ROLE_MANAGE-ACCOUNT-LINKS
+Adding client role from account: ROLE_VIEW-PROFILE
+Total authorities extracted: [ROLE_DEFAULT-ROLES-MASTER, ROLE_OFFLINE_ACCESS, ROLE_UMA_AUTHORIZATION, ROLE_CUSTOMER, ROLE_MANAGE-ACCOUNT, ROLE_MANAGE-ACCOUNT-LINKS, ROLE_VIEW-PROFILE]
+2025-10-10T01:01:23.655+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-3] r.netty.http.client.HttpClientConnect    : [a405f0db-1, L:/192.168.29.109:50215 ! R:/192.168.29.109:5002] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2025-10-10T01:01:23.667+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [02bd31e5-7]  500 Server Error for HTTP GET "/api/salon/search?city=mum"
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/api/salon/search?city=mum" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+
+2025-10-10T01:01:29.064+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:06:29.089+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:08:06.100+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-5] r.netty.http.client.HttpClientConnect    : [3173793b-1, L:/192.168.29.109:50789 ! R:/192.168.29.109:5001] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2025-10-10T01:08:06.113+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-5] a.w.r.e.AbstractErrorWebExceptionHandler : [11b9f8ed-8]  500 Server Error for HTTP POST "/auth/login"
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/auth/login" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+
+2025-10-10T01:11:29.125+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:16:29.359+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:21:29.375+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:26:29.390+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:31:29.411+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:36:29.426+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:41:29.438+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:46:29.463+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:51:29.467+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:56:29.486+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

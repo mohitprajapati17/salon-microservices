@@ -13,7 +13,7 @@
 [INFO] 
 [INFO] --- compiler:3.13.0:compile (default-compile) @ salon-service ---
 [INFO] Recompiling the module because of changed source code.
-[INFO] Compiling 9 source files with javac [debug parameters release 17] to target/classes
+[INFO] Compiling 10 source files with javac [debug parameters release 17] to target/classes
 [INFO] 
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ salon-service ---
 [INFO] skip non existing resourceDirectory /Users/mohit/salon_microservices/salon-service/src/test/resources
@@ -37,26 +37,26 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-10-05T20:27:07.751+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.mohitmac.SalonServiceApplication     : Starting SalonServiceApplication using Java 17.0.16 with PID 80107 (/Users/mohit/salon_microservices/salon-service/target/classes started by mohit in /Users/mohit/salon_microservices/salon-service)
-2025-10-05T20:27:07.757+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.mohitmac.SalonServiceApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-10-05T20:27:07.871+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-05T20:27:07.872+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-05T20:27:09.542+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-05T20:27:09.921+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 340 ms. Found 1 JPA repository interface.
-2025-10-05T20:27:10.992+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d34d3f98-6412-3b5b-b0f3-14856b710731
-2025-10-05T20:27:11.876+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5002 (http)
-2025-10-05T20:27:11.896+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-05T20:27:11.896+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-10-05T20:27:11.955+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-05T20:27:11.957+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4084 ms
-2025-10-05T20:27:12.185+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-05T20:27:12.264+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-10-05T20:27:12.318+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-05T20:27:12.813+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-05T20:27:12.861+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-05T20:27:13.112+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55c0f451
-2025-10-05T20:27:13.114+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-05T20:27:13.200+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-10T00:58:13.589+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.mohitmac.SalonServiceApplication     : Starting SalonServiceApplication using Java 17.0.16 with PID 58484 (/Users/mohit/salon_microservices/salon-service/target/classes started by mohit in /Users/mohit/salon_microservices/salon-service)
+2025-10-10T00:58:13.596+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.mohitmac.SalonServiceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T00:58:13.775+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-10T00:58:13.776+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-10T00:58:15.477+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T00:58:15.825+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 330 ms. Found 1 JPA repository interface.
+2025-10-10T00:58:17.745+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7241b88f-6543-339d-909b-646291d82319
+2025-10-10T00:58:19.579+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5002 (http)
+2025-10-10T00:58:19.607+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T00:58:19.608+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T00:58:19.734+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-10T00:58:19.736+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5958 ms
+2025-10-10T00:58:21.014+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T00:58:21.171+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-10-10T00:58:21.279+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T00:58:21.978+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T00:58:22.051+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-10T00:58:22.544+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ea53a4c
+2025-10-10T00:58:22.547+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-10T00:58:23.274+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -64,58 +64,62 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-05T20:27:14.408+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-05T20:27:14.696+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-05T20:27:15.127+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-05T20:27:18.847+05:30  WARN 80107 --- [SALON-SERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-05T20:27:20.832+05:30  WARN 80107 --- [SALON-SERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-10-05T20:27:20.938+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-10-05T20:27:20.990+05:30  WARN 80107 --- [SALON-SERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-10-05T20:27:21.025+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-10-05T20:27:21.056+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-10-05T20:27:21.061+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T20:27:21.071+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-10-05T20:27:21.071+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-10-05T20:27:21.072+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-10-05T20:27:21.072+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-10-05T20:27:21.072+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-10-05T20:27:21.072+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-10-05T20:27:21.072+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-10-05T20:27:21.683+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-10-05T20:27:21.686+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-10-05T20:27:21.688+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-10-05T20:27:21.690+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759676241689 with initial instances count: 3
-2025-10-05T20:27:21.694+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SALON-SERVICE with eureka with status UP
-2025-10-05T20:27:21.694+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1759676241694, current=UP, previous=STARTING]
-2025-10-05T20:27:21.696+05:30  INFO 80107 --- [SALON-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SALON-SERVICE/192.168.29.109:SALON-SERVICE:5002: registering service...
-2025-10-05T20:27:21.721+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5002 (http) with context path '/'
-2025-10-05T20:27:21.722+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5002
-2025-10-05T20:27:21.738+05:30  INFO 80107 --- [SALON-SERVICE] [  restartedMain] com.mohitmac.SalonServiceApplication     : Started SalonServiceApplication in 15.209 seconds (process running for 17.33)
-2025-10-05T20:27:21.742+05:30  INFO 80107 --- [SALON-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SALON-SERVICE/192.168.29.109:SALON-SERVICE:5002 - registration status: 204
-2025-10-05T20:32:21.089+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T20:39:10.822+05:30  WARN 80107 --- [SALON-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s451ms).
-2025-10-05T20:40:41.129+05:30  INFO 80107 --- [SALON-SERVICE] [nio-5002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-05T20:40:41.130+05:30  INFO 80107 --- [SALON-SERVICE] [nio-5002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-05T20:40:41.185+05:30  INFO 80107 --- [SALON-SERVICE] [nio-5002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 54 ms
-2025-10-05T20:42:18.512+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T20:47:18.526+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T20:52:18.547+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T20:57:18.605+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T21:02:18.627+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T21:07:18.642+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T21:12:18.665+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T21:17:18.669+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T21:22:18.686+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T21:27:18.702+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T21:39:11.311+05:30  WARN 80107 --- [SALON-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s941ms).
-2025-10-05T21:49:43.891+05:30  WARN 80107 --- [SALON-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s601ms).
-2025-10-05T21:49:53.974+05:30  INFO 80107 --- [SALON-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SALON-SERVICE/192.168.29.109:SALON-SERVICE:5002 - Re-registering apps/SALON-SERVICE
-2025-10-05T21:49:53.977+05:30  INFO 80107 --- [SALON-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SALON-SERVICE/192.168.29.109:SALON-SERVICE:5002: registering service...
-2025-10-05T21:49:54.108+05:30  INFO 80107 --- [SALON-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SALON-SERVICE/192.168.29.109:SALON-SERVICE:5002 - registration status: 204
-2025-10-05T22:00:14.113+05:30  WARN 80107 --- [SALON-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s222ms).
-2025-10-05T22:06:21.350+05:30  WARN 80107 --- [SALON-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m7s237ms).
-2025-10-05T22:07:58.589+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T22:12:58.606+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T22:17:58.623+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T22:22:58.656+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-05T22:27:58.828+05:30  INFO 80107 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:58:25.863+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T00:58:27.492+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T00:58:28.240+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-10T00:58:31.993+05:30  WARN 58484 --- [SALON-SERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-10T00:58:33.338+05:30  WARN 58484 --- [SALON-SERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-10T00:58:33.397+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-10T00:58:33.557+05:30  WARN 58484 --- [SALON-SERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T00:58:33.577+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-10-10T00:58:33.698+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-10T00:58:33.730+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-10T00:58:33.734+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T00:58:33.745+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-10T00:58:33.746+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-10T00:58:33.746+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-10T00:58:33.746+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-10T00:58:33.746+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-10T00:58:33.746+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-10T00:58:33.746+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-10T00:58:34.203+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-10T00:58:34.206+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-10T00:58:34.209+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-10T00:58:34.213+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760038114211 with initial instances count: 2
+2025-10-10T00:58:34.225+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SALON-SERVICE with eureka with status UP
+2025-10-10T00:58:34.226+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760038114226, current=UP, previous=STARTING]
+2025-10-10T00:58:34.228+05:30  INFO 58484 --- [SALON-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SALON-SERVICE/192.168.29.109:SALON-SERVICE:5002: registering service...
+2025-10-10T00:58:34.253+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5002 (http) with context path '/'
+2025-10-10T00:58:34.254+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5002
+2025-10-10T00:58:34.300+05:30  INFO 58484 --- [SALON-SERVICE] [  restartedMain] com.mohitmac.SalonServiceApplication     : Started SalonServiceApplication in 22.052 seconds (process running for 23.713)
+2025-10-10T00:58:34.300+05:30  INFO 58484 --- [SALON-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SALON-SERVICE/192.168.29.109:SALON-SERVICE:5002 - registration status: 204
+2025-10-10T01:01:23.955+05:30 ERROR 58484 --- [SALON-SERVICE] [o-5002-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-10T01:01:33.479+05:30  INFO 58484 --- [SALON-SERVICE] [nio-5002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-10T01:01:33.480+05:30  INFO 58484 --- [SALON-SERVICE] [nio-5002-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-10T01:01:33.513+05:30  INFO 58484 --- [SALON-SERVICE] [nio-5002-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2025-10-10T01:03:33.859+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:08:33.915+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:13:33.935+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:18:34.062+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:23:34.079+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:28:34.096+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:33:34.114+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:38:34.128+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:43:34.146+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:48:34.172+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:53:34.171+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:58:34.191+05:30  INFO 58484 --- [SALON-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

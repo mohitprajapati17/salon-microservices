@@ -47,18 +47,19 @@ public class AuthServiceImpl implements AuthService {
     @Override
     public AuthResponse getAccessTokenFromRefreshToken(String refreshToken) throws Exception {
 
-
-
-        TokenResponse tokenResponse = keycloakService.getAdminAccessToken(null, null, "refresh_token", refreshToken);
-
-        AuthResponse authResponse = new AuthResponse();
-        authResponse.setJwt(tokenResponse.getAccessToken());
-        authResponse.setRefreshToken(tokenResponse.getRefreshToken());
-        authResponse.setTitle("success");
-        authResponse.setMessage("User created successfully");
-
-
-        return authResponse;
+        TokenResponse tokenResponse = keycloakService.getAdminAccessToken(
+            null,
+            null,
+            "refresh_token",
+            refreshToken
+        );
+        
+        AuthResponse response = new AuthResponse();
+        response.setMessage("Access token received");
+        response.setJwt(tokenResponse.getAccessToken());
+        response.setRefreshToken(tokenResponse.getRefreshToken());
+        
+        return response;
         
     }
 

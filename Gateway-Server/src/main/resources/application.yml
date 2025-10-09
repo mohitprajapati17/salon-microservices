@@ -15,7 +15,7 @@ spring:
         - id: USER-SERVICE
           uri: lb://USERSERVICE
           predicates:
-            - Path=/api/users/** , /api/auth/**  ,/users/** ,/api/admin/users/**
+            - Path=/api/users/** , /api/auth/** , /auth/** ,/users/** ,/api/admin/users/**
         - id: BOOKING-SERVICE
           uri: lb://BOOKING-SERVICE
           predicates:
@@ -36,6 +36,12 @@ spring:
           uri: lb://PAYMENT-SERVICE
           predicates:
             - Path=/api/payment/**
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/master/protocol/openid-connect/certs
 
 eureka:
   instance:
