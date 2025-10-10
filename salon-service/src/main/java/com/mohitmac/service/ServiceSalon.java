@@ -9,7 +9,7 @@ import com.mohitmac.payload_DTO.UserDTO;
 public interface ServiceSalon {
 
     public Salon createSalon(SalonDTO salonDTO,UserDTO userDTO);
-    public Salon updateSalon(SalonDTO salon,Long salonId) throws Exception;
+    public Salon updateSalon(SalonDTO salon,UserDTO userDTO,Long salonId) throws Exception;
     public List<Salon> getAllSalons();
     public Salon getSalonById(Long salonId) throws Exception;
     public Salon getSalonByOwnerId(Long ownerId);

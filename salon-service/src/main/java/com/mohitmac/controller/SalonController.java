@@ -2,22 +2,16 @@ package com.mohitmac.controller;
 
 import java.util.List;
 
+import com.mohitmac.service.client.UserFeingClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PatchMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.mohitmac.mapper.salonMapper;
 import com.mohitmac.model.Salon;
 import com.mohitmac.payload_DTO.SalonDTO;
 import com.mohitmac.payload_DTO.UserDTO;
 import com.mohitmac.service.ServiceSalon;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
@@ -26,6 +20,8 @@ public class SalonController {
 
     @Autowired
     private ServiceSalon salonService;
+    @Autowired
+    private UserFeingClient userFeingClient;
 
     @GetMapping({"", "/"})
     public ResponseEntity<List<SalonDTO>> getAllSalons(){
@@ -47,19 +43,22 @@ public class SalonController {
     }
 
     @PostMapping()
-    public ResponseEntity<SalonDTO> createSalon(@RequestBody SalonDTO salonDTO ){
-        UserDTO  userDTO=new UserDTO();
-        userDTO.setId(1L);
+    public ResponseEntity<SalonDTO> createSalon(@RequestBody SalonDTO salonDTO , @RequestHeader("Authorization") String jwt) throws Exception {
+//        UserDTO  userDTO=new UserDTO();
+//        userDTO.setId(1L);
+        UserDTO userDTO= userFeingClient.getUserByProfile(jwt).getBody();
         Salon salon =salonService.createSalon(salonDTO, userDTO);
         SalonDTO salonDTO2=salonMapper.toSalonDTO(salon);
         return ResponseEntity.ok(salonDTO2);
     }
 
     @PatchMapping("/{id}")
-    public ResponseEntity<SalonDTO> update(@PathVariable Long id, @RequestBody SalonDTO salonDTO  ) throws Exception{
-        
+    public ResponseEntity<SalonDTO> update(@PathVariable Long id, @RequestBody SalonDTO salonDTO ,@RequestHeader("Authorization")  String  jwt  ) throws Exception{
 
-        Salon salon =salonService.updateSalon(salonDTO, id);
+        UserDTO userDTO = userFeingClient.getUserByProfile(jwt).getBody();
+
+
+        Salon salon =salonService.updateSalon(salonDTO, userDTO ,id);
         SalonDTO salonDTO1=salonMapper.toSalonDTO(salon);
         return ResponseEntity.ok(salonDTO1);
     }
@@ -77,9 +76,11 @@ public class SalonController {
     }
 
     @GetMapping("/owner")
-    public ResponseEntity<SalonDTO> getSalonByOwnerId() {
-        UserDTO userDTO =new UserDTO();
-        userDTO.setId(1L);
+    public ResponseEntity<SalonDTO> getSalonByOwnerId(@RequestHeader ("Authorization") String jwt) throws Exception {
+//        UserDTO userDTO =new UserDTO();
+//        userDTO.setId(1L);
+        UserDTO userDTO= userFeingClient.getUserByProfile(jwt).getBody();
+
 
         Salon salon =salonService.getSalonByOwnerId(userDTO.getId());
         SalonDTO salonDTO=salonMapper.toSalonDTO(salon);

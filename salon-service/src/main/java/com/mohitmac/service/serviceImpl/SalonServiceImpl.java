@@ -32,8 +32,11 @@ public class SalonServiceImpl implements ServiceSalon {
     }
 
     @Override
-    public Salon updateSalon(SalonDTO salon, Long salonId) throws Exception {
+    public Salon updateSalon(SalonDTO salon,UserDTO userDTO, Long salonId) throws Exception {
         Salon existing  =salonRepository.findById(salonId).orElseThrow(() -> new Exception("Salon not found with id: " + salonId));
+        if(!salon.getOwnerId().equals(userDTO.getId())){
+            throw  new RuntimeException("you don't have the right to update the salon");
+        }
         existing.setName(salon.getName());
         existing.setAddress(salon.getAddress());
         existing.setPhone(salon.getPhone());

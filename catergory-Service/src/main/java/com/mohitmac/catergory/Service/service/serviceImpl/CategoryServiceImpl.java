@@ -49,5 +49,11 @@ public class CategoryServiceImpl implements CatergoryService{
         categoryRepository.deleteById(id);
 
     }
-    
+
+    @Override
+    public Catergory findBySalonIdAndId(Long id, Long salonId) {
+        Catergory catergory =categoryRepository.findByIdAndSalonId(id,salonId).orElse(()->)
+        return
+    }
+
 }

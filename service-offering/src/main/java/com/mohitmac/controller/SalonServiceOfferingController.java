@@ -5,6 +5,8 @@ import com.mohitmac.payload_DTO.CategoryDTO;
 import com.mohitmac.payload_DTO.SalonDTO;
 import com.mohitmac.payload_DTO.ServiceOfferingDTO;
 import com.mohitmac.service.ServiceOfferingService;
+import com.mohitmac.service.client.CategoryFeignClient;
+import com.mohitmac.service.client.SalonFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,13 +18,18 @@ public class SalonServiceOfferingController {
     @Autowired
     private ServiceOfferingService serviceOfferingService;
 
-    @PostMapping()
-    ResponseEntity<ServiceOffering> create( @RequestBody  ServiceOfferingDTO serviceOfferingDTO){
-        SalonDTO salonDTO =new SalonDTO();
-        salonDTO.setId(1L);
+    @Autowired
+    private SalonFeignClient salonFeignClient;
 
-        CategoryDTO categoryDTO = new CategoryDTO();
-        categoryDTO.setId(serviceOfferingDTO.getCategoryId());
+    @Autowired
+    private CategoryFeignClient categoryFeignClient;
+
+    @PostMapping()
+    ResponseEntity<ServiceOffering> create( @RequestBody  ServiceOfferingDTO serviceOfferingDTO,@RequestHeader("Authorization")  String jwt) throws Exception {
+        SalonDTO salonDTO =salonFeignClient.getSalonByOwnerId(jwt).getBody();
+
+        CategoryDTO categoryDTO = categoryFeignClient.getCategoriesByIdAndSalon(serviceOfferingDTO.getCategoryId(), salonDTO.getId()).getBody();
+
         ServiceOffering serviceOfferingDTO1=serviceOfferingService.createService(serviceOfferingDTO, salonDTO, categoryDTO);
         return ResponseEntity.ok(serviceOfferingDTO1);
 

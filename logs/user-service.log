@@ -181,3 +181,83 @@
 2025-10-10T01:44:51.327+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-10-10T01:49:51.341+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-10-10T01:54:51.339+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T01:59:51.369+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:04:51.404+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:09:51.417+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:14:51.438+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:22:14.404+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m23s236ms).
+2025-10-10T02:22:44.728+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:27:44.761+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:33:25.394+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m10s808ms).
+2025-10-10T02:33:25.582+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:38:25.588+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:43:25.600+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:48:25.612+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:53:25.629+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:58:25.639+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:03:25.659+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:08:25.677+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:13:25.691+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:18:25.707+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:23:25.730+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:28:25.753+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:33:25.778+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:38:25.794+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:43:25.813+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:48:25.830+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:53:25.843+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:58:25.855+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T04:00:41.027+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m44s753ms).
+2025-10-10T04:04:40.615+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T04:09:40.628+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T04:22:12.153+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s22ms).
+2025-10-10T04:32:43.234+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s81ms).
+2025-10-10T04:43:13.351+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s118ms).
+2025-10-10T04:53:45.205+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s854ms).
+2025-10-10T05:10:39.413+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m54s208ms).
+2025-10-10T05:21:12.262+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T05:21:12.804+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m33s391ms).
+2025-10-10T05:31:43.617+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s813ms).
+2025-10-10T05:42:18.605+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m34s988ms).
+2025-10-10T05:42:23.829+05:30  INFO 59304 --- [userService] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - Re-registering apps/USERSERVICE
+2025-10-10T05:42:23.830+05:30  INFO 59304 --- [userService] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001: registering service...
+2025-10-10T05:42:24.005+05:30  INFO 59304 --- [userService] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - registration status: 204
+2025-10-10T05:52:49.566+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s961ms).
+2025-10-10T06:03:19.725+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s158ms).
+2025-10-10T07:13:31.215+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h10m10s929ms).
+2025-10-10T08:14:40.640+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h1m9s312ms).
+2025-10-10T09:16:09.241+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h58s134ms).
+2025-10-10T10:17:09.090+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h59s849ms).
+2025-10-10T10:17:10.540+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T10:18:29.962+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m20s872ms).
+2025-10-10T11:18:21.186+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=59m51s224ms).
+2025-10-10T12:19:20.532+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h58s401ms).
+2025-10-10T13:13:30.087+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=54m9s926ms).
+2025-10-10T13:20:50.273+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m49s908ms).
+2025-10-10T14:21:48.714+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h58s441ms).
+2025-10-10T14:50:26.643+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=28m36s997ms).
+2025-10-10T14:51:15.447+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T14:56:15.477+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:01:15.499+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:06:15.510+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:11:15.536+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:16:15.543+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:21:15.550+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:26:15.577+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:31:15.616+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:36:15.632+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:43:47.729+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m50s167ms).
+2025-10-10T15:44:35.802+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:49:35.814+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:54:37.222+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:59:37.273+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:04:37.292+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:09:37.311+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:14:37.322+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:23:41.575+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m22s130ms).
+2025-10-10T16:24:29.461+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:29:29.472+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:34:29.486+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:39:29.520+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:44:29.545+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:49:29.566+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

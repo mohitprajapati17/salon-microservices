@@ -3,16 +3,13 @@ package com.mohitmac.catergory.Service.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.mohitmac.catergory.Service.model.Catergory;
 import com.mohitmac.catergory.Service.payload_DTO.SalonDTO;
 import com.mohitmac.catergory.Service.service.CatergoryService;
-import org.springframework.web.bind.annotation.PostMapping;
+
+import java.util.Set;
 
 
 @RestController
@@ -35,9 +32,20 @@ public class SalonCategoryController {
     public ResponseEntity<String> deleteCategory(@PathVariable Long id) throws Exception{
         SalonDTO salonDTO =new SalonDTO();
         salonDTO.setId(1L);
+
+
         catergoryService.deleteById(id, salonDTO.getId());
         return ResponseEntity.ok("Delete  Category Succesfully");
        
+    }
+
+
+
+    @GetMapping("/salon/{salonId}/category/{id}")
+    public ResponseEntity<Catergory> getCategoriesByIdAndSalon(@PathVariable Long id  , @PathVariable Long salonId ){
+        Catergory catergory=catergoryService.findBySalonIdAndId(id,salonId);
+        return ResponseEntity.ok(catergory);
+
     }
 
 }

@@ -104,3 +104,787 @@
 2025-10-10T01:48:34.286+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-10-10T01:53:34.286+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-10-10T01:58:34.302+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:03:34.334+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:08:34.379+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:13:34.397+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:18:34.409+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:22:24.281+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m23s254ms).
+2025-10-10T02:26:27.685+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:31:27.697+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:33:35.337+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s891ms).
+2025-10-10T02:37:08.520+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:42:08.530+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:47:08.543+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:52:08.561+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T02:57:08.574+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:02:08.595+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:07:08.620+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:12:08.633+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:17:08.651+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:22:08.679+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:27:08.696+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:32:08.718+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:37:08.736+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:42:08.759+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:47:08.778+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:52:08.796+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T03:57:08.803+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T04:00:50.905+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s748ms).
+2025-10-10T04:03:23.558+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T04:08:23.570+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T04:22:22.031+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s13ms).
+2025-10-10T04:32:53.102+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s75ms).
+2025-10-10T04:43:23.206+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s104ms).
+2025-10-10T04:43:25.758+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T04:53:55.072+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s866ms).
+2025-10-10T05:10:49.286+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m54s214ms).
+2025-10-10T05:21:22.678+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m33s391ms).
+2025-10-10T05:31:53.494+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s817ms).
+2025-10-10T05:42:28.478+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m34s984ms).
+2025-10-10T05:52:59.441+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s963ms).
+2025-10-10T06:12:22.355+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m22s914ms).
+2025-10-10T07:13:31.018+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m7s566ms).
+2025-10-10T08:14:40.546+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m10s44ms).
+2025-10-10T08:14:55.530+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T09:16:09.100+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s128ms).
+2025-10-10T10:17:08.945+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59s845ms).
+2025-10-10T10:18:29.817+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s871ms).
+2025-10-10T11:18:21.039+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m51s223ms).
+2025-10-10T12:19:20.372+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s696ms).
+2025-10-10T13:13:29.975+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m9s776ms).
+2025-10-10T13:20:50.269+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m49s911ms).
+2025-10-10T14:21:48.714+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s445ms).
+2025-10-10T14:21:51.649+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T14:50:26.586+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m36s911ms).
+2025-10-10T14:54:58.410+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T14:59:58.423+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:04:58.432+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:09:58.459+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:14:58.468+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:19:58.473+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:24:58.484+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:29:58.528+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:34:58.540+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:39:58.558+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:43:47.389+05:30  WARN 58502 --- [catergory-Service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m50s158ms).
+2025-10-10T15:48:18.734+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:53:20.120+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:58:20.171+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:59:38.009+05:30  INFO 58502 --- [catergory-Service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-10-10T15:59:38.217+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CATERGORY-SERVICE with eureka with status DOWN
+2025-10-10T15:59:38.219+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092178219, current=DOWN, previous=UP]
+2025-10-10T15:59:38.228+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T15:59:38.453+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T15:59:38.641+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-10T15:59:40.741+05:30  INFO 58502 --- [catergory-Service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-10T15:59:40.757+05:30 ERROR 58502 --- [catergory-Service] [o-5003-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-10T15:59:41.104+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T15:59:41.289+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-10T15:59:41.311+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-10T15:59:41.325+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-10T15:59:44.332+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-10T15:59:44.370+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - deregister  status: 200
+2025-10-10T15:59:44.375+05:30  INFO 58502 --- [catergory-Service] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-10T15:59:46.475+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Starting CatergoryServiceApplication using Java 17.0.16 with PID 58502 (/Users/mohit/salon_microservices/catergory-Service/target/classes started by mohit in /Users/mohit/salon_microservices/catergory-Service)
+2025-10-10T15:59:46.477+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T15:59:47.906+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T15:59:47.935+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2025-10-10T15:59:48.151+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dc82cfe6-9afe-3c63-89f6-07c3e2ea131b
+2025-10-10T15:59:48.403+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5003 (http)
+2025-10-10T15:59:48.406+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T15:59:48.406+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T15:59:48.429+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-10T15:59:48.429+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1941 ms
+2025-10-10T15:59:48.701+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T15:59:48.706+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T15:59:48.731+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T15:59:48.734+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-10T15:59:48.773+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4a9d3cce
+2025-10-10T15:59:48.773+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-10T15:59:48.785+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-10T15:59:48.902+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T15:59:48.959+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T15:59:49.184+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-10T15:59:49.836+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-10T15:59:49.871+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-10T15:59:49.926+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T15:59:49.935+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-10-10T15:59:49.970+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-10T15:59:49.974+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-10T15:59:49.974+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T15:59:49.974+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-10T15:59:49.974+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-10T15:59:49.974+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-10T15:59:49.974+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-10T15:59:49.974+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-10T15:59:49.975+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-10T15:59:49.975+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-10T15:59:50.007+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-10T15:59:50.007+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-10T15:59:50.007+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-10T15:59:50.008+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760092190008 with initial instances count: 5
+2025-10-10T15:59:50.016+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CATERGORY-SERVICE with eureka with status UP
+2025-10-10T15:59:50.016+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092190016, current=UP, previous=STARTING]
+2025-10-10T15:59:50.016+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T15:59:50.022+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5003 (http) with context path '/'
+2025-10-10T15:59:50.023+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5003
+2025-10-10T15:59:50.033+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T15:59:50.053+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Started CatergoryServiceApplication in 3.806 seconds (process running for 16005.01)
+2025-10-10T15:59:50.056+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-10T16:00:20.912+05:30  INFO 58502 --- [catergory-Service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-10T16:00:20.919+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CATERGORY-SERVICE with eureka with status DOWN
+2025-10-10T16:00:20.920+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092220920, current=DOWN, previous=UP]
+2025-10-10T16:00:20.921+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:00:20.926+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-10T16:00:20.933+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:00:22.940+05:30  INFO 58502 --- [catergory-Service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-10T16:00:22.941+05:30 ERROR 58502 --- [catergory-Service] [o-5003-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-10T16:00:22.951+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:00:22.953+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-10T16:00:22.959+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-10T16:00:22.960+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-10T16:00:25.965+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-10T16:00:25.973+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - deregister  status: 200
+2025-10-10T16:00:25.973+05:30  INFO 58502 --- [catergory-Service] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-10T16:00:26.239+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Starting CatergoryServiceApplication using Java 17.0.16 with PID 58502 (/Users/mohit/salon_microservices/catergory-Service/target/classes started by mohit in /Users/mohit/salon_microservices/catergory-Service)
+2025-10-10T16:00:26.239+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T16:00:26.558+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T16:00:26.568+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-10-10T16:00:26.660+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dc82cfe6-9afe-3c63-89f6-07c3e2ea131b
+2025-10-10T16:00:26.788+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5003 (http)
+2025-10-10T16:00:26.789+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T16:00:26.789+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T16:00:26.805+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-10T16:00:26.805+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 564 ms
+2025-10-10T16:00:26.973+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T16:00:26.975+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T16:00:26.985+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T16:00:26.985+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-10-10T16:00:27.024+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@5073c4db
+2025-10-10T16:00:27.024+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-10-10T16:00:27.029+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-10T16:00:27.071+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T16:00:27.090+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:00:27.231+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-10T16:00:27.892+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-10T16:00:27.924+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-10T16:00:27.968+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T16:00:27.975+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-10-10T16:00:28.005+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-10T16:00:28.010+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-10T16:00:28.011+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:00:28.011+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-10T16:00:28.011+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-10T16:00:28.011+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-10T16:00:28.011+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-10T16:00:28.011+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-10T16:00:28.011+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-10T16:00:28.011+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-10T16:00:28.155+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-10T16:00:28.155+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-10T16:00:28.156+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-10T16:00:28.156+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760092228156 with initial instances count: 4
+2025-10-10T16:00:28.162+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CATERGORY-SERVICE with eureka with status UP
+2025-10-10T16:00:28.162+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092228162, current=UP, previous=STARTING]
+2025-10-10T16:00:28.162+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:00:28.165+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5003 (http) with context path '/'
+2025-10-10T16:00:28.165+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5003
+2025-10-10T16:00:28.173+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:00:28.186+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Started CatergoryServiceApplication in 1.993 seconds (process running for 16043.143)
+2025-10-10T16:00:28.189+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-10T16:00:45.449+05:30  INFO 58502 --- [catergory-Service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-10T16:00:45.450+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CATERGORY-SERVICE with eureka with status DOWN
+2025-10-10T16:00:45.450+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092245450, current=DOWN, previous=UP]
+2025-10-10T16:00:45.450+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:00:45.451+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-10T16:00:45.455+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:00:47.458+05:30  INFO 58502 --- [catergory-Service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-10T16:00:47.459+05:30 ERROR 58502 --- [catergory-Service] [o-5003-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-10T16:00:47.463+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:00:47.463+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-10-10T16:00:47.464+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-10-10T16:00:47.465+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-10T16:00:50.469+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-10T16:00:50.476+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - deregister  status: 200
+2025-10-10T16:00:50.477+05:30  INFO 58502 --- [catergory-Service] [      Thread-13] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-10T16:00:50.574+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Starting CatergoryServiceApplication using Java 17.0.16 with PID 58502 (/Users/mohit/salon_microservices/catergory-Service/target/classes started by mohit in /Users/mohit/salon_microservices/catergory-Service)
+2025-10-10T16:00:50.574+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T16:00:50.892+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T16:00:50.901+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-10-10T16:00:50.993+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dc82cfe6-9afe-3c63-89f6-07c3e2ea131b
+2025-10-10T16:00:51.147+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5003 (http)
+2025-10-10T16:00:51.148+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T16:00:51.148+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T16:00:51.163+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-10T16:00:51.163+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 587 ms
+2025-10-10T16:00:51.324+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T16:00:51.327+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T16:00:51.334+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T16:00:51.335+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-10-10T16:00:51.361+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@102e7f73
+2025-10-10T16:00:51.362+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-10-10T16:00:51.366+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-10T16:00:51.402+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T16:00:51.417+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:00:51.550+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-10T16:00:51.990+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-10T16:00:52.021+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-10T16:00:52.062+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T16:00:52.068+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-10-10T16:00:52.100+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-10T16:00:52.103+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-10T16:00:52.103+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:00:52.104+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-10T16:00:52.104+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-10T16:00:52.104+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-10T16:00:52.104+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-10T16:00:52.104+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-10T16:00:52.104+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-10T16:00:52.104+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-10T16:00:52.125+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-10T16:00:52.125+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-10T16:00:52.126+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-10T16:00:52.126+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760092252126 with initial instances count: 4
+2025-10-10T16:00:52.132+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CATERGORY-SERVICE with eureka with status UP
+2025-10-10T16:00:52.132+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092252132, current=UP, previous=STARTING]
+2025-10-10T16:00:52.132+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:00:52.134+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5003 (http) with context path '/'
+2025-10-10T16:00:52.135+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5003
+2025-10-10T16:00:52.140+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:00:52.155+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Started CatergoryServiceApplication in 1.615 seconds (process running for 16067.112)
+2025-10-10T16:00:52.158+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-10T16:01:51.872+05:30  INFO 58502 --- [catergory-Service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-10T16:01:51.873+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CATERGORY-SERVICE with eureka with status DOWN
+2025-10-10T16:01:51.874+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092311874, current=DOWN, previous=UP]
+2025-10-10T16:01:51.874+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:01:51.875+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-10T16:01:51.882+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:01:53.881+05:30  INFO 58502 --- [catergory-Service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-10T16:01:53.881+05:30 ERROR 58502 --- [catergory-Service] [o-5003-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-10T16:01:53.885+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:01:53.886+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-10-10T16:01:53.887+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-10-10T16:01:53.888+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-10T16:01:56.890+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-10T16:01:56.895+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - deregister  status: 200
+2025-10-10T16:01:56.895+05:30  INFO 58502 --- [catergory-Service] [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-10T16:01:57.006+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Starting CatergoryServiceApplication using Java 17.0.16 with PID 58502 (/Users/mohit/salon_microservices/catergory-Service/target/classes started by mohit in /Users/mohit/salon_microservices/catergory-Service)
+2025-10-10T16:01:57.006+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T16:01:57.332+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T16:01:57.339+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-10-10T16:01:57.416+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dc82cfe6-9afe-3c63-89f6-07c3e2ea131b
+2025-10-10T16:01:57.542+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5003 (http)
+2025-10-10T16:01:57.543+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T16:01:57.543+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T16:01:57.557+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-10T16:01:57.558+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 550 ms
+2025-10-10T16:01:57.717+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T16:01:57.719+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T16:01:57.729+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T16:01:57.730+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-10-10T16:01:57.756+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@1978fe79
+2025-10-10T16:01:57.756+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-10-10T16:01:57.761+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-10T16:01:57.795+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T16:01:57.808+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:01:57.944+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-10T16:01:58.406+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-10T16:01:58.435+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-10T16:01:58.477+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T16:01:58.484+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-10-10T16:01:58.515+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-10T16:01:58.519+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-10T16:01:58.540+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-10T16:01:58.541+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-10T16:01:58.541+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-10T16:01:58.541+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760092318541 with initial instances count: 4
+2025-10-10T16:01:58.547+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CATERGORY-SERVICE with eureka with status UP
+2025-10-10T16:01:58.547+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092318547, current=UP, previous=STARTING]
+2025-10-10T16:01:58.547+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:01:58.549+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5003 (http) with context path '/'
+2025-10-10T16:01:58.550+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5003
+2025-10-10T16:01:58.555+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:01:58.571+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Started CatergoryServiceApplication in 1.596 seconds (process running for 16133.527)
+2025-10-10T16:01:58.574+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-10T16:06:58.534+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:07:13.592+05:30  INFO 58502 --- [catergory-Service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-10T16:07:13.628+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CATERGORY-SERVICE with eureka with status DOWN
+2025-10-10T16:07:13.628+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092633628, current=DOWN, previous=UP]
+2025-10-10T16:07:13.629+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:07:13.655+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-10T16:07:13.659+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:07:15.671+05:30  INFO 58502 --- [catergory-Service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-10T16:07:15.673+05:30 ERROR 58502 --- [catergory-Service] [o-5003-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-10T16:07:15.695+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:07:15.702+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-10-10T16:07:15.708+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-10-10T16:07:15.712+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-10T16:07:18.715+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-10T16:07:18.724+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - deregister  status: 200
+2025-10-10T16:07:18.725+05:30  INFO 58502 --- [catergory-Service] [      Thread-25] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-10T16:07:19.120+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Starting CatergoryServiceApplication using Java 17.0.16 with PID 58502 (/Users/mohit/salon_microservices/catergory-Service/target/classes started by mohit in /Users/mohit/salon_microservices/catergory-Service)
+2025-10-10T16:07:19.120+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T16:07:19.526+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T16:07:19.534+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-10-10T16:07:19.637+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dc82cfe6-9afe-3c63-89f6-07c3e2ea131b
+2025-10-10T16:07:19.839+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5003 (http)
+2025-10-10T16:07:19.839+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T16:07:19.840+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T16:07:19.866+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-10T16:07:19.866+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2025-10-10T16:07:20.059+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T16:07:20.062+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T16:07:20.072+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T16:07:20.073+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-10-10T16:07:20.105+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@5e643f4c
+2025-10-10T16:07:20.105+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-10-10T16:07:20.109+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-10T16:07:20.154+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T16:07:20.174+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:07:20.332+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-10T16:07:20.830+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-10T16:07:20.859+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-10T16:07:20.903+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T16:07:20.909+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-10-10T16:07:20.942+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-10T16:07:20.946+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-10T16:07:20.946+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:07:20.946+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-10T16:07:20.946+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-10T16:07:20.946+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-10T16:07:20.947+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-10T16:07:20.947+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-10T16:07:20.947+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-10T16:07:20.947+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-10T16:07:20.971+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-10T16:07:20.972+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-10T16:07:20.972+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-10T16:07:20.972+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760092640972 with initial instances count: 5
+2025-10-10T16:07:20.978+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CATERGORY-SERVICE with eureka with status UP
+2025-10-10T16:07:20.978+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760092640978, current=UP, previous=STARTING]
+2025-10-10T16:07:20.979+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:07:20.981+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5003 (http) with context path '/'
+2025-10-10T16:07:20.982+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5003
+2025-10-10T16:07:20.990+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:07:21.003+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Started CatergoryServiceApplication in 1.927 seconds (process running for 16455.954)
+2025-10-10T16:07:21.005+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-10T16:12:20.955+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:17:20.965+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:18:17.635+05:30  INFO 58502 --- [catergory-Service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-10T16:18:17.643+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CATERGORY-SERVICE with eureka with status DOWN
+2025-10-10T16:18:17.643+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760093297643, current=DOWN, previous=UP]
+2025-10-10T16:18:17.644+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:18:17.665+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-10T16:18:17.677+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:18:19.680+05:30  INFO 58502 --- [catergory-Service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-10T16:18:19.681+05:30 ERROR 58502 --- [catergory-Service] [o-5003-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-10T16:18:19.697+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:18:19.703+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-10-10T16:18:19.707+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-10-10T16:18:19.712+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-10T16:18:22.721+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-10T16:18:22.726+05:30  WARN 58502 --- [catergory-Service] [coveryClient-%d] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2025-10-10T16:18:22.727+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - deregister  status: 200
+2025-10-10T16:18:22.728+05:30  INFO 58502 --- [catergory-Service] [      Thread-31] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-10T16:18:23.094+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Starting CatergoryServiceApplication using Java 17.0.16 with PID 58502 (/Users/mohit/salon_microservices/catergory-Service/target/classes started by mohit in /Users/mohit/salon_microservices/catergory-Service)
+2025-10-10T16:18:23.094+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T16:18:23.491+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T16:18:23.500+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-10-10T16:18:23.626+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dc82cfe6-9afe-3c63-89f6-07c3e2ea131b
+2025-10-10T16:18:23.818+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5003 (http)
+2025-10-10T16:18:23.819+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T16:18:23.819+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T16:18:23.844+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-10T16:18:23.845+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 749 ms
+2025-10-10T16:18:24.059+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T16:18:24.062+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T16:18:24.073+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T16:18:24.074+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-10-10T16:18:24.108+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@5355cfae
+2025-10-10T16:18:24.108+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-10-10T16:18:24.113+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-10T16:18:24.151+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T16:18:24.172+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:18:24.280+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'salonCategoryController' defined in file [/Users/mohit/salon_microservices/catergory-Service/target/classes/com/mohitmac/catergory/Service/controller/SalonCategoryController.class]: Failed to instantiate [com.mohitmac.catergory.Service.controller.SalonCategoryController]: Constructor threw exception
+2025-10-10T16:18:24.280+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:18:24.281+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-10-10T16:18:24.340+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-10-10T16:18:24.341+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-10T16:18:24.364+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-10T16:18:24.403+05:30 ERROR 58502 --- [catergory-Service] [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'salonCategoryController' defined in file [/Users/mohit/salon_microservices/catergory-Service/target/classes/com/mohitmac/catergory/Service/controller/SalonCategoryController.class]: Failed to instantiate [com.mohitmac.catergory.Service.controller.SalonCategoryController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.mohitmac.catergory.Service.CatergoryServiceApplication.main(CatergoryServiceApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mohitmac.catergory.Service.controller.SalonCategoryController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error, insert "Type VariableDeclaratorId" to complete SingleVariableDeclarator
+	Syntax error on token "}", delete this token
+
+	at com.mohitmac.catergory.Service.controller.SalonCategoryController.<init>(SalonCategoryController.java:40) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 26 common frames omitted
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-10T16:27:15.468+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Starting CatergoryServiceApplication using Java 17.0.16 with PID 58502 (/Users/mohit/salon_microservices/catergory-Service/target/classes started by mohit in /Users/mohit/salon_microservices/catergory-Service)
+2025-10-10T16:27:15.470+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T16:27:15.818+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T16:27:15.832+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2025-10-10T16:27:15.908+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dc82cfe6-9afe-3c63-89f6-07c3e2ea131b
+2025-10-10T16:27:16.043+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5003 (http)
+2025-10-10T16:27:16.045+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T16:27:16.045+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T16:27:16.092+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-10T16:27:16.092+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 621 ms
+2025-10-10T16:27:16.269+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T16:27:16.272+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T16:27:16.280+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T16:27:16.281+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-10-10T16:27:16.308+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@624e9228
+2025-10-10T16:27:16.309+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-10-10T16:27:16.312+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-10T16:27:16.350+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T16:27:16.391+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:27:16.505+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'salonCategoryController' defined in file [/Users/mohit/salon_microservices/catergory-Service/target/classes/com/mohitmac/catergory/Service/controller/SalonCategoryController.class]: Failed to instantiate [com.mohitmac.catergory.Service.controller.SalonCategoryController]: Constructor threw exception
+2025-10-10T16:27:16.505+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:27:16.506+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2025-10-10T16:27:16.553+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2025-10-10T16:27:16.554+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-10T16:27:16.573+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-10T16:27:16.576+05:30 ERROR 58502 --- [catergory-Service] [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'salonCategoryController' defined in file [/Users/mohit/salon_microservices/catergory-Service/target/classes/com/mohitmac/catergory/Service/controller/SalonCategoryController.class]: Failed to instantiate [com.mohitmac.catergory.Service.controller.SalonCategoryController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1228) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.mohitmac.catergory.Service.CatergoryServiceApplication.main(CatergoryServiceApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mohitmac.catergory.Service.controller.SalonCategoryController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error, insert "Type VariableDeclaratorId" to complete SingleVariableDeclarator
+	Syntax error on token "}", delete this token
+
+	at com.mohitmac.catergory.Service.controller.SalonCategoryController.<init>(SalonCategoryController.java:40) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 26 common frames omitted
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-10T16:28:50.795+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Starting CatergoryServiceApplication using Java 17.0.16 with PID 58502 (/Users/mohit/salon_microservices/catergory-Service/target/classes started by mohit in /Users/mohit/salon_microservices/catergory-Service)
+2025-10-10T16:28:50.795+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T16:28:51.210+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-10T16:28:51.218+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-10-10T16:28:51.353+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dc82cfe6-9afe-3c63-89f6-07c3e2ea131b
+2025-10-10T16:28:51.546+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5003 (http)
+2025-10-10T16:28:51.547+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-10T16:28:51.547+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-10T16:28:51.566+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-10T16:28:51.566+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 768 ms
+2025-10-10T16:28:51.758+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-10T16:28:51.761+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-10T16:28:51.771+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-10T16:28:51.772+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2025-10-10T16:28:51.802+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@31830fb4
+2025-10-10T16:28:51.802+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2025-10-10T16:28:51.807+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-10T16:28:51.848+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-10T16:28:51.869+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-10T16:28:52.011+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-10T16:28:52.521+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-10T16:28:52.552+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-10T16:28:52.601+05:30  WARN 58502 --- [catergory-Service] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T16:28:52.608+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-10-10T16:28:52.641+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-10T16:28:52.646+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-10T16:28:52.646+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:28:52.647+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-10T16:28:52.647+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-10T16:28:52.647+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-10T16:28:52.647+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-10T16:28:52.647+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-10T16:28:52.648+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-10T16:28:52.648+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-10T16:28:52.689+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-10T16:28:52.690+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-10T16:28:52.690+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-10T16:28:52.690+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760093932690 with initial instances count: 4
+2025-10-10T16:28:52.697+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CATERGORY-SERVICE with eureka with status UP
+2025-10-10T16:28:52.697+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760093932697, current=UP, previous=STARTING]
+2025-10-10T16:28:52.698+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003: registering service...
+2025-10-10T16:28:52.701+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5003 (http) with context path '/'
+2025-10-10T16:28:52.701+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5003
+2025-10-10T16:28:52.725+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] c.m.c.S.CatergoryServiceApplication      : Started CatergoryServiceApplication in 1.983 seconds (process running for 17455.534)
+2025-10-10T16:28:52.728+05:30  INFO 58502 --- [catergory-Service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CATERGORY-SERVICE/192.168.29.109:catergory-Service:5003 - registration status: 204
+2025-10-10T16:28:52.731+05:30  INFO 58502 --- [catergory-Service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-10T16:33:52.694+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:38:52.743+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:43:52.758+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-10T16:48:52.772+05:30  INFO 58502 --- [catergory-Service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

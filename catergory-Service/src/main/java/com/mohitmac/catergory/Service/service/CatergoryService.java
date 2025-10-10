@@ -14,5 +14,6 @@ public interface CatergoryService {
     Catergory getById(Long id) throws Exception;
     void deleteById(Long id,Long
      salonId) throws Exception;
+    Catergory  findBySalonIdAndId(Long id , Long salonId);
     
 }

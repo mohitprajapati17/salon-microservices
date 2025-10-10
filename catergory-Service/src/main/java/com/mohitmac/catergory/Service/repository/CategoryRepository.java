@@ -10,5 +10,6 @@ import com.mohitmac.catergory.Service.model.Catergory;
 @Repository
 public interface CategoryRepository extends JpaRepository<Catergory,Long> {
     Set<Catergory> findBySalonId(Long id);
+    Catergory  findByIdAndSalonId(Long id, Long  salonId);
     
 }

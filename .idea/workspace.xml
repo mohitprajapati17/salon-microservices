@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5a6ba65-61e8-4d4f-8462-39d2181f4ef5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway-Server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/controller/SalonCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/controller/SalonCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/CatergoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/CatergoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/serviceImpl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/eureka.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-offering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/controller/SalonServiceOfferingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/controller/SalonServiceOfferingController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,7 @@
         <option value="module-info" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -68,6 +75,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mohitmac.service.client" />
       <recent name="com.mohitmac.Payment.Service.domain" />
     </key>
   </component>
