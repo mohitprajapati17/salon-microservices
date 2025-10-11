@@ -1,6 +1,6 @@
-package com.mohitmac.service.client;
+package com.mohitmac.catergory.Service.service.client;
 
-import com.mohitmac.payload_DTO.SalonDTO;
+import com.mohitmac.catergory.Service.payload_DTO.SalonDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,5 +12,5 @@ public interface SalonFeignClient {
     @GetMapping("/api/salon/owner")
     public ResponseEntity<SalonDTO> getSalonByOwnerId(@RequestHeader("Authorization") String jwt) throws Exception;
 
-
+    
 }

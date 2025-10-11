@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import com.mohitmac.catergory.Service.model.Catergory;
 import com.mohitmac.catergory.Service.payload_DTO.SalonDTO;
 import com.mohitmac.catergory.Service.service.CatergoryService;
+import com.mohitmac.catergory.Service.service.client.SalonFeignClient;
 
 import java.util.Set;
 
@@ -17,23 +18,21 @@ import java.util.Set;
 public class SalonCategoryController {
     @Autowired
     private CatergoryService catergoryService;
+    @Autowired
+    private SalonFeignClient salonFeignClient;
 
     
     
     @PostMapping()
-    public ResponseEntity<Catergory> getCategoriesBySalon(@RequestBody Catergory catergory){
-        SalonDTO salonDTO =new SalonDTO();
-        salonDTO.setId(1L);
+    public ResponseEntity<Catergory> createCategory(@RequestBody Catergory catergory,@RequestHeader("Authorization") String jwt) throws Exception{
+        SalonDTO salonDTO =salonFeignClient.getSalonByOwnerId(jwt).getBody();
         Catergory catergory2=catergoryService.saveCategory(catergory, salonDTO);
         return  ResponseEntity.ok(catergory2);
     }
 
     @PostMapping("/{id}")
-    public ResponseEntity<String> deleteCategory(@PathVariable Long id) throws Exception{
-        SalonDTO salonDTO =new SalonDTO();
-        salonDTO.setId(1L);
-
-
+    public ResponseEntity<String> deleteCategory(@PathVariable Long id , @RequestHeader("Authorization") String jwt) throws Exception{
+        SalonDTO salonDTO =salonFeignClient.getSalonByOwnerId(jwt).getBody();
         catergoryService.deleteById(id, salonDTO.getId());
         return ResponseEntity.ok("Delete  Category Succesfully");
        
@@ -42,7 +41,7 @@ public class SalonCategoryController {
 
 
     @GetMapping("/salon/{salonId}/category/{id}")
-    public ResponseEntity<Catergory> getCategoriesByIdAndSalon(@PathVariable Long id  , @PathVariable Long salonId ){
+    public ResponseEntity<Catergory> getCategoriesByIdAndSalon(@PathVariable Long salonId  , @PathVariable Long id ) throws Exception{
         Catergory catergory=catergoryService.findBySalonIdAndId(id,salonId);
         return ResponseEntity.ok(catergory);
 

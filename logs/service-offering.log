@@ -1861,3 +1861,127 @@ Action:
 
 Consider defining a bean of type 'com.mohitmac.service.client.SalonFeignClient' in your configuration.
 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-11T03:18:49.755+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] c.mohitmac.ServiceOfferingApplication    : Starting ServiceOfferingApplication using Java 17.0.16 with PID 58491 (/Users/mohit/salon_microservices/service-offering/target/classes started by mohit in /Users/mohit/salon_microservices/service-offering)
+2025-10-11T03:18:49.757+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] c.mohitmac.ServiceOfferingApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T03:18:51.189+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-11T03:18:51.216+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2025-10-11T03:18:51.396+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b4c27faf-2fec-31c8-a2c3-6148b9fdc6ab
+2025-10-11T03:18:51.901+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5004 (http)
+2025-10-11T03:18:51.904+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-11T03:18:51.905+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-11T03:18:51.938+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.a.c.c.C.[Tomcat-10].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2025-10-11T03:18:51.938+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2151 ms
+2025-10-11T03:18:52.239+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-11T03:18:52.249+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-11T03:18:52.286+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-11T03:18:52.293+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Starting...
+2025-10-11T03:18:52.339+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Added connection org.postgresql.jdbc.PgConnection@7e29da62
+2025-10-11T03:18:52.340+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Start completed.
+2025-10-11T03:18:52.356+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-24)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-11T03:18:52.477+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-11T03:18:52.562+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T03:18:52.856+05:30  WARN 58491 --- [SERVICE-OFFERING] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salonServiceOfferingController': Unsatisfied dependency expressed through field 'salonFeignClient': No qualifying bean of type 'com.mohitmac.service.client.SalonFeignClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-10-11T03:18:52.856+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T03:18:52.857+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
+2025-10-11T03:18:52.899+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
+2025-10-11T03:18:52.900+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-11T03:18:52.926+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-11T03:18:52.934+05:30 ERROR 58491 --- [SERVICE-OFFERING] [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field salonFeignClient in com.mohitmac.controller.SalonServiceOfferingController required a bean of type 'com.mohitmac.service.client.SalonFeignClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mohitmac.service.client.SalonFeignClient' in your configuration.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-11T03:25:23.456+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] c.mohitmac.ServiceOfferingApplication    : Starting ServiceOfferingApplication using Java 17.0.16 with PID 58491 (/Users/mohit/salon_microservices/service-offering/target/classes started by mohit in /Users/mohit/salon_microservices/service-offering)
+2025-10-11T03:25:23.456+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] c.mohitmac.ServiceOfferingApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T03:25:24.009+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-11T03:25:24.016+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-10-11T03:25:24.107+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b4c27faf-2fec-31c8-a2c3-6148b9fdc6ab
+2025-10-11T03:25:24.347+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5004 (http)
+2025-10-11T03:25:24.349+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-11T03:25:24.349+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-11T03:25:24.394+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.a.c.c.C.[Tomcat-11].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2025-10-11T03:25:24.394+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2025-10-11T03:25:24.710+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-11T03:25:24.714+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-11T03:25:24.734+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-11T03:25:24.735+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2025-10-11T03:25:24.761+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Added connection org.postgresql.jdbc.PgConnection@2c726077
+2025-10-11T03:25:24.761+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Start completed.
+2025-10-11T03:25:24.772+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-25)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-11T03:25:24.826+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-11T03:25:24.853+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T03:25:25.124+05:30  WARN 58491 --- [SERVICE-OFFERING] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salonServiceOfferingController': Unsatisfied dependency expressed through field 'salonFeignClient': No qualifying bean of type 'com.mohitmac.service.client.SalonFeignClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-10-11T03:25:25.124+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T03:25:25.125+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
+2025-10-11T03:25:25.131+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
+2025-10-11T03:25:25.132+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-11T03:25:25.151+05:30  INFO 58491 --- [SERVICE-OFFERING] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-11T03:25:25.155+05:30 ERROR 58491 --- [SERVICE-OFFERING] [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field salonFeignClient in com.mohitmac.controller.SalonServiceOfferingController required a bean of type 'com.mohitmac.service.client.SalonFeignClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mohitmac.service.client.SalonFeignClient' in your configuration.
+
