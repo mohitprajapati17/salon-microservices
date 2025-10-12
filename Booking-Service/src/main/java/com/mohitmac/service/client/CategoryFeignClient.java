@@ -14,6 +14,6 @@ public interface CategoryFeignClient {
     // public ResponseEntity<CategoryDTO> getCategoriesById(@PathVariable Long id) throws Throwable;
 
     @GetMapping("/api/categories/salon-owner/salon/{salonId}/category/{id}")
-    public ResponseEntity<CategoryDTO> getCategoriesByIdAndSalon(@PathVariable Long id  , @PathVariable Long salonId ) throws Exception;
+    public ResponseEntity<CategoryDTO> getCategoriesByIdAndSalon(@PathVariable Long salonId  , @PathVariable Long id ) throws Exception;
 
 }

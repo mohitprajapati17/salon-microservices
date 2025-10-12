@@ -51,9 +51,9 @@ public class CategoryServiceImpl implements CatergoryService{
     }
 
     @Override
-    public Catergory findBySalonIdAndId(Long id, Long salonId) {
-        Catergory catergory =categoryRepository.findByIdAndSalonId(id,salonId).orElse(()->)
-        return
+    public Catergory findBySalonIdAndId(Long id, Long salonId) throws Exception {
+        Catergory catergory = categoryRepository.findByIdAndSalonId(id,salonId).orElseThrow(()-> new Exception("no category present "+id));
+        return catergory;
     }
 
 }

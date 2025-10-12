@@ -7,18 +7,30 @@
     <list default="true" id="b5a6ba65-61e8-4d4f-8462-39d2181f4ef5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Booking-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catergory-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/controller/SalonCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/controller/SalonCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/BookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/BookingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/service/client/CategoryFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/service/client/CategoryFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/service/client/SalonFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/service/client/SalonFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/service/client/ServiceOfferringFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/service/client/ServiceOfferringFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/service/client/UserFeingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booking-Service/src/main/java/com/mohitmac/service/client/UserFeingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/PaymentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/PaymentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/client/CategoryFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/client/CategoryFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/client/SalonFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/client/SalonFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/client/ServiceOfferringFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/client/ServiceOfferringFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/client/UserFeingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/com/mohitmac/Payment/Service/service/client/UserFeingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/CatergoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/CatergoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/CatergoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/CatergoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/client/UserFeingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/client/UserFeingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/serviceImpl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/catergory-Service/src/main/java/com/mohitmac/catergory/Service/service/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/booking-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/booking-service.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/category-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/category-service.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/eureka.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/gateway.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gateway.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/payment-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/payment-service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/salon-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/salon-service.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/service-offering.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/service-offering.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/user-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/service/client/CategoryFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/service/client/CategoryFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/service/client/SalonFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/service/client/SalonFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/ServiceOfferingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-offering/src/main/java/com/mohitmac/ServiceOfferingApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +76,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mohit/salon_microservices/Booking-Service/src/main/java/com/mohitmac&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohit/salon_microservices&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,

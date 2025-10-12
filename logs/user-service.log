@@ -37,24 +37,26 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-10-10T01:07:21.240+05:30  INFO 59304 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : Starting UserServiceApplication using Java 17.0.16 with PID 59304 (/Users/mohit/salon_microservices/userService/target/classes started by mohit in /Users/mohit/salon_microservices/userService)
-2025-10-10T01:07:21.242+05:30  INFO 59304 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-10T01:07:21.303+05:30  INFO 59304 --- [userService] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-10T01:07:21.303+05:30  INFO 59304 --- [userService] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-10T01:07:22.288+05:30  INFO 59304 --- [userService] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-10T01:07:22.503+05:30  INFO 59304 --- [userService] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 1 JPA repository interface.
-2025-10-10T01:07:23.151+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c038e1e6-970b-3e20-9dfd-4ff32a7922da
-2025-10-10T01:07:23.926+05:30  WARN 59304 --- [userService] [  restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2025-10-10T01:07:23.948+05:30  INFO 59304 --- [userService] [  restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2025-10-10T01:07:23.950+05:30  INFO 59304 --- [userService] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2644 ms
-2025-10-10T01:07:24.400+05:30  INFO 59304 --- [userService] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-10T01:07:24.462+05:30  INFO 59304 --- [userService] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-10-10T01:07:24.500+05:30  INFO 59304 --- [userService] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-10T01:07:24.843+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-10T01:07:24.882+05:30  INFO 59304 --- [userService] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-10T01:07:25.081+05:30  INFO 59304 --- [userService] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5901e7f0
-2025-10-10T01:07:25.083+05:30  INFO 59304 --- [userService] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-10T01:07:25.169+05:30  INFO 59304 --- [userService] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-11T19:54:22.743+05:30  INFO 11378 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : Starting UserServiceApplication using Java 17.0.16 with PID 11378 (/Users/mohit/salon_microservices/userService/target/classes started by mohit in /Users/mohit/salon_microservices/userService)
+2025-10-11T19:54:22.747+05:30  INFO 11378 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T19:54:22.903+05:30  INFO 11378 --- [userService] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-11T19:54:22.904+05:30  INFO 11378 --- [userService] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-11T19:54:24.630+05:30  INFO 11378 --- [userService] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-11T19:54:24.948+05:30  INFO 11378 --- [userService] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 298 ms. Found 1 JPA repository interface.
+2025-10-11T19:54:26.544+05:30  INFO 11378 --- [userService] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bbd59973-54e5-3e30-8069-e7964bbf4bf7
+2025-10-11T19:54:27.974+05:30  INFO 11378 --- [userService] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5001 (http)
+2025-10-11T19:54:28.001+05:30  INFO 11378 --- [userService] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-11T19:54:28.002+05:30  INFO 11378 --- [userService] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-11T19:54:28.083+05:30  INFO 11378 --- [userService] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-11T19:54:28.085+05:30  INFO 11378 --- [userService] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5179 ms
+2025-10-11T19:54:28.853+05:30  INFO 11378 --- [userService] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-11T19:54:28.945+05:30  INFO 11378 --- [userService] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-10-11T19:54:28.999+05:30  INFO 11378 --- [userService] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-11T19:54:29.445+05:30  INFO 11378 --- [userService] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-11T19:54:29.498+05:30  INFO 11378 --- [userService] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-11T19:54:29.758+05:30  INFO 11378 --- [userService] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@265888a
+2025-10-11T19:54:29.760+05:30  INFO 11378 --- [userService] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-11T19:54:29.848+05:30  INFO 11378 --- [userService] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -62,54 +64,217 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-10T01:07:26.492+05:30  INFO 59304 --- [userService] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-10T01:07:26.599+05:30  INFO 59304 --- [userService] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-10T01:07:27.465+05:30  WARN 59304 --- [userService] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-10T01:07:28.575+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-10-10T01:07:28.632+05:30  INFO 59304 --- [userService] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-10-10T01:07:28.728+05:30  WARN 59304 --- [userService] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-10-10T01:07:28.742+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-10-10T01:07:28.854+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-10-10T01:07:28.890+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-10-10T01:07:28.897+05:30  INFO 59304 --- [userService] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:07:28.909+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-10-10T01:07:28.909+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-10-10T01:07:28.910+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-10-10T01:07:28.910+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-10-10T01:07:28.910+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-10-10T01:07:28.910+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-10-10T01:07:28.910+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-10-10T01:07:29.410+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-10-10T01:07:29.414+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-10-10T01:07:29.416+05:30  INFO 59304 --- [userService] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-10-10T01:07:29.418+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760038649418 with initial instances count: 7
-2025-10-10T01:07:29.427+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
-2025-10-10T01:07:29.428+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760038649428, current=UP, previous=STARTING]
-2025-10-10T01:07:29.431+05:30  INFO 59304 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001: registering service...
-2025-10-10T01:07:29.455+05:30  INFO 59304 --- [userService] [  restartedMain] io.undertow                              : starting server: Undertow - 2.3.18.Final
-2025-10-10T01:07:29.541+05:30  INFO 59304 --- [userService] [  restartedMain] org.xnio                                 : XNIO version 3.8.16.Final
-2025-10-10T01:07:29.555+05:30  INFO 59304 --- [userService] [  restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.16.Final
-2025-10-10T01:07:29.579+05:30  INFO 59304 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - registration status: 204
-2025-10-10T01:07:29.670+05:30  INFO 59304 --- [userService] [  restartedMain] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
-2025-10-10T01:07:29.774+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 5001 (http) with context path '/'
-2025-10-10T01:07:29.775+05:30  INFO 59304 --- [userService] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5001
-2025-10-10T01:07:29.816+05:30  INFO 59304 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : Started UserServiceApplication in 9.103 seconds (process running for 9.798)
-2025-10-10T01:08:06.110+05:30  WARN 59304 --- [userService] [  XNIO-1 Accept] org.xnio.nio                             : XNIO008001: Socket accept failed, backing off for 250 milliseconds: java.net.SocketException: Invalid argument
-2025-10-10T01:09:45.844+05:30  INFO 59304 --- [userService] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 23 class path changes (0 additions, 0 deletions, 23 modifications)
-2025-10-10T01:09:45.855+05:30  INFO 59304 --- [userService] [       Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERSERVICE with eureka with status DOWN
-2025-10-10T01:09:45.856+05:30  INFO 59304 --- [userService] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760038785856, current=DOWN, previous=UP]
-2025-10-10T01:09:45.857+05:30  INFO 59304 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001: registering service...
-2025-10-10T01:09:45.874+05:30  INFO 59304 --- [userService] [       Thread-7] o.s.b.w.e.undertow.UndertowWebServer     : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-10T01:09:45.878+05:30  INFO 59304 --- [userService] [       Thread-7] o.s.b.w.e.undertow.UndertowWebServer     : Graceful shutdown complete
-2025-10-10T01:09:45.880+05:30  INFO 59304 --- [userService] [       Thread-7] io.undertow                              : stopping server: Undertow - 2.3.18.Final
-2025-10-10T01:09:45.893+05:30  INFO 59304 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - registration status: 204
-2025-10-10T01:09:45.908+05:30  INFO 59304 --- [userService] [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-10T01:09:45.919+05:30  INFO 59304 --- [userService] [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-10T01:09:45.925+05:30  INFO 59304 --- [userService] [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-10T01:09:45.929+05:30  INFO 59304 --- [userService] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-10-10T01:09:48.935+05:30  INFO 59304 --- [userService] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-10-10T01:09:48.946+05:30  INFO 59304 --- [userService] [       Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - deregister  status: 200
-2025-10-10T01:09:48.946+05:30  INFO 59304 --- [userService] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-10-11T19:54:31.383+05:30  INFO 11378 --- [userService] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-11T19:54:31.460+05:30  INFO 11378 --- [userService] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T19:54:32.155+05:30  WARN 11378 --- [userService] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-11T19:54:33.414+05:30  WARN 11378 --- [userService] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-11T19:54:33.471+05:30  INFO 11378 --- [userService] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-11T19:54:33.555+05:30  WARN 11378 --- [userService] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-11T19:54:33.566+05:30  INFO 11378 --- [userService] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-11T19:54:33.657+05:30  INFO 11378 --- [userService] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-11T19:54:33.682+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-11T19:54:33.685+05:30  INFO 11378 --- [userService] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T19:54:33.694+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-11T19:54:33.694+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-11T19:54:33.694+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-11T19:54:33.694+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-11T19:54:33.694+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-11T19:54:33.694+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-11T19:54:33.695+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-11T19:54:34.076+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-11T19:54:34.078+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-11T19:54:34.081+05:30  INFO 11378 --- [userService] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-11T19:54:34.083+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760192674082 with initial instances count: 1
+2025-10-11T19:54:34.090+05:30  INFO 11378 --- [userService] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
+2025-10-11T19:54:34.091+05:30  INFO 11378 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760192674091, current=UP, previous=STARTING]
+2025-10-11T19:54:34.093+05:30  INFO 11378 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001: registering service...
+2025-10-11T19:54:34.114+05:30  INFO 11378 --- [userService] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5001 (http) with context path '/'
+2025-10-11T19:54:34.115+05:30  INFO 11378 --- [userService] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5001
+2025-10-11T19:54:34.136+05:30  INFO 11378 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - registration status: 204
+2025-10-11T19:54:34.149+05:30  INFO 11378 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : Started UserServiceApplication in 12.698 seconds (process running for 14.636)
+2025-10-11T19:59:33.702+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:04:33.712+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:09:33.726+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:14:33.739+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:19:33.752+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:24:33.766+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:29:33.794+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:34:33.823+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:39:33.840+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:44:33.854+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:49:33.857+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:54:33.866+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:59:33.880+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:04:33.886+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:09:33.895+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:14:33.911+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:18:12.921+05:30  INFO 11378 --- [userService] [nio-5001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-11T21:18:12.922+05:30  INFO 11378 --- [userService] [nio-5001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-11T21:18:12.991+05:30  INFO 11378 --- [userService] [nio-5001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 68 ms
+2025-10-11T21:18:13.643+05:30  WARN 11378 --- [userService] [nio-5001-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: Authentication failed: I/O error on POST request for "http://localhost:8080/realms/master/protocol/openid-connect/token": Connection refused]
+2025-10-11T21:19:06.061+05:30  WARN 11378 --- [userService] [nio-5001-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: Authentication failed: I/O error on POST request for "http://localhost:8080/realms/master/protocol/openid-connect/token": Connection reset]
+2025-10-11T21:19:09.753+05:30  WARN 11378 --- [userService] [nio-5001-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: Authentication failed: I/O error on POST request for "http://localhost:8080/realms/master/protocol/openid-connect/token": Unexpected end of file from server]
+2025-10-11T21:19:14.149+05:30  WARN 11378 --- [userService] [nio-5001-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: Authentication failed: I/O error on POST request for "http://localhost:8080/realms/master/protocol/openid-connect/token": Unexpected end of file from server]
+2025-10-11T21:19:15.772+05:30  WARN 11378 --- [userService] [nio-5001-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: Authentication failed: I/O error on POST request for "http://localhost:8080/realms/master/protocol/openid-connect/token": Unexpected end of file from server]
+2025-10-11T21:19:33.925+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+keycloak profile token Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5aXRlT2NEUm80cWdjbHhzMVBQLVA3eVpYZVNDUVhpbFo3dTB6R2Z2cGcwIn0.eyJleHAiOjE3NjAyMzM3NjEsImlhdCI6MTc2MDE5Nzc2MSwianRpIjoib25ydHJvOjg0NmM4ODJiLTA3NzktMWU5NC02NDNlLWQ4NDg1N2I0NTYxNiIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImRjMDhkMGE0LTgwZmEtNDdjYy04MjIzLWI2OGY0YjY1YWM4YyIsInR5cCI6IkJlYXJlciIsImF6cCI6InNhbG9uLWJvb2tpbmctY2xpZW50Iiwic2lkIjoiMDg5MjhlOTUtOTk4MS00NWVmLWRhYjktMmE3ZTczZTQ2MjgxIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tYXN0ZXIiLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsic2Fsb24tYm9va2luZy1jbGllbnQiOnsicm9sZXMiOlsiQ1VTVE9NRVIiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJ2aWxsYSIsInByZWZlcnJlZF91c2VybmFtZSI6InZpbGEiLCJnaXZlbl9uYW1lIjoidmlsbGEiLCJlbWFpbCI6InZpbGFAZ21haWwuY29tIn0.GW7TLEN4PkB4mLjSzz4yiRZDrDxgoiGJEfLIp14bXBR19TRECSe_vBGi6NvixKuaK50PRm1cm2oM5ZkPMfEr2szTpWuRmulmT5g8Q_sXo821ADYHnMBnu1DhgFne87ljRmrmvMJ65tjObSW0VTbZ5-2BBc-Z6fmq8OSDOre-pwjPSOzCItdq5iLRb1HqqDWFEGbE9Sb4Ra2E4aZF-UnWMyJzX8J98hBFcJoXroCEX1CZki2sP2c_JCH4iXMjbSw-xUadwVZRHwPYnPpQ2Z5LZ9jk1h3-BYIhD5xg7DLfE7rsQQNijS62Xh39o__ZHcG0YejPF7hTJe9MqUE1r9CdbA
+2025-10-11T21:22:07.954+05:30  WARN 11378 --- [userService] [nio-5001-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.mohitmac.userService.domain.UserRole` from String "SALON-OWNER": not one of the values accepted for Enum class: [SALON_OWNER, CUSTOMER, ADMIN]]
+User created successfully
+2025-10-11T21:22:26.131+05:30  WARN 11378 --- [userService] [nio-5001-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found on GET request for "http://localhost:8080/admin/realms/master/clients/f01375eb-3e6b-4b93-8220-df216fde2cf0/roles/SALON_OWNER": "{"error":"Could not find role"}"]
+2025-10-11T21:22:45.901+05:30  WARN 11378 --- [userService] [nio-5001-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpClientErrorException$Conflict: 409 Conflict on POST request for "http://localhost:8080/admin/realms/master/users": "{"errorMessage":"User exists with same email"}"]
+User created successfully
+2025-10-11T21:22:56.322+05:30  WARN 11378 --- [userService] [nio-5001-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found on GET request for "http://localhost:8080/admin/realms/master/clients/f01375eb-3e6b-4b93-8220-df216fde2cf0/roles/SALON_OWNER": "{"error":"Could not find role"}"]
+2025-10-11T21:24:21.667+05:30  WARN 11378 --- [userService] [nio-5001-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpClientErrorException$Conflict: 409 Conflict on POST request for "http://localhost:8080/admin/realms/master/users": "{"errorMessage":"User exists with same email"}"]
+User created successfully
+2025-10-11T21:24:33.938+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+keycloak profile token Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5aXRlT2NEUm80cWdjbHhzMVBQLVA3eVpYZVNDUVhpbFo3dTB6R2Z2cGcwIn0.eyJleHAiOjE3NjAyMzQwOTEsImlhdCI6MTc2MDE5ODA5MSwianRpIjoib25ydHJvOjZjMjI5NDJjLTU5NWEtYjNjZC1iMTc1LWQ0NGRmNTI2OTRhMyIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjkxNGJiNzg2LTA4MGQtNGJjZS05ZjY5LTRiYTEzMzE4ODBlMSIsInR5cCI6IkJlYXJlciIsImF6cCI6InNhbG9uLWJvb2tpbmctY2xpZW50Iiwic2lkIjoiODUyMjFmNDEtMGE4ZS0zZDYwLTIwNjctODQwNWNjMDFlOWM4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tYXN0ZXIiLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsic2Fsb24tYm9va2luZy1jbGllbnQiOnsicm9sZXMiOlsiU0FMT05fT1dORVIiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJKb2huIERvZSIsInByZWZlcnJlZF91c2VybmFtZSI6ImpvaG4xMiIsImdpdmVuX25hbWUiOiJKb2huIERvZSIsImVtYWlsIjoiam9obmRvZTEyQGdtYWlsLmNvbSJ9.Qijxq_w5rWBYxMzG6Las2m4GEu-kNljDNj4xBwYhMWW318SfmBi1tvR_qLnnSnvkP2MPVYkyRi5FkEAMmz4bLocl8cwr41q3vVGqhIZCfhXvJCw-Sng2v0x8vYzzQzhiZrGc3SGpgGF_bHD1nPlLLBvdwAxKsCqMHqBaTX2I0JGtNaAqeSZMaXnhcS_1lrZTgqVkzeATrldySBJZH4HCydK8h9BzdtrTpIPt_3zuK0maetsCuk_R0CGt3Vomg_pFoOH_wL58KX2iqpcuT5BV7Ij-s5ozJYaIAOxaiNS5-gVjeecN9agS0Fi6tBVxVKTocQx6z95XV1HC_3QhVnXfHw
+2025-10-11T21:28:01.708+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:28:01.722+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:28:17.689+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:28:17.691+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:28:19.088+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:28:19.090+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:29:33.953+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:33:17.806+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:33:17.834+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.NioEndpoint   : Error setting socket options
+
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:393) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:280) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:247) ~[na:na]
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:285) ~[na:na]
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:34:33.975+05:30  INFO 11378 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:35:19.544+05:30  INFO 11378 --- [userService] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-11T21:35:19.586+05:30  INFO 11378 --- [userService] [       Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERSERVICE with eureka with status DOWN
+2025-10-11T21:35:19.589+05:30  INFO 11378 --- [userService] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760198719589, current=DOWN, previous=UP]
+2025-10-11T21:35:19.593+05:30  INFO 11378 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001: registering service...
+2025-10-11T21:35:19.656+05:30  INFO 11378 --- [userService] [       Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-11T21:35:19.676+05:30  INFO 11378 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - registration status: 204
+2025-10-11T21:35:21.814+05:30  INFO 11378 --- [userService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-11T21:35:21.816+05:30 ERROR 11378 --- [userService] [o-5001-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:35:21.911+05:30  INFO 11378 --- [userService] [       Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T21:35:21.997+05:30  INFO 11378 --- [userService] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-11T21:35:22.013+05:30  INFO 11378 --- [userService] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-11T21:35:22.022+05:30  INFO 11378 --- [userService] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-11T21:35:25.039+05:30  INFO 11378 --- [userService] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-11T21:35:25.099+05:30  INFO 11378 --- [userService] [       Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - deregister  status: 200
+2025-10-11T21:35:25.101+05:30  INFO 11378 --- [userService] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -120,21 +285,23 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-10-10T01:09:49.262+05:30  INFO 59304 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : Starting UserServiceApplication using Java 17.0.16 with PID 59304 (/Users/mohit/salon_microservices/userService/target/classes started by mohit in /Users/mohit/salon_microservices/userService)
-2025-10-10T01:09:49.263+05:30  INFO 59304 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-10T01:09:49.550+05:30  INFO 59304 --- [userService] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-10T01:09:49.558+05:30  INFO 59304 --- [userService] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
-2025-10-10T01:09:49.878+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c038e1e6-970b-3e20-9dfd-4ff32a7922da
-2025-10-10T01:09:50.088+05:30  WARN 59304 --- [userService] [  restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2025-10-10T01:09:50.090+05:30  INFO 59304 --- [userService] [  restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2025-10-10T01:09:50.091+05:30  INFO 59304 --- [userService] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 825 ms
-2025-10-10T01:09:50.261+05:30  INFO 59304 --- [userService] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-10T01:09:50.265+05:30  INFO 59304 --- [userService] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-10T01:09:50.279+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-10T01:09:50.280+05:30  INFO 59304 --- [userService] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2025-10-10T01:09:50.313+05:30  INFO 59304 --- [userService] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@21846d00
-2025-10-10T01:09:50.313+05:30  INFO 59304 --- [userService] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2025-10-10T01:09:50.318+05:30  INFO 59304 --- [userService] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-11T21:35:25.931+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : Starting UserServiceApplication using Java 17.0.16 with PID 11378 (/Users/mohit/salon_microservices/userService/target/classes started by mohit in /Users/mohit/salon_microservices/userService)
+2025-10-11T21:35:25.931+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T21:35:26.641+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-11T21:35:26.655+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-10-11T21:35:27.134+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bbd59973-54e5-3e30-8069-e7964bbf4bf7
+2025-10-11T21:35:27.451+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5001 (http)
+2025-10-11T21:35:27.452+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-11T21:35:27.453+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-11T21:35:27.502+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-11T21:35:27.502+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1563 ms
+2025-10-11T21:35:27.764+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-11T21:35:27.768+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-11T21:35:27.808+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-11T21:35:27.810+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-11T21:35:27.891+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@678faa6a
+2025-10-11T21:35:27.891+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-11T21:35:27.902+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -142,241 +309,220 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-10T01:09:50.377+05:30  INFO 59304 --- [userService] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-10T01:09:50.398+05:30  INFO 59304 --- [userService] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-10T01:09:50.561+05:30  WARN 59304 --- [userService] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-10T01:09:50.984+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-10-10T01:09:51.011+05:30  INFO 59304 --- [userService] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-10-10T01:09:51.049+05:30  WARN 59304 --- [userService] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-10-10T01:09:51.055+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-10-10T01:09:51.087+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-10-10T01:09:51.090+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-10-10T01:09:51.090+05:30  INFO 59304 --- [userService] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:09:51.091+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-10-10T01:09:51.091+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-10-10T01:09:51.091+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-10-10T01:09:51.091+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-10-10T01:09:51.091+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-10-10T01:09:51.091+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-10-10T01:09:51.091+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-10-10T01:09:51.131+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-10-10T01:09:51.132+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-10-10T01:09:51.132+05:30  INFO 59304 --- [userService] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-10-10T01:09:51.132+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760038791132 with initial instances count: 6
-2025-10-10T01:09:51.138+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
-2025-10-10T01:09:51.138+05:30  INFO 59304 --- [userService] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760038791138, current=UP, previous=STARTING]
-2025-10-10T01:09:51.138+05:30  INFO 59304 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001: registering service...
-2025-10-10T01:09:51.139+05:30  INFO 59304 --- [userService] [  restartedMain] io.undertow                              : starting server: Undertow - 2.3.18.Final
-2025-10-10T01:09:51.144+05:30  INFO 59304 --- [userService] [  restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 5001 (http) with context path '/'
-2025-10-10T01:09:51.144+05:30  INFO 59304 --- [userService] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5001
-2025-10-10T01:09:51.153+05:30  INFO 59304 --- [userService] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - registration status: 204
-2025-10-10T01:09:51.165+05:30  INFO 59304 --- [userService] [  restartedMain] c.m.userService.UserServiceApplication   : Started UserServiceApplication in 1.942 seconds (process running for 151.144)
-2025-10-10T01:09:51.168+05:30  INFO 59304 --- [userService] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-10-10T01:14:51.103+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:19:51.230+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:24:51.245+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:29:51.265+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:34:51.279+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:39:51.294+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:44:51.327+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:49:51.341+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:54:51.339+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:59:51.369+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:04:51.404+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:09:51.417+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:14:51.438+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:22:14.404+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m23s236ms).
-2025-10-10T02:22:44.728+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:27:44.761+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:33:25.394+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m10s808ms).
-2025-10-10T02:33:25.582+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:38:25.588+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:43:25.600+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:48:25.612+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:53:25.629+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:58:25.639+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:03:25.659+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:08:25.677+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:13:25.691+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:18:25.707+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:23:25.730+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:28:25.753+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:33:25.778+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:38:25.794+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:43:25.813+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:48:25.830+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:53:25.843+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:58:25.855+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:00:41.027+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m44s753ms).
-2025-10-10T04:04:40.615+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:09:40.628+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:22:12.153+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s22ms).
-2025-10-10T04:32:43.234+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s81ms).
-2025-10-10T04:43:13.351+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s118ms).
-2025-10-10T04:53:45.205+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s854ms).
-2025-10-10T05:10:39.413+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m54s208ms).
-2025-10-10T05:21:12.262+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T05:21:12.804+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m33s391ms).
-2025-10-10T05:31:43.617+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s813ms).
-2025-10-10T05:42:18.605+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m34s988ms).
-2025-10-10T05:42:23.829+05:30  INFO 59304 --- [userService] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - Re-registering apps/USERSERVICE
-2025-10-10T05:42:23.830+05:30  INFO 59304 --- [userService] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001: registering service...
-2025-10-10T05:42:24.005+05:30  INFO 59304 --- [userService] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:userService:5001 - registration status: 204
-2025-10-10T05:52:49.566+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s961ms).
-2025-10-10T06:03:19.725+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s158ms).
-2025-10-10T07:13:31.215+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h10m10s929ms).
-2025-10-10T08:14:40.640+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h1m9s312ms).
-2025-10-10T09:16:09.241+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h58s134ms).
-2025-10-10T10:17:09.090+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h59s849ms).
-2025-10-10T10:17:10.540+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T10:18:29.962+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m20s872ms).
-2025-10-10T11:18:21.186+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=59m51s224ms).
-2025-10-10T12:19:20.532+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h58s401ms).
-2025-10-10T13:13:30.087+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=54m9s926ms).
-2025-10-10T13:20:50.273+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m49s908ms).
-2025-10-10T14:21:48.714+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h58s441ms).
-2025-10-10T14:50:26.643+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=28m36s997ms).
-2025-10-10T14:51:15.447+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T14:56:15.477+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:01:15.499+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:06:15.510+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:11:15.536+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:16:15.543+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:21:15.550+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:26:15.577+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:31:15.616+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:36:15.632+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:43:47.729+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m50s167ms).
-2025-10-10T15:44:35.802+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:49:35.814+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:54:37.222+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:59:37.273+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:04:37.292+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:09:37.311+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:14:37.322+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:23:41.575+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m22s130ms).
-2025-10-10T16:24:29.461+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:29:29.472+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:34:29.486+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:39:29.520+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:44:29.545+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:49:29.566+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:54:29.578+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:59:29.608+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:04:29.622+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:09:29.636+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:14:29.649+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:19:29.659+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:24:29.670+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:29:29.682+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:34:29.696+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:39:29.710+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:52:11.472+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m29s77ms).
-2025-10-10T18:03:13.214+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s689ms).
-2025-10-10T18:14:26.472+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m35s641ms).
-2025-10-10T18:14:42.452+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T18:24:56.442+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m29s970ms).
-2025-10-10T18:35:26.594+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s152ms).
-2025-10-10T18:45:59.141+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m32s547ms).
-2025-10-10T18:56:32.587+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m33s446ms).
-2025-10-10T19:07:04.343+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s756ms).
-2025-10-10T19:17:36.039+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s696ms).
-2025-10-10T19:28:05.493+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m29s452ms).
-2025-10-10T19:38:35.578+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s87ms).
-2025-10-10T19:59:07.781+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m32s203ms).
-2025-10-10T20:14:39.879+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T20:14:54.705+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m16s906ms).
-2025-10-10T20:25:27.287+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m32s583ms).
-2025-10-10T20:35:57.528+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s241ms).
-2025-10-10T20:56:31.926+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m34s398ms).
-2025-10-10T21:05:33.978+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m2s52ms).
-2025-10-10T21:26:07.752+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m33s774ms).
-2025-10-10T21:47:12.618+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m32s67ms).
-2025-10-10T21:48:19.006+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m6s389ms).
-2025-10-10T21:49:02.822+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T21:57:18.540+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m29s510ms).
-2025-10-10T22:05:12.376+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m23s814ms).
-2025-10-10T22:05:56.139+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:09:11.350+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m28s948ms).
-2025-10-10T22:12:55.094+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:17:55.105+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:22:55.113+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:27:55.123+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:32:55.128+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:43:14.934+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m33s391ms).
-2025-10-10T22:53:46.672+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s740ms).
-2025-10-10T23:04:18.558+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s886ms).
-2025-10-10T23:07:25.792+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m7s233ms).
-2025-10-10T23:10:39.359+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:15:39.374+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:20:39.383+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:25:39.392+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:30:39.404+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:35:39.416+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:40:39.436+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:45:39.438+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:50:39.454+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:55:39.469+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:00:39.477+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:05:39.492+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:19:32.708+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m36s378ms).
-2025-10-11T00:19:45.871+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:24:45.881+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:29:45.889+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:34:45.918+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:39:50.483+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:44:30.907+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=53s406ms).
-2025-10-11T00:45:13.895+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:50:13.907+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:55:13.917+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:00:13.930+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:07:37.996+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m36s844ms).
-2025-10-11T01:10:20.786+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:15:20.799+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:20:20.809+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:25:20.814+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:30:20.824+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:35:20.830+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:40:20.843+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:45:20.851+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:50:20.880+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:55:20.921+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:00:20.939+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:06:19.523+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:06:37.078+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m28s567ms).
-2025-10-11T02:11:19.544+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:16:19.555+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:21:19.628+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:26:19.641+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:31:19.654+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:36:19.673+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:41:19.686+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:46:19.699+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:51:19.712+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:56:19.729+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:01:19.742+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:06:19.757+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:11:19.771+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:16:19.791+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:21:19.818+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:26:19.844+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:31:19.860+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:36:19.875+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:41:19.885+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:46:19.890+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:51:19.911+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:56:19.941+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:01:19.960+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:03:23.504+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=45s277ms).
-2025-10-11T04:04:08.673+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=45s183ms).
-2025-10-11T04:06:50.388+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:11:50.403+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:16:50.455+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:21:50.473+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:26:50.477+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:31:50.493+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:36:50.503+05:30  INFO 59304 --- [userService] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:49:09.268+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s159ms).
-2025-10-11T04:59:41.987+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m32s721ms).
-2025-10-11T05:10:13.011+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s24ms).
-2025-10-11T05:20:42.272+05:30  WARN 59304 --- [userService] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m29s261ms).
+2025-10-11T21:35:28.011+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-11T21:35:28.056+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T21:35:28.269+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-11T21:35:28.841+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-11T21:35:28.878+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-11T21:35:28.932+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-11T21:35:28.951+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-11T21:35:28.996+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-11T21:35:29.001+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-11T21:35:29.001+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:35:29.002+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-11T21:35:29.002+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-11T21:35:29.002+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-11T21:35:29.002+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-11T21:35:29.002+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-11T21:35:29.002+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-11T21:35:29.002+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-11T21:35:29.042+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-11T21:35:29.043+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-11T21:35:29.043+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-11T21:35:29.044+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760198729043 with initial instances count: 7
+2025-10-11T21:35:29.054+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
+2025-10-11T21:35:29.054+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760198729054, current=UP, previous=STARTING]
+2025-10-11T21:35:29.054+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001: registering service...
+2025-10-11T21:35:29.058+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5001 (http) with context path '/'
+2025-10-11T21:35:29.058+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5001
+2025-10-11T21:35:29.072+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001 - registration status: 204
+2025-10-11T21:35:29.085+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : Started UserServiceApplication in 3.261 seconds (process running for 6069.403)
+2025-10-11T21:36:04.520+05:30  INFO 11378 --- [USERSERVICE] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 3 deletions, 1 modification)
+2025-10-11T21:36:04.521+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERSERVICE with eureka with status DOWN
+2025-10-11T21:36:04.521+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760198764521, current=DOWN, previous=UP]
+2025-10-11T21:36:04.521+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001: registering service...
+2025-10-11T21:36:04.522+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-11T21:36:04.528+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001 - registration status: 204
+2025-10-11T21:36:06.529+05:30  INFO 11378 --- [USERSERVICE] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-11T21:36:06.529+05:30 ERROR 11378 --- [USERSERVICE] [o-5001-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:36:06.535+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T21:36:06.536+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-11T21:36:06.538+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-11T21:36:06.539+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-11T21:36:09.543+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-11T21:36:09.596+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001 - deregister  status: 200
+2025-10-11T21:36:09.596+05:30  INFO 11378 --- [USERSERVICE] [       Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-11T21:36:09.716+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : Starting UserServiceApplication using Java 17.0.16 with PID 11378 (/Users/mohit/salon_microservices/userService/target/classes started by mohit in /Users/mohit/salon_microservices/userService)
+2025-10-11T21:36:09.717+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T21:36:09.977+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-11T21:36:09.983+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-10-11T21:36:10.168+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bbd59973-54e5-3e30-8069-e7964bbf4bf7
+2025-10-11T21:36:10.321+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5001 (http)
+2025-10-11T21:36:10.322+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-11T21:36:10.322+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-11T21:36:10.339+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-11T21:36:10.339+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 619 ms
+2025-10-11T21:36:10.512+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-11T21:36:10.515+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-11T21:36:10.530+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-11T21:36:10.532+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-10-11T21:36:10.575+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@719e7ad8
+2025-10-11T21:36:10.575+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-10-11T21:36:10.581+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-11T21:36:10.638+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-11T21:36:10.653+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T21:36:10.850+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-11T21:36:11.553+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-11T21:36:11.598+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-11T21:36:11.650+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-11T21:36:11.658+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-11T21:36:11.696+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-11T21:36:11.699+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-11T21:36:11.700+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:36:11.700+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-11T21:36:11.700+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-11T21:36:11.700+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-11T21:36:11.700+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-11T21:36:11.700+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-11T21:36:11.700+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-11T21:36:11.700+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-11T21:36:11.741+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-11T21:36:11.741+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-11T21:36:11.742+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-11T21:36:11.742+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760198771742 with initial instances count: 7
+2025-10-11T21:36:11.748+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
+2025-10-11T21:36:11.749+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760198771749, current=UP, previous=STARTING]
+2025-10-11T21:36:11.749+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001: registering service...
+2025-10-11T21:36:11.752+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5001 (http) with context path '/'
+2025-10-11T21:36:11.752+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5001
+2025-10-11T21:36:11.764+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001 - registration status: 204
+2025-10-11T21:36:11.778+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : Started UserServiceApplication in 2.099 seconds (process running for 6112.095)
+2025-10-11T21:36:11.782+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-11T21:36:12.963+05:30  INFO 11378 --- [USERSERVICE] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2025-10-11T21:36:12.964+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERSERVICE with eureka with status DOWN
+2025-10-11T21:36:12.964+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760198772964, current=DOWN, previous=UP]
+2025-10-11T21:36:12.965+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001: registering service...
+2025-10-11T21:36:12.965+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-11T21:36:12.969+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001 - registration status: 204
+2025-10-11T21:36:14.973+05:30  INFO 11378 --- [USERSERVICE] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-11T21:36:14.973+05:30 ERROR 11378 --- [USERSERVICE] [o-5001-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-11T21:36:14.977+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T21:36:14.978+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-10-11T21:36:14.979+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-10-11T21:36:14.980+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-11T21:36:17.984+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-11T21:36:18.425+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001 - deregister  status: 404
+2025-10-11T21:36:18.426+05:30  INFO 11378 --- [USERSERVICE] [      Thread-13] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-11T21:36:18.531+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : Starting UserServiceApplication using Java 17.0.16 with PID 11378 (/Users/mohit/salon_microservices/userService/target/classes started by mohit in /Users/mohit/salon_microservices/userService)
+2025-10-11T21:36:18.531+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T21:36:18.793+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-11T21:36:18.801+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-10-11T21:36:18.987+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bbd59973-54e5-3e30-8069-e7964bbf4bf7
+2025-10-11T21:36:19.119+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5001 (http)
+2025-10-11T21:36:19.120+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-11T21:36:19.120+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-11T21:36:19.135+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-11T21:36:19.135+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
+2025-10-11T21:36:19.279+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-11T21:36:19.281+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-11T21:36:19.290+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-11T21:36:19.290+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-10-11T21:36:19.316+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@75d9f9a5
+2025-10-11T21:36:19.317+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-10-11T21:36:19.321+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-11T21:36:19.367+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-11T21:36:19.381+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T21:36:19.563+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-11T21:36:20.005+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-11T21:36:20.043+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-11T21:36:20.084+05:30  WARN 11378 --- [USERSERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-11T21:36:20.092+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-11T21:36:20.124+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-11T21:36:20.128+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-11T21:36:20.152+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-11T21:36:20.153+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-11T21:36:20.153+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-11T21:36:20.154+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760198780154 with initial instances count: 7
+2025-10-11T21:36:20.161+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERSERVICE with eureka with status UP
+2025-10-11T21:36:20.161+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760198780161, current=UP, previous=STARTING]
+2025-10-11T21:36:20.161+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001: registering service...
+2025-10-11T21:36:20.163+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5001 (http) with context path '/'
+2025-10-11T21:36:20.164+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5001
+2025-10-11T21:36:20.171+05:30  INFO 11378 --- [USERSERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERSERVICE/192.168.29.109:USERSERVICE:5001 - registration status: 204
+2025-10-11T21:36:20.186+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] c.m.userService.UserServiceApplication   : Started UserServiceApplication in 1.694 seconds (process running for 6120.503)
+2025-10-11T21:36:20.189+05:30  INFO 11378 --- [USERSERVICE] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:45 h
+[INFO] Finished at: 2025-10-11T21:39:45+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.3:run (default-cli) on project userService: Process terminated with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

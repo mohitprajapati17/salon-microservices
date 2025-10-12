@@ -1,0 +1,23 @@
+package com.mohit.payload_DTO;
+
+
+import java.time.LocalTime;
+import java.util.List;
+
+import lombok.Data;
+
+@Data
+public class SalonDTO {
+
+    private Long id;
+    private String name;
+    private String address;
+    private String phone;
+    private String email;
+    private String city;
+    private Long ownerId;
+    private LocalTime openTime;
+    private LocalTime closeTime;
+    private List<String> images;
+}
+

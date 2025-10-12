@@ -13,7 +13,7 @@
 [INFO] 
 [INFO] --- compiler:3.13.0:compile (default-compile) @ Payment-Service ---
 [INFO] Recompiling the module because of changed source code.
-[INFO] Compiling 18 source files with javac [debug parameters release 17] to target/classes
+[INFO] Compiling 22 source files with javac [debug parameters release 17] to target/classes
 [INFO] 
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ Payment-Service ---
 [INFO] skip non existing resourceDirectory /Users/mohit/salon_microservices/Payment-Service/src/test/resources
@@ -37,26 +37,26 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-10-10T00:58:22.221+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : Starting PaymentServiceApplication using Java 17.0.16 with PID 58500 (/Users/mohit/salon_microservices/Payment-Service/target/classes started by mohit in /Users/mohit/salon_microservices/Payment-Service)
-2025-10-10T00:58:22.225+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-10-10T00:58:22.298+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-10T00:58:22.298+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-10T00:58:24.846+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-10T00:58:25.340+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 475 ms. Found 1 JPA repository interface.
-2025-10-10T00:58:25.889+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4acc1427-4fec-34e0-86e6-29027326740b
-2025-10-10T00:58:28.130+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5006 (http)
-2025-10-10T00:58:28.153+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-10T00:58:28.154+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-10-10T00:58:28.257+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-10T00:58:28.259+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5959 ms
-2025-10-10T00:58:28.935+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-10T00:58:29.093+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-10-10T00:58:29.148+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-10T00:58:29.567+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-10T00:58:29.607+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-10T00:58:29.871+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4eb9e802
-2025-10-10T00:58:29.874+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-10T00:58:30.009+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-11T20:01:44.172+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : Starting PaymentServiceApplication using Java 17.0.16 with PID 12746 (/Users/mohit/salon_microservices/Payment-Service/target/classes started by mohit in /Users/mohit/salon_microservices/Payment-Service)
+2025-10-11T20:01:44.175+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T20:01:44.235+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-11T20:01:44.235+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-11T20:01:45.665+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-11T20:01:45.830+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+2025-10-11T20:01:46.087+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=57432c77-adb5-3e8e-994e-664fc5429f4b
+2025-10-11T20:01:46.919+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5006 (http)
+2025-10-11T20:01:46.932+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-11T20:01:46.932+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-11T20:01:46.974+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-11T20:01:46.975+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2738 ms
+2025-10-11T20:01:47.340+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-11T20:01:47.394+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-10-11T20:01:47.444+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-11T20:01:47.677+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-11T20:01:47.704+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-11T20:01:47.867+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@218a8fb8
+2025-10-11T20:01:47.869+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-11T20:01:47.941+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -64,245 +64,357 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-10T00:58:31.714+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-10T00:58:31.791+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-10T00:58:32.434+05:30  WARN 58500 --- [PAYMENT-SERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-10T00:58:33.656+05:30  WARN 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-10-10T00:58:33.713+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-10-10T00:58:33.807+05:30  WARN 58500 --- [PAYMENT-SERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-10-10T00:58:33.824+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-10-10T00:58:33.923+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-10-10T00:58:33.956+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-10-10T00:58:33.961+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:58:33.975+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-10-10T00:58:33.975+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-10-10T00:58:33.975+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-10-10T00:58:33.975+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-10-10T00:58:33.975+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-10-10T00:58:33.976+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-10-10T00:58:33.976+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-10-10T00:58:34.488+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-10-10T00:58:34.490+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-10-10T00:58:34.493+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-10-10T00:58:34.494+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760038114494 with initial instances count: 2
-2025-10-10T00:58:34.504+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
-2025-10-10T00:58:34.504+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760038114504, current=UP, previous=STARTING]
-2025-10-10T00:58:34.507+05:30  INFO 58500 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006: registering service...
-2025-10-10T00:58:34.529+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5006 (http) with context path '/'
-2025-10-10T00:58:34.530+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5006
-2025-10-10T00:58:34.565+05:30  INFO 58500 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : Started PaymentServiceApplication in 13.384 seconds (process running for 15.372)
-2025-10-10T00:58:34.567+05:30  INFO 58500 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - registration status: 204
-2025-10-10T01:00:42.094+05:30  INFO 58500 --- [PAYMENT-SERVICE] [nio-5006-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-10T01:00:42.098+05:30  INFO 58500 --- [PAYMENT-SERVICE] [nio-5006-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-10T01:00:42.119+05:30  INFO 58500 --- [PAYMENT-SERVICE] [nio-5006-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
-2025-10-10T01:03:34.011+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:08:34.051+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:13:34.072+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:18:34.197+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:23:34.210+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:28:34.229+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:33:34.244+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:38:34.255+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:43:34.271+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:48:34.292+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:53:34.293+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:58:34.309+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:03:34.336+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:08:34.373+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:13:34.393+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:18:34.400+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:22:24.272+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m23s243ms).
-2025-10-10T02:26:27.685+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:31:27.695+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:33:35.228+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s820ms).
-2025-10-10T02:37:08.519+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:42:08.528+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:47:08.539+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:52:08.566+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:57:08.594+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:02:08.615+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:07:08.629+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:12:08.641+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:17:08.661+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:22:08.685+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:27:08.703+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:32:08.721+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:37:08.742+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:42:08.768+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:47:08.787+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:52:08.802+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:57:08.811+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:00:50.905+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s748ms).
-2025-10-10T04:03:23.571+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:08:23.586+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:22:22.040+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s13ms).
-2025-10-10T04:32:53.125+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s97ms).
-2025-10-10T04:43:23.229+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s104ms).
-2025-10-10T04:43:25.770+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:53:55.094+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s866ms).
-2025-10-10T05:10:49.307+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m54s212ms).
-2025-10-10T05:21:22.704+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m33s398ms).
-2025-10-10T05:31:53.519+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s815ms).
-2025-10-10T05:42:28.505+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m34s986ms).
-2025-10-10T05:52:59.477+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s972ms).
-2025-10-10T06:12:22.356+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m22s879ms).
-2025-10-10T07:13:30.774+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m8s321ms).
-2025-10-10T08:14:40.535+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m9s316ms).
-2025-10-10T08:14:55.542+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T09:16:09.163+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s128ms).
-2025-10-10T10:17:09.006+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59s843ms).
-2025-10-10T10:18:29.880+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s874ms).
-2025-10-10T11:18:21.104+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m51s224ms).
-2025-10-10T12:19:20.372+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s486ms).
-2025-10-10T13:13:29.851+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m9s920ms).
-2025-10-10T13:20:50.365+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m49s905ms).
-2025-10-10T14:21:48.807+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s442ms).
-2025-10-10T14:21:51.663+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T14:50:26.427+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m36s798ms).
-2025-10-10T14:54:58.425+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T14:59:58.440+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:04:58.461+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:09:58.488+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:14:58.497+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:19:58.499+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:24:58.510+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:29:58.551+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:34:58.563+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:39:58.577+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:43:47.738+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m50s167ms).
-2025-10-10T15:43:50.842+05:30  INFO 58500 --- [PAYMENT-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - Re-registering apps/PAYMENT-SERVICE
-2025-10-10T15:43:50.844+05:30  INFO 58500 --- [PAYMENT-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006: registering service...
-2025-10-10T15:43:50.989+05:30  INFO 58500 --- [PAYMENT-SERVICE] [beatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - registration status: 204
-2025-10-10T15:48:18.749+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:53:20.129+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:58:20.172+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:03:20.202+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:08:20.234+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:13:20.245+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:18:20.263+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:23:41.572+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m22s130ms).
-2025-10-10T16:28:12.401+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:33:12.414+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:38:12.446+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:43:12.466+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:48:12.481+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:53:12.495+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:58:12.509+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:03:12.523+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:08:12.539+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:13:12.579+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:18:12.592+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:23:12.602+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:28:12.619+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:33:12.630+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:38:12.640+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:52:11.494+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s78ms).
-2025-10-10T18:03:13.238+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s689ms).
-2025-10-10T18:03:13.457+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T18:14:26.472+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m35s640ms).
-2025-10-10T18:24:56.442+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s971ms).
-2025-10-10T18:35:26.594+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s152ms).
-2025-10-10T18:45:59.141+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s547ms).
-2025-10-10T18:56:32.587+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m33s446ms).
-2025-10-10T19:07:04.342+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s755ms).
-2025-10-10T19:17:36.039+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s697ms).
-2025-10-10T19:28:05.487+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s448ms).
-2025-10-10T19:38:34.427+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T19:38:35.578+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s91ms).
-2025-10-10T19:59:07.781+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m32s203ms).
-2025-10-10T20:14:54.714+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m16s913ms).
-2025-10-10T20:25:27.292+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s578ms).
-2025-10-10T20:35:57.528+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s236ms).
-2025-10-10T20:56:31.926+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m34s398ms).
-2025-10-10T21:05:33.979+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m2s52ms).
-2025-10-10T21:26:07.751+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m33s773ms).
-2025-10-10T21:37:09.696+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T21:47:12.616+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m32s66ms).
-2025-10-10T21:48:19.002+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s386ms).
-2025-10-10T21:57:18.540+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m29s510ms).
-2025-10-10T21:58:45.245+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:05:12.376+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m23s814ms).
-2025-10-10T22:09:11.361+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m28s951ms).
-2025-10-10T22:11:38.007+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:16:38.017+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:21:38.029+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:26:38.039+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:31:38.048+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:43:14.934+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m33s392ms).
-2025-10-10T22:53:46.672+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s739ms).
-2025-10-10T23:04:18.558+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s886ms).
-2025-10-10T23:07:25.793+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m7s233ms).
-2025-10-10T23:09:22.277+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:14:22.290+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:19:22.305+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:24:22.316+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:29:22.331+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:34:22.349+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:39:22.363+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:44:22.363+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:49:22.372+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:54:22.381+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:59:22.389+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:04:22.399+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:09:22.412+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:19:32.714+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m36s377ms).
-2025-10-11T00:23:28.794+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:28:28.804+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:33:28.815+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:38:33.400+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:43:33.410+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:44:30.941+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s408ms).
-2025-10-11T00:48:56.827+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:53:56.840+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:58:56.853+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:07:38.001+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m36s849ms).
-2025-10-11T01:09:03.708+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:14:03.721+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:19:03.732+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:24:03.739+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:29:03.748+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:34:03.755+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:39:03.768+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:44:03.778+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:49:03.800+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:54:03.823+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:59:03.835+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:04:03.849+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:06:37.075+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s566ms).
-2025-10-11T02:10:02.443+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:15:02.456+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:20:02.494+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:25:02.516+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:30:02.528+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:35:02.546+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:40:02.563+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:45:02.578+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:50:02.590+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:55:02.606+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:00:02.618+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:05:02.637+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:10:02.653+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:15:02.674+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:20:02.697+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:25:02.718+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:30:02.733+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:35:02.750+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:40:02.769+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:45:02.776+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:50:02.789+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:55:02.805+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:00:02.819+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:03:23.497+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s277ms).
-2025-10-11T04:04:08.664+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s174ms).
-2025-10-11T04:05:33.250+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:10:33.271+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:15:33.319+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:20:33.335+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:25:33.347+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:30:33.366+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:35:33.379+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:49:09.264+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s152ms).
-2025-10-11T04:59:41.987+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s733ms).
-2025-10-11T05:10:13.011+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s24ms).
-2025-10-11T05:20:36.524+05:30  INFO 58500 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T05:20:42.274+05:30  WARN 58500 --- [PAYMENT-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s263ms).
+2025-10-11T20:01:48.895+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-11T20:01:48.933+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T20:01:49.337+05:30  WARN 12746 --- [PAYMENT-SERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-11T20:01:49.399+05:30  WARN 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-11T20:01:49.464+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'USERSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2025-10-11T20:01:50.350+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-11T20:01:50.402+05:30  WARN 12746 --- [PAYMENT-SERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-11T20:01:50.423+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-11T20:01:50.502+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-11T20:01:50.529+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-11T20:01:50.534+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:01:50.543+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-11T20:01:50.543+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-11T20:01:50.543+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-11T20:01:50.543+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-11T20:01:50.543+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-11T20:01:50.543+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-11T20:01:50.543+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-11T20:01:50.908+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-11T20:01:50.910+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-11T20:01:50.912+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-11T20:01:50.914+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760193110913 with initial instances count: 4
+2025-10-11T20:01:50.920+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2025-10-11T20:01:50.921+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760193110921, current=UP, previous=STARTING]
+2025-10-11T20:01:50.923+05:30  INFO 12746 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006: registering service...
+2025-10-11T20:01:50.939+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5006 (http) with context path '/'
+2025-10-11T20:01:50.940+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5006
+2025-10-11T20:01:50.966+05:30  INFO 12746 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - registration status: 204
+2025-10-11T20:01:50.971+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : Started PaymentServiceApplication in 7.422 seconds (process running for 8.32)
+2025-10-11T20:06:50.554+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:11:50.563+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:16:50.588+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:21:50.602+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:26:50.614+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:31:50.640+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:36:50.667+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:41:50.680+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:46:50.692+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:51:50.693+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:56:50.703+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:01:50.840+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:06:50.844+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:11:50.856+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:16:50.878+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:21:50.897+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:26:50.914+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:31:50.932+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:36:50.959+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:41:50.983+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:46:51.000+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:51:51.019+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:56:51.030+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:01:51.048+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:06:51.060+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:11:51.077+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:16:51.083+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:21:51.109+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:26:51.127+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:31:51.142+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:36:51.144+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:41:51.168+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:46:51.190+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:51:51.206+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:56:51.221+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:01:51.235+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:06:51.247+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:11:51.245+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:16:51.261+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:21:51.273+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:26:51.271+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:31:51.287+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:36:51.296+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:41:51.311+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:46:51.334+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:51:51.352+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:56:51.380+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:01:51.391+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:06:51.407+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:11:51.430+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:16:51.450+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:21:51.461+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:26:51.473+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:31:51.498+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:36:51.517+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:41:51.526+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:46:51.540+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:50:53.872+05:30  INFO 12746 --- [PAYMENT-SERVICE] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-12T00:50:53.984+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2025-10-12T00:50:53.986+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760210453986, current=DOWN, previous=UP]
+2025-10-12T00:50:53.991+05:30  INFO 12746 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006: registering service...
+2025-10-12T00:50:54.153+05:30  INFO 12746 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - registration status: 204
+2025-10-12T00:50:54.202+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-12T00:50:56.258+05:30  INFO 12746 --- [PAYMENT-SERVICE] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-12T00:50:56.274+05:30 ERROR 12746 --- [PAYMENT-SERVICE] [o-5006-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:518) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:71) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-12T00:50:56.466+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12T00:50:56.546+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-12T00:50:56.565+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-12T00:50:56.571+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-12T00:50:59.575+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-10-12T00:50:59.580+05:30  WARN 12746 --- [PAYMENT-SERVICE] [coveryClient-%d] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2025-10-12T00:50:59.755+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - deregister  status: 200
+2025-10-12T00:50:59.756+05:30  INFO 12746 --- [PAYMENT-SERVICE] [       Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-10-12T00:51:00.555+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : Starting PaymentServiceApplication using Java 17.0.16 with PID 12746 (/Users/mohit/salon_microservices/Payment-Service/target/classes started by mohit in /Users/mohit/salon_microservices/Payment-Service)
+2025-10-12T00:51:00.556+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-12T00:51:01.443+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-12T00:51:01.462+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2025-10-12T00:51:01.595+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=57432c77-adb5-3e8e-994e-664fc5429f4b
+2025-10-12T00:51:02.141+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5006 (http)
+2025-10-12T00:51:02.142+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-12T00:51:02.142+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-10-12T00:51:02.155+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-12T00:51:02.156+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1594 ms
+2025-10-12T00:51:02.314+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-12T00:51:02.316+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-12T00:51:02.329+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-12T00:51:02.330+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-12T00:51:02.358+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5243f187
+2025-10-12T00:51:02.359+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-12T00:51:02.368+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-12T00:51:02.432+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-12T00:51:02.460+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12T00:51:02.604+05:30  WARN 12746 --- [PAYMENT-SERVICE] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-12T00:51:02.634+05:30  WARN 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-12T00:51:02.679+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'USERSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2025-10-12T00:51:03.176+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-12T00:51:03.232+05:30  WARN 12746 --- [PAYMENT-SERVICE] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-12T00:51:03.244+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-12T00:51:03.275+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-12T00:51:03.280+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-12T00:51:03.280+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:51:03.280+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-12T00:51:03.280+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-12T00:51:03.280+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-12T00:51:03.280+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-12T00:51:03.280+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-12T00:51:03.281+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-12T00:51:03.281+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-12T00:51:03.311+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-12T00:51:03.311+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-12T00:51:03.311+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-12T00:51:03.312+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760210463312 with initial instances count: 1
+2025-10-12T00:51:03.318+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2025-10-12T00:51:03.318+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760210463318, current=UP, previous=STARTING]
+2025-10-12T00:51:03.319+05:30  INFO 12746 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006: registering service...
+2025-10-12T00:51:03.320+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5006 (http) with context path '/'
+2025-10-12T00:51:03.321+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5006
+2025-10-12T00:51:03.328+05:30  INFO 12746 --- [PAYMENT-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/192.168.29.109:PAYMENT-SERVICE:5006 - registration status: 204
+2025-10-12T00:51:03.340+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] c.m.P.Service.PaymentServiceApplication  : Started PaymentServiceApplication in 2.915 seconds (process running for 17360.255)
+2025-10-12T00:51:03.343+05:30  INFO 12746 --- [PAYMENT-SERVICE] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-12T00:56:03.302+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:01:03.317+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:06:03.339+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:11:03.352+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:16:03.373+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:21:03.390+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:26:03.398+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:31:03.413+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:36:03.413+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:41:03.428+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:46:03.436+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:51:03.466+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:57:41.467+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m8s443ms).
+2025-10-12T01:57:41.911+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:02:41.929+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:07:41.938+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:12:41.953+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:17:41.964+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:22:41.985+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:27:42.004+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:33:41.880+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m29s865ms).
+2025-10-12T02:34:42.116+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:37:03.838+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m21s941ms).
+2025-10-12T02:40:34.061+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:45:34.074+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:50:34.091+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:55:34.133+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:00:10.463+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m36s415ms).
+2025-10-12T03:02:40.550+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:07:40.571+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:12:40.588+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:17:40.600+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:20:09.444+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m58s815ms).
+2025-10-12T03:24:09.425+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:29:09.434+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:34:09.446+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:39:09.469+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:52:40.908+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s272ms).
+2025-10-12T04:03:15.113+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m34s206ms).
+2025-10-12T04:13:46.363+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s250ms).
+2025-10-12T04:24:19.734+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T04:24:19.926+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m33s562ms).
+2025-10-12T04:42:49.322+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=18m29s397ms).
+2025-10-12T05:20:59.683+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=38m10s350ms).
+2025-10-12T05:43:21.568+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=22m21s397ms).
+2025-10-12T06:44:29.924+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h1m8s779ms).
+2025-10-12T06:53:19.223+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m18s212ms).
+2025-10-12T07:45:55.327+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=52m36s105ms).
+2025-10-12T08:46:57.043+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h1m1s715ms).
+2025-10-12T08:48:17.939+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m20s895ms).
+2025-10-12T09:47:55.298+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T09:48:09.120+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=59m51s183ms).
+2025-10-12T10:49:10.254+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h1m1s134ms).
+2025-10-12T11:42:57.416+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=53m46s855ms).
+2025-10-12T11:44:14.958+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m17s850ms).
+2025-10-12T12:06:53.756+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=22m38s798ms).
+2025-10-12T12:34:09.515+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=26m45s746ms).
+2025-10-12T12:50:41.823+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m32s307ms).
+2025-10-12T13:04:54.771+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=13m42s933ms).
+2025-10-12T13:20:10.216+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T13:20:24.579+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m29s808ms).
+2025-10-12T13:37:01.674+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m37s95ms).
+2025-10-12T13:42:36.934+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m35s260ms).
+2025-10-12T13:51:56.845+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m19s909ms).
+2025-10-12T14:34:21.651+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=42m24s806ms).
+2025-10-12T14:37:07.270+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:42:07.276+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:47:07.281+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:52:07.300+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:57:07.303+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:06:09.596+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m17s757ms).
+2025-10-12T15:13:55.834+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=7m16s233ms).
+2025-10-12T15:16:05.170+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m9s324ms).
+2025-10-12T15:17:20.614+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:22:20.618+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:27:20.625+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:32:20.643+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:37:20.646+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:42:20.653+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:43:26.414+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=51s106ms).
+2025-10-12T15:47:41.768+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:51:34.127+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m7s664ms).
+2025-10-12T15:53:19.442+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:58:19.450+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:03:19.455+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:08:19.465+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:13:43.861+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m9s581ms).
+2025-10-12T16:13:59.071+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:18:59.086+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:23:59.095+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:34:08.936+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m55s).
+2025-10-12T16:37:24.107+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:42:24.117+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:47:24.127+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:52:24.136+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T17:06:11.984+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m32s898ms).
+2025-10-12T17:17:12.930+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=11m948ms).
+2025-10-12T17:27:44.140+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s211ms).
+2025-10-12T17:38:02.094+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T17:38:17.070+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m32s929ms).
+2025-10-12T17:48:49.813+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m32s744ms).
+2025-10-12T17:59:23.460+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m33s647ms).
+2025-10-12T18:08:54.730+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m31s269ms).
+2025-10-12T18:19:35.173+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m40s429ms).
+2025-10-12T18:20:20.182+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:25:20.207+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:30:20.251+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:35:20.261+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:40:20.260+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:44:34.407+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m59s92ms).
+2025-10-12T18:46:49.351+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:49:38.202+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m33s767ms).
+2025-10-12T18:52:53.123+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:57:53.131+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:02:53.151+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:07:53.162+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:12:53.141+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:36:28.099+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=23m49s712ms).
+2025-10-12T19:42:36.900+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m38s767ms).
+2025-10-12T19:46:21.680+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:51:21.685+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:56:21.718+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:01:21.726+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:06:21.734+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:11:21.752+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:16:21.760+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:21:21.767+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:35:36.840+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m29s629ms).
+2025-10-12T20:46:08.742+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s903ms).
+2025-10-12T20:56:25.270+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:56:40.744+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m32s2ms).
+2025-10-12T21:07:10.849+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s105ms).
+2025-10-12T21:27:47.718+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m36s869ms).
+2025-10-12T21:38:23.019+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m35s301ms).
+2025-10-12T21:48:54.154+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m31s135ms).
+2025-10-12T21:59:26.833+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m32s679ms).
+2025-10-12T22:10:00.389+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m33s555ms).
+2025-10-12T22:20:30.931+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m30s543ms).
+2025-10-12T22:36:24.646+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m53s715ms).
+2025-10-12T22:41:23.963+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4m59s317ms).
+2025-10-12T22:41:37.249+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T22:50:13.893+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m19s902ms).
+2025-10-12T22:52:27.168+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T22:57:27.172+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:02:27.181+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:11:09.590+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m25s510ms).
+2025-10-12T23:18:04.213+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4m24s585ms).
+2025-10-12T23:19:17.299+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:24:17.313+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:29:17.325+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:34:17.335+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:39:17.340+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:44:17.371+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:49:17.382+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:54:17.396+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:59:17.400+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:04:17.424+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:09:17.436+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:14:17.447+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:19:17.447+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:32:38.574+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m33s766ms).
+2025-10-13T00:34:31.500+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m52s929ms).
+2025-10-13T00:35:44.145+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:40:44.171+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:45:44.182+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:49:43.242+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m11s594ms).
+2025-10-13T00:53:25.794+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:58:25.814+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:03:25.825+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:08:25.837+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:13:25.858+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:22:59.413+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=7m45s981ms).
+2025-10-13T01:25:41.849+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:31:34.811+05:30  WARN 12746 --- [PAYMENT-SERVICE] [l-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m5s347ms).
+2025-10-13T01:35:16.788+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:40:16.798+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:45:16.808+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:50:16.819+05:30  INFO 12746 --- [PAYMENT-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

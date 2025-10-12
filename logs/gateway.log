@@ -35,365 +35,223 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-10-10T00:02:05.739+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : Starting GatewayServerApplication using Java 17.0.16 with PID 54754 (/Users/mohit/salon_microservices/Gateway-Server/target/classes started by mohit in /Users/mohit/salon_microservices/Gateway-Server)
-2025-10-10T00:02:05.741+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-10-10T00:02:05.787+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-10-10T00:02:05.787+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-10-10T00:02:07.289+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8cefd9f8-7cd2-3eba-901e-65b49ded7e05
-2025-10-10T00:02:08.580+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
-2025-10-10T00:02:08.580+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
-2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
-2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
-2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
-2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
-2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
-2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
-2025-10-10T00:02:08.581+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
-2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
-2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
-2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
-2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
-2025-10-10T00:02:08.582+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
-2025-10-10T00:02:08.922+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-10-10T00:02:09.178+05:30  WARN 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-10-10T00:02:09.194+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-10-10T00:02:09.225+05:30  WARN 54754 --- [GATEWAY-SERVER] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-10-10T00:02:09.285+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-10-10T00:02:09.311+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-10-10T00:02:09.316+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-10-10T00:02:09.328+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-10-10T00:02:09.779+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-10-10T00:02:09.781+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-10-10T00:02:09.783+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-10-10T00:02:09.785+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760034729784 with initial instances count: 2
-2025-10-10T00:02:09.788+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
-2025-10-10T00:02:09.789+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760034729789, current=UP, previous=STARTING]
-2025-10-10T00:02:09.790+05:30  INFO 54754 --- [GATEWAY-SERVER] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/192.168.29.109:GATEWAY-SERVER:8085: registering service...
-2025-10-10T00:02:09.842+05:30  INFO 54754 --- [GATEWAY-SERVER] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/192.168.29.109:GATEWAY-SERVER:8085 - registration status: 204
-2025-10-10T00:02:10.003+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8085 (http)
-2025-10-10T00:02:10.005+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
-2025-10-10T00:02:10.049+05:30  INFO 54754 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : Started GatewayServerApplication in 4.79 seconds (process running for 5.793)
-2025-10-10T00:03:20.663+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-5] r.netty.http.client.HttpClientConnect    : [fadf1658-1, L:/192.168.29.109:62160 ! R:/192.168.29.109:5001] The connection observed an error
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-
-2025-10-10T00:03:20.767+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-5] a.w.r.e.AbstractErrorWebExceptionHandler : [3fdfeb39-1]  500 Server Error for HTTP POST "/auth/login"
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/auth/login" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-
-2025-10-10T00:03:25.400+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-6] r.netty.http.client.HttpClientConnect    : [bdbfd0b5-1, L:/192.168.29.109:62167 ! R:/192.168.29.109:5001] The connection observed an error
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-
-2025-10-10T00:03:25.404+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-6] a.w.r.e.AbstractErrorWebExceptionHandler : [3fdfeb39-2]  500 Server Error for HTTP POST "/auth/login"
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/auth/login" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-
-2025-10-10T00:07:09.376+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:09:54.413+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-9] r.netty.http.client.HttpClientConnect    : [0fa4e632-1, L:/192.168.29.109:62710 ! R:/192.168.29.109:5001] The connection observed an error
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-
-2025-10-10T00:09:54.425+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-9] a.w.r.e.AbstractErrorWebExceptionHandler : [3967409b-3]  500 Server Error for HTTP POST "/auth/signup"
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/auth/signup" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-
-Adding realm role: ROLE_DEFAULT-ROLES-MASTER
-Adding realm role: ROLE_OFFLINE_ACCESS
-Adding realm role: ROLE_UMA_AUTHORIZATION
-Adding client role from salon-booking-client: ROLE_CUSTOMER
-Adding client role from account: ROLE_MANAGE-ACCOUNT
-Adding client role from account: ROLE_MANAGE-ACCOUNT-LINKS
-Adding client role from account: ROLE_VIEW-PROFILE
-Total authorities extracted: [ROLE_DEFAULT-ROLES-MASTER, ROLE_OFFLINE_ACCESS, ROLE_UMA_AUTHORIZATION, ROLE_CUSTOMER, ROLE_MANAGE-ACCOUNT, ROLE_MANAGE-ACCOUNT-LINKS, ROLE_VIEW-PROFILE]
-2025-10-10T00:11:19.866+05:30  WARN 54754 --- [GATEWAY-SERVER] [tor-http-nio-10] r.netty.http.client.HttpClientConnect    : [e24278bf-1, L:/192.168.29.109:62815 ! R:/192.168.29.109:5001] The connection observed an error
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-
-2025-10-10T00:11:19.867+05:30 ERROR 54754 --- [GATEWAY-SERVER] [tor-http-nio-10] a.w.r.e.AbstractErrorWebExceptionHandler : [3967409b-4]  500 Server Error for HTTP POST "/api/users"
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/api/users" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-
-2025-10-10T00:12:09.433+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:17:09.425+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:22:09.445+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:27:09.467+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:32:09.498+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:37:09.513+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:42:09.530+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-Adding realm role: ROLE_DEFAULT-ROLES-MASTER
-Adding realm role: ROLE_OFFLINE_ACCESS
-Adding realm role: ROLE_UMA_AUTHORIZATION
-Adding client role from salon-booking-client: ROLE_CUSTOMER
-Adding client role from account: ROLE_MANAGE-ACCOUNT
-Adding client role from account: ROLE_MANAGE-ACCOUNT-LINKS
-Adding client role from account: ROLE_VIEW-PROFILE
-Total authorities extracted: [ROLE_DEFAULT-ROLES-MASTER, ROLE_OFFLINE_ACCESS, ROLE_UMA_AUTHORIZATION, ROLE_CUSTOMER, ROLE_MANAGE-ACCOUNT, ROLE_MANAGE-ACCOUNT-LINKS, ROLE_VIEW-PROFILE]
-2025-10-10T00:44:40.834+05:30  WARN 54754 --- [GATEWAY-SERVER] [     parallel-8] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: SALON-SERVICE
-2025-10-10T00:47:32.477+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:56:29.040+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-Adding realm role: ROLE_DEFAULT-ROLES-MASTER
-Adding realm role: ROLE_OFFLINE_ACCESS
-Adding realm role: ROLE_UMA_AUTHORIZATION
-Adding client role from salon-booking-client: ROLE_CUSTOMER
-Adding client role from account: ROLE_MANAGE-ACCOUNT
-Adding client role from account: ROLE_MANAGE-ACCOUNT-LINKS
-Adding client role from account: ROLE_VIEW-PROFILE
-Total authorities extracted: [ROLE_DEFAULT-ROLES-MASTER, ROLE_OFFLINE_ACCESS, ROLE_UMA_AUTHORIZATION, ROLE_CUSTOMER, ROLE_MANAGE-ACCOUNT, ROLE_MANAGE-ACCOUNT-LINKS, ROLE_VIEW-PROFILE]
-2025-10-10T01:01:23.655+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-3] r.netty.http.client.HttpClientConnect    : [a405f0db-1, L:/192.168.29.109:50215 ! R:/192.168.29.109:5002] The connection observed an error
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-
-2025-10-10T01:01:23.667+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [02bd31e5-7]  500 Server Error for HTTP GET "/api/salon/search?city=mum"
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP GET "/api/salon/search?city=mum" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-
-2025-10-10T01:01:29.064+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:06:29.089+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:08:06.100+05:30  WARN 54754 --- [GATEWAY-SERVER] [ctor-http-nio-5] r.netty.http.client.HttpClientConnect    : [3173793b-1, L:/192.168.29.109:50789 ! R:/192.168.29.109:5001] The connection observed an error
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-
-2025-10-10T01:08:06.113+05:30 ERROR 54754 --- [GATEWAY-SERVER] [ctor-http-nio-5] a.w.r.e.AbstractErrorWebExceptionHandler : [11b9f8ed-8]  500 Server Error for HTTP POST "/auth/login"
-
-reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthorizationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ExceptionTranslationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ LogoutWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerRequestCacheWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ SecurityContextServerWebExchangeWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ AuthenticationWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HttpHeaderWriterWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ ServerWebExchangeReactorContextWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ org.springframework.security.web.server.WebFilterChainProxy [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/auth/login" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-
-2025-10-10T01:11:29.125+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:16:29.359+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:21:29.375+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:26:29.390+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:31:29.411+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:36:29.426+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:41:29.438+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:46:29.463+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:51:29.467+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:56:29.486+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:01:29.508+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:06:29.522+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:11:29.537+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:16:29.548+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:24:22.850+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:29:22.878+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:35:03.702+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:40:03.717+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:45:03.726+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:50:03.745+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:55:03.763+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:00:03.782+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:05:03.794+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:10:03.815+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:15:03.832+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:20:03.854+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:25:03.870+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:30:03.881+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:35:03.905+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:40:03.928+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:45:03.945+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:50:03.968+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:55:03.977+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:01:18.738+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:06:18.749+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:11:18.763+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T05:52:57.147+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T12:19:28.131+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T14:52:53.688+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T14:57:53.732+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:02:53.751+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:07:53.779+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:12:53.790+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:17:53.794+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:22:53.800+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:27:53.836+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:32:53.857+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:37:53.868+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:46:14.048+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:51:15.438+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:56:15.479+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:01:15.509+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:06:15.538+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:11:15.554+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:16:15.565+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:26:07.706+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:31:07.725+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:36:07.743+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:41:07.774+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:46:07.804+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:51:07.827+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:56:07.854+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:01:07.879+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:06:07.892+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:11:07.908+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:16:07.921+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:21:07.931+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:26:07.948+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:31:07.960+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:36:07.971+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:41:07.990+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T18:56:26.807+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T20:46:21.924+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T21:50:41.087+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:09:33.353+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:14:33.364+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:19:33.372+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:24:33.379+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:29:33.386+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:07:17.619+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:12:17.632+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:17:17.663+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:22:17.676+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:27:17.685+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:32:17.718+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:37:17.742+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:42:17.753+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:47:17.760+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:52:17.769+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:57:17.777+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:02:17.787+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:07:17.800+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:21:24.184+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:26:24.201+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:31:24.211+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:36:24.260+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:41:28.804+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:46:52.217+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:51:52.229+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:56:52.243+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:01:52.258+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:11:59.106+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:16:59.115+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:21:59.118+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:26:59.124+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:31:59.146+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:36:59.154+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:41:59.164+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:46:59.173+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:51:59.195+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:56:59.209+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:01:59.221+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:07:57.815+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:12:57.831+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:17:57.860+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:22:57.895+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:27:57.905+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:32:57.919+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:37:57.941+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:42:57.957+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:47:57.974+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:52:57.999+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:57:58.010+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:02:58.025+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:07:58.040+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:12:58.061+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:17:58.082+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:22:58.104+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:27:58.121+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:32:58.142+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:37:58.159+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:42:58.175+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:47:58.189+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:52:58.204+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:57:58.217+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:03:05.604+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:08:28.682+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:13:28.695+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:18:28.743+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:23:28.748+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:28:28.762+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:33:28.773+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:38:28.784+05:30  INFO 54754 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T19:54:19.048+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : Starting GatewayServerApplication using Java 17.0.16 with PID 11368 (/Users/mohit/salon_microservices/Gateway-Server/target/classes started by mohit in /Users/mohit/salon_microservices/Gateway-Server)
+2025-10-11T19:54:19.056+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T19:54:19.183+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-11T19:54:19.183+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-11T19:54:23.630+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8cefd9f8-7cd2-3eba-901e-65b49ded7e05
+2025-10-11T19:54:26.402+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-10-11T19:54:26.403+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-10-11T19:54:26.403+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-10-11T19:54:26.403+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-10-11T19:54:26.404+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-10-11T19:54:26.404+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-10-11T19:54:26.404+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-10-11T19:54:26.405+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-10-11T19:54:26.405+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-10-11T19:54:26.405+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-10-11T19:54:26.405+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-10-11T19:54:26.405+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-10-11T19:54:26.405+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-10-11T19:54:26.405+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-10-11T19:54:26.777+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-11T19:54:27.241+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-11T19:54:27.266+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-10-11T19:54:27.327+05:30  WARN 11368 --- [GATEWAY-SERVER] [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-11T19:54:27.440+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-11T19:54:27.485+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-11T19:54:27.492+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T19:54:27.509+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-11T19:54:27.510+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-11T19:54:27.511+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-11T19:54:27.511+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-11T19:54:27.511+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-11T19:54:27.511+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-10-11T19:54:27.514+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-11T19:54:28.575+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-11T19:54:28.579+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-10-11T19:54:28.582+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-10-11T19:54:28.587+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760192668585 with initial instances count: 0
+2025-10-11T19:54:28.597+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2025-10-11T19:54:28.602+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760192668602, current=UP, previous=STARTING]
+2025-10-11T19:54:28.605+05:30  INFO 11368 --- [GATEWAY-SERVER] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/192.168.29.109:GATEWAY-SERVER:8085: registering service...
+2025-10-11T19:54:28.864+05:30  INFO 11368 --- [GATEWAY-SERVER] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/192.168.29.109:GATEWAY-SERVER:8085 - registration status: 204
+2025-10-11T19:54:28.959+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8085 (http)
+2025-10-11T19:54:28.961+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-10-11T19:54:29.016+05:30  INFO 11368 --- [GATEWAY-SERVER] [  restartedMain] c.m.G.Server.GatewayServerApplication    : Started GatewayServerApplication in 11.37 seconds (process running for 13.884)
+2025-10-11T19:54:58.580+05:30  INFO 11368 --- [GATEWAY-SERVER] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-10-11T19:54:58.580+05:30  INFO 11368 --- [GATEWAY-SERVER] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-10-11T19:54:58.580+05:30  INFO 11368 --- [GATEWAY-SERVER] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-10-11T19:54:58.580+05:30  INFO 11368 --- [GATEWAY-SERVER] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-10-11T19:54:58.580+05:30  INFO 11368 --- [GATEWAY-SERVER] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-10-11T19:54:58.580+05:30  INFO 11368 --- [GATEWAY-SERVER] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-10-11T19:54:58.580+05:30  INFO 11368 --- [GATEWAY-SERVER] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-10-11T19:54:58.595+05:30  INFO 11368 --- [GATEWAY-SERVER] [reshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-10-11T19:59:27.521+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:04:27.528+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:09:27.539+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:14:27.554+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:19:27.565+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:24:27.577+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:29:27.607+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:34:27.635+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:39:27.650+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:44:27.660+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:49:27.661+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:54:27.668+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T20:59:27.680+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:04:27.688+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:09:27.696+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:14:27.710+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:19:27.730+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:24:27.748+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:29:27.761+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:34:27.792+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:39:27.827+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:44:27.847+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:49:27.863+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:54:27.878+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T21:59:27.894+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:04:27.911+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:09:27.929+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:14:27.944+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:19:28.005+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:24:28.032+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:29:28.046+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:34:28.065+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:39:28.063+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:44:28.075+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:49:28.086+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:54:28.103+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T22:59:28.126+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:04:28.142+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:09:28.156+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:14:28.152+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:19:28.168+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:24:28.184+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:29:28.186+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:34:28.195+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:39:28.209+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:44:28.226+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:49:28.239+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:54:28.269+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-11T23:59:28.287+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:04:28.303+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:09:28.319+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:14:28.336+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:19:28.357+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:24:28.368+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:29:28.386+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:34:28.411+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:39:28.424+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:44:28.466+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:49:28.495+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:54:28.508+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T00:59:28.508+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:04:28.518+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:09:28.533+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:14:28.555+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:19:28.580+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:24:28.590+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:29:28.611+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:34:28.615+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:39:28.626+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:44:28.639+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:49:28.659+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T01:54:28.672+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:01:07.128+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:06:07.146+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:11:07.161+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:16:07.176+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:21:07.186+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:26:07.200+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:31:07.458+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:38:59.258+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:43:59.276+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:48:59.297+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T02:53:59.337+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:01:05.756+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:06:05.773+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:11:05.792+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:16:05.808+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:22:34.634+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:27:34.651+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:32:34.665+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:37:34.683+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T03:52:35.961+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T07:45:39.171+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T12:34:22.800+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:35:34.895+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:40:34.906+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:45:34.920+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:50:34.939+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T14:55:34.945+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:15:48.251+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:20:48.259+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:25:48.267+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:30:48.283+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:35:48.294+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:40:48.306+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:46:09.417+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:51:47.092+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T15:56:47.102+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:01:47.110+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:06:47.121+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:11:47.132+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:17:26.733+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:22:26.744+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:35:51.751+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:40:51.766+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:45:51.783+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T16:50:51.791+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T17:05:54.682+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:10:37.417+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:23:47.853+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:28:47.861+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:33:47.871+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:38:47.874+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:45:16.966+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:51:20.740+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T18:56:20.748+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:01:20.768+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:06:20.777+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:11:20.787+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:44:49.294+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:49:49.305+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:54:49.332+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T19:59:49.342+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:04:49.350+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:09:49.372+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:14:49.383+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:19:49.391+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T20:24:49.399+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T22:10:11.321+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T22:50:54.798+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T22:55:54.808+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:00:54.820+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:13:50.332+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:22:44.951+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:27:44.968+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:32:44.975+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:37:45.012+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:42:45.038+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:47:45.052+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:52:45.064+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-12T23:57:45.066+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:02:45.088+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:07:45.102+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:12:45.114+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:17:45.121+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:32:48.894+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:39:11.841+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:44:11.849+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:51:53.464+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T00:56:53.477+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:01:53.489+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:06:53.502+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:11:53.522+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:24:09.512+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:33:44.451+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:38:44.460+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:43:44.472+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:48:44.490+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

@@ -1,0 +1,48 @@
+{
+  "name": "Salon Microservices",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    },
+    "ghcr.io/devcontainers/features/maven:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers-contrib/features/postgres-asdf:1": {
+      "version": "15"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+
+  "forwardPorts": [5001, 5002, 5003, 5004, 5005, 5006, 5007, 5008, 8070, 8085, 8080, 5432],
+
+  "portsAttributes": {
+    "5001": {"label": "User Service", "onAutoForward": "notify"},
+    "5002": {"label": "Salon Service", "onAutoForward": "notify"},
+    "5003": {"label": "Category Service", "onAutoForward": "notify"},
+    "5004": {"label": "Service Offering", "onAutoForward": "notify"},
+    "5005": {"label": "Booking Service", "onAutoForward": "notify"},
+    "5006": {"label": "Payment Service", "onAutoForward": "notify"},
+    "5007": {"label": "Notification Service", "onAutoForward": "notify"},
+    "5008": {"label": "Review Service", "onAutoForward": "notify"},
+    "8070": {"label": "Eureka Server", "onAutoForward": "notify"},
+    "8085": {"label": "Gateway Server", "onAutoForward": "notify"},
+    "8080": {"label": "Keycloak", "onAutoForward": "notify"},
+    "5432": {"label": "PostgreSQL", "onAutoForward": "silent"}
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-spring-boot-dashboard",
+        "pivotal.vscode-spring-boot",
+        "redhat.java",
+        "rangav.vscode-thunder-client"
+      ]
+    }
+  }
+}

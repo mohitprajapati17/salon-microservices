@@ -1,11 +1,13 @@
-package com.mohitmac.service.client;
+package com.mohitmac.Payment.Service.service.client;
 
-import com.mohitmac.payload_DTO.UserDTO;
+
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
+
+import com.mohitmac.Payment.Service.payloadResponse.payload_DTO.UserDTO;
 
 @FeignClient("USERSERVICE")
 public interface UserFeingClient {

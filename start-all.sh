@@ -55,6 +55,20 @@ cd Payment-Service
 PAYMENT_PID=$!
 cd ..
 
+# Start Notification Service
+echo "Starting Notification Service (port 5007)..."
+cd notification-Service
+./mvnw spring-boot:run > ../logs/notification-service.log 2>&1 &
+NOTIFICATION_PID=$!
+cd ..
+
+# Start Review Service
+echo "Starting Review Service (port 5008)..."
+cd review-service
+./mvnw spring-boot:run > ../logs/review-service.log 2>&1 &
+REVIEW_PID=$!
+cd ..
+
 # Start Gateway
 echo "Starting Gateway Server (port 8085)..."
 cd Gateway-Server
@@ -70,23 +84,28 @@ echo "Eureka Dashboard: http://localhost:8070"
 echo "Gateway:          http://localhost:8085"
 echo ""
 echo "Services:"
-echo "  - User Service:       http://localhost:5001"
-echo "  - Salon Service:      http://localhost:5002"
-echo "  - Category Service:   http://localhost:5003"
-echo "  - Service Offering:   http://localhost:5004"
-echo "  - Booking Service:    http://localhost:5005"
-echo "  - Payment Service:    http://localhost:5006"
+echo "  - User Service:         http://localhost:5001"
+echo "  - Salon Service:        http://localhost:5002"
+echo "  - Category Service:     http://localhost:5003"
+echo "  - Service Offering:     http://localhost:5004"
+echo "  - Booking Service:      http://localhost:5005"
+echo "  - Payment Service:      http://localhost:5006"
+echo "  - Notification Service: http://localhost:5007"
+echo "  - Review Service:       http://localhost:5008"
 echo ""
 echo "Via Gateway:"
-echo "  - Users:      http://localhost:8085/api/users"
-echo "  - Salons:     http://localhost:8085/api/salons"
-echo "  - Categories: http://localhost:8085/api/categories"
-echo "  - Services:   http://localhost:8085/api/services"
-echo "  - Bookings:   http://localhost:8085/api/booking"
-echo "  - Payments:   http://localhost:8085/api/payments"
+echo "  - Users:         http://localhost:8085/api/users"
+echo "  - Salons:        http://localhost:8085/api/salons"
+echo "  - Categories:    http://localhost:8085/api/categories"
+echo "  - Services:      http://localhost:8085/api/services"
+echo "  - Bookings:      http://localhost:8085/api/booking"
+echo "  - Payments:      http://localhost:8085/api/payments"
+echo "  - Notifications: http://localhost:8085/api/notification"
+echo "  - Reviews:       http://localhost:8085/api/review"
 echo ""
 echo "PIDs: Eureka=$EUREKA_PID User=$USER_PID Salon=$SALON_PID Category=$CATEGORY_PID"
-echo "      Offering=$OFFERING_PID Booking=$BOOKING_PID Payment=$PAYMENT_PID Gateway=$GATEWAY_PID"
+echo "      Offering=$OFFERING_PID Booking=$BOOKING_PID Payment=$PAYMENT_PID"
+echo "      Notification=$NOTIFICATION_PID Review=$REVIEW_PID Gateway=$GATEWAY_PID"
 echo ""
 echo "To stop all services, run:"
-echo "  kill $EUREKA_PID $USER_PID $SALON_PID $CATEGORY_PID $OFFERING_PID $BOOKING_PID $PAYMENT_PID $GATEWAY_PID"
+echo "  kill $EUREKA_PID $USER_PID $SALON_PID $CATEGORY_PID $OFFERING_PID $BOOKING_PID $PAYMENT_PID $NOTIFICATION_PID $REVIEW_PID $GATEWAY_PID"

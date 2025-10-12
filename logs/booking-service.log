@@ -13,7 +13,7 @@
 [INFO] 
 [INFO] --- compiler:3.13.0:compile (default-compile) @ Booking-Service ---
 [INFO] Recompiling the module because of changed source code.
-[INFO] Compiling 17 source files with javac [debug parameters release 17] to target/classes
+[INFO] Compiling 24 source files with javac [debug parameters release 17] to target/classes
 [INFO] 
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ Booking-Service ---
 [INFO] skip non existing resourceDirectory /Users/mohit/salon_microservices/Booking-Service/src/test/resources
@@ -37,266 +37,36 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-10-10T00:58:18.588+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.mohitmac.BookingServiceApplication   : Starting BookingServiceApplication using Java 17.0.16 with PID 58494 (/Users/mohit/salon_microservices/Booking-Service/target/classes started by mohit in /Users/mohit/salon_microservices/Booking-Service)
-2025-10-10T00:58:18.595+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.mohitmac.BookingServiceApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-10T00:58:21.407+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-10T00:58:21.759+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 330 ms. Found 1 JPA repository interface.
-2025-10-10T00:58:22.264+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa68fe98-212b-3af2-be9a-f5f9baf83ad8
-2025-10-10T00:58:23.695+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5005 (http)
-2025-10-10T00:58:23.732+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-10T00:58:23.732+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-10-10T00:58:23.874+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-10T00:58:23.878+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5196 ms
-2025-10-10T00:58:24.762+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-10T00:58:24.863+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-10-10T00:58:25.054+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-10T00:58:25.616+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-10T00:58:25.686+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-10T00:58:26.016+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2cc97e47
-2025-10-10T00:58:26.034+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-10T00:58:26.590+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.4
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-10T00:58:28.605+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-10T00:58:29.233+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-10T00:58:29.860+05:30  WARN 58494 --- [BOOKING-SERVICE] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-10T00:58:31.579+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-10-10T00:58:31.673+05:30  WARN 58494 --- [BOOKING-SERVICE] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-10-10T00:58:31.687+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-10-10T00:58:31.799+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-10-10T00:58:31.838+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-10-10T00:58:31.844+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T00:58:31.855+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-10-10T00:58:31.856+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-10-10T00:58:31.856+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-10-10T00:58:31.856+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-10-10T00:58:31.856+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-10-10T00:58:31.856+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-10-10T00:58:31.857+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-10-10T00:58:32.454+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-10-10T00:58:32.456+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-10-10T00:58:32.459+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-10-10T00:58:32.462+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1760038112461 with initial instances count: 2
-2025-10-10T00:58:32.474+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BOOKING-SERVICE with eureka with status UP
-2025-10-10T00:58:32.475+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1760038112475, current=UP, previous=STARTING]
-2025-10-10T00:58:32.478+05:30  INFO 58494 --- [BOOKING-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOKING-SERVICE/192.168.29.109:BOOKING-SERVICE:5005: registering service...
-2025-10-10T00:58:32.509+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5005 (http) with context path '/'
-2025-10-10T00:58:32.510+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5005
-2025-10-10T00:58:32.555+05:30  INFO 58494 --- [BOOKING-SERVICE] [           main] com.mohitmac.BookingServiceApplication   : Started BookingServiceApplication in 14.929 seconds (process running for 16.602)
-2025-10-10T00:58:32.557+05:30  INFO 58494 --- [BOOKING-SERVICE] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOKING-SERVICE/192.168.29.109:BOOKING-SERVICE:5005 - registration status: 204
-2025-10-10T01:00:51.277+05:30  INFO 58494 --- [BOOKING-SERVICE] [nio-5005-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-10T01:00:51.281+05:30  INFO 58494 --- [BOOKING-SERVICE] [nio-5005-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-10T01:00:51.306+05:30  INFO 58494 --- [BOOKING-SERVICE] [nio-5005-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
-2025-10-10T01:03:31.939+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:08:31.974+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:13:31.992+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:18:32.116+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:23:32.132+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:28:32.151+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:33:32.173+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:38:32.189+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:43:32.203+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:48:32.224+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:53:32.232+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T01:58:32.256+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:03:32.292+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:08:32.312+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:13:32.334+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:18:32.346+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:22:20.268+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m23s238ms).
-2025-10-10T02:26:25.631+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:31:25.642+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:33:31.239+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s820ms).
-2025-10-10T02:37:06.465+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:42:06.485+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:47:06.499+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:52:06.514+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T02:57:06.529+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:02:06.549+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:07:06.574+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:12:06.589+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:17:06.608+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:22:06.629+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:27:06.662+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:32:06.680+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:37:06.698+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:42:06.729+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:47:06.754+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:52:06.772+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T03:57:06.784+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:00:46.812+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s747ms).
-2025-10-10T04:03:21.547+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:08:21.561+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:22:17.936+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s10ms).
-2025-10-10T04:32:49.015+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s85ms).
-2025-10-10T04:43:19.123+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s110ms).
-2025-10-10T04:43:23.747+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T04:53:50.984+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s860ms).
-2025-10-10T05:10:45.194+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m54s211ms).
-2025-10-10T05:21:18.589+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m33s395ms).
-2025-10-10T05:31:49.396+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s807ms).
-2025-10-10T05:42:24.388+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m34s992ms).
-2025-10-10T05:52:55.357+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s969ms).
-2025-10-10T06:03:25.512+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s155ms).
-2025-10-10T07:13:31.170+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m4s444ms).
-2025-10-10T08:14:40.589+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m10s43ms).
-2025-10-10T08:14:53.511+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T09:16:09.163+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s128ms).
-2025-10-10T10:17:09.007+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59s843ms).
-2025-10-10T10:18:29.880+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s873ms).
-2025-10-10T11:18:21.104+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m51s225ms).
-2025-10-10T12:19:20.558+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s486ms).
-2025-10-10T13:13:30.222+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m9s921ms).
-2025-10-10T13:20:50.188+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m49s911ms).
-2025-10-10T14:21:48.626+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58s439ms).
-2025-10-10T14:21:49.631+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T14:50:26.748+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m37s82ms).
-2025-10-10T14:54:56.396+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T14:59:56.410+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:04:56.420+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:09:56.450+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:14:56.460+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:19:56.463+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:24:56.480+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:29:56.520+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:34:56.535+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:39:56.553+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:43:47.742+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m50s166ms).
-2025-10-10T15:48:16.732+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:53:18.120+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T15:58:18.170+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:03:18.193+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:08:18.210+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:13:18.222+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:18:18.234+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:23:41.576+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m22s130ms).
-2025-10-10T16:28:10.374+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:33:10.389+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:38:10.424+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:43:10.443+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:48:10.461+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:53:10.477+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T16:58:10.488+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:03:10.504+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:08:10.518+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:13:10.530+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:18:10.543+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:23:10.551+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:28:10.566+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:33:10.579+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:38:10.589+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T17:52:11.470+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s77ms).
-2025-10-10T18:03:11.403+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T18:03:13.214+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s689ms).
-2025-10-10T18:14:26.472+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m35s641ms).
-2025-10-10T18:24:56.442+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s971ms).
-2025-10-10T18:35:26.599+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s157ms).
-2025-10-10T18:45:59.149+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s550ms).
-2025-10-10T18:56:32.597+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m33s448ms).
-2025-10-10T19:07:04.346+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s749ms).
-2025-10-10T19:17:36.040+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s694ms).
-2025-10-10T19:28:05.487+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s447ms).
-2025-10-10T19:38:32.380+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T19:38:35.578+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s91ms).
-2025-10-10T19:59:07.781+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m32s203ms).
-2025-10-10T20:14:54.714+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m16s913ms).
-2025-10-10T20:25:27.292+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s578ms).
-2025-10-10T20:35:57.528+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s236ms).
-2025-10-10T20:56:31.926+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m34s398ms).
-2025-10-10T21:05:33.979+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m2s52ms).
-2025-10-10T21:26:07.751+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m33s773ms).
-2025-10-10T21:37:07.644+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T21:47:12.616+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m32s60ms).
-2025-10-10T21:48:19.002+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s386ms).
-2025-10-10T21:57:18.540+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m29s510ms).
-2025-10-10T21:58:43.248+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:05:12.376+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m23s814ms).
-2025-10-10T22:09:11.351+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m28s948ms).
-2025-10-10T22:11:36.012+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:16:36.023+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:21:36.034+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:26:36.044+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:31:36.050+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T22:43:14.933+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m33s391ms).
-2025-10-10T22:53:46.672+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s740ms).
-2025-10-10T23:04:18.558+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s886ms).
-2025-10-10T23:07:25.793+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m7s233ms).
-2025-10-10T23:09:20.277+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:14:20.291+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:19:20.303+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:24:20.312+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:29:20.318+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:34:20.330+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:39:20.342+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:44:20.344+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:49:20.352+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:54:20.361+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-10T23:59:20.369+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:04:20.379+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:09:20.402+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:19:32.710+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m36s378ms).
-2025-10-11T00:23:26.785+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:28:26.797+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:33:26.806+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:38:31.391+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:43:31.401+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:44:30.940+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s408ms).
-2025-10-11T00:48:54.815+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:53:54.826+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T00:58:54.839+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:07:38.002+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m36s849ms).
-2025-10-11T01:09:01.694+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:14:01.707+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:19:01.715+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:24:01.726+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:29:01.735+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:34:01.742+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:39:01.758+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:44:01.768+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:49:01.796+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:54:01.828+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T01:59:01.844+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:04:01.860+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:06:37.074+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s566ms).
-2025-10-11T02:10:00.458+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:15:00.469+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:20:00.505+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:25:00.524+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:30:00.535+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:35:00.550+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:40:00.569+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:45:00.585+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:50:00.595+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T02:55:00.611+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:00:00.623+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:05:00.638+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:10:00.649+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:15:00.668+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:20:00.687+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:25:00.710+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:30:00.729+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:35:00.749+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:40:00.767+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:45:00.780+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:50:00.792+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T03:55:00.808+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:00:00.826+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:03:23.496+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s277ms).
-2025-10-11T04:04:08.664+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s174ms).
-2025-10-11T04:05:31.256+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:10:31.272+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:15:31.319+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:20:31.333+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:25:31.340+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:30:31.360+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:35:31.371+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T04:49:09.199+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s154ms).
-2025-10-11T04:59:41.919+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m32s727ms).
-2025-10-11T05:10:12.942+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s23ms).
-2025-10-11T05:20:34.521+05:30  INFO 58494 --- [BOOKING-SERVICE] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-10-11T05:20:42.203+05:30  WARN 58494 --- [BOOKING-SERVICE] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s261ms).
+2025-10-11T20:04:38.654+05:30  INFO 13239 --- [BOOKING-SERVICE] [           main] com.mohitmac.BookingServiceApplication   : Starting BookingServiceApplication using Java 17.0.16 with PID 13239 (/Users/mohit/salon_microservices/Booking-Service/target/classes started by mohit in /Users/mohit/salon_microservices/Booking-Service)
+2025-10-11T20:04:38.656+05:30  INFO 13239 --- [BOOKING-SERVICE] [           main] com.mohitmac.BookingServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T20:04:39.408+05:30  WARN 13239 --- [BOOKING-SERVICE] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'USERSERVICE.FeignClientSpecification' defined in null: Cannot register bean definition [Generic bean: class=org.springframework.cloud.openfeign.FeignClientSpecification; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] for bean 'USERSERVICE.FeignClientSpecification' since there is already [Generic bean: class=org.springframework.cloud.openfeign.FeignClientSpecification; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] bound.
+2025-10-11T20:04:39.424+05:30  INFO 13239 --- [BOOKING-SERVICE] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-11T20:04:39.447+05:30 ERROR 13239 --- [BOOKING-SERVICE] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'USERSERVICE.FeignClientSpecification' could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.014 s
+[INFO] Finished at: 2025-10-11T20:04:39+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.3:run (default-cli) on project Booking-Service: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

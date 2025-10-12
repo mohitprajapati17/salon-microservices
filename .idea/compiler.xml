@@ -9,7 +9,7 @@
         <module name="eureka-server" />
         <module name="Gateway-Server" />
       </profile>
-      <profile name="Annotation profile for Booking-Service" enabled="true">
+      <profile name="Annotation profile for Payment-Service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -18,9 +18,9 @@
         </processorPath>
         <module name="Booking-Service" />
         <module name="salon-service" />
+        <module name="Payment-Service" />
         <module name="catergory-Service" />
         <module name="service-offering" />
-        <module name="Payment-Service" />
         <module name="userService" />
       </profile>
     </annotationProcessing>
