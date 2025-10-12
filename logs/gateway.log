@@ -255,3 +255,10 @@
 2025-10-13T01:38:44.460+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-10-13T01:43:44.472+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2025-10-13T01:48:44.490+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:53:44.500+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T01:58:44.514+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T02:03:44.532+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T02:08:44.549+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T02:13:44.563+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-10-13T02:13:54.089+05:30  WARN 11368 --- [GATEWAY-SERVER] [     parallel-1] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: USERSERVICE
+2025-10-13T02:18:44.575+05:30  INFO 11368 --- [GATEWAY-SERVER] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
