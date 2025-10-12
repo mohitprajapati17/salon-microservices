@@ -1,18 +1,15 @@
 {
   "name": "Salon Microservices",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
   
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "17"
+      "version": "17",
+      "installMaven": "true"
     },
-    "ghcr.io/devcontainers/features/maven:1": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "version": "latest"
-    },
-    "ghcr.io/devcontainers-contrib/features/postgres-asdf:1": {
-      "version": "15"
-    },
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    }
   },
 
   "postCreateCommand": "bash .devcontainer/setup.sh",
@@ -40,8 +37,7 @@
         "vscjava.vscode-java-pack",
         "vscjava.vscode-spring-boot-dashboard",
         "pivotal.vscode-spring-boot",
-        "redhat.java",
-        "rangav.vscode-thunder-client"
+        "redhat.java"
       ]
     }
   }
