@@ -116,10 +116,10 @@ services:
     healthcheck:
       test: ["CMD-SHELL", "curl --fail --silent eurekaserver:8070/actuator/health | grep UP || exit 1"]
 
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 10s
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 120s
     container_name: eurekaserver
 
 
@@ -145,10 +145,10 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl --fail --silent localhost:5001/actuator/health | grep UP || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 10s
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 180s
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://userdb:5432/Salon_User_db
       SPRING_DATASOURCE_USERNAME: postgres
@@ -173,10 +173,10 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl --fail --silent localhost:5002/actuator/health | grep UP || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 10s
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 180s
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://salondb:5432/Salon_Service_db
       SPRING_DATASOURCE_USERNAME: postgres
@@ -201,10 +201,10 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl --fail --silent localhost:5003/actuator/health | grep UP || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 10s
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 180s
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://categorydb:5432/Catergory_Service_db
       SPRING_DATASOURCE_USERNAME: postgres
@@ -229,10 +229,10 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl --fail --silent localhost:5004/actuator/health | grep UP || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 10s
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 180s
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://serviceofferingdb:5432/Service_offering_db
       SPRING_DATASOURCE_USERNAME: postgres
@@ -257,10 +257,10 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl --fail --silent localhost:5005/actuator/health | grep UP || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 10s
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 180s
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://bookingdb:5432/Booking_Services_db
       SPRING_DATASOURCE_USERNAME: postgres
@@ -285,10 +285,10 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl --fail --silent localhost:5006/actuator/health | grep UP || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 10s
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 180s
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://paymentdb:5432/Payment_Service_db
       SPRING_DATASOURCE_USERNAME: postgres
@@ -323,10 +323,10 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl --fail --silent localhost:8085/actuator/health | grep UP || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 10s
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 180s
     environment:
       EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8070/eureka
     deploy:
