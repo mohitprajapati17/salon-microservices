@@ -27,17 +27,17 @@ import com.mohitmac.userService.payload_response.response.TokenResponse;
 @Service
 @AllArgsConstructor
 public class KeycloakService {
-    private static final  String  KEYCLOAK_BASE_URL = "http://localhost:8080";
+    private static final  String  KEYCLOAK_BASE_URL = "http://keycloak:8080";
     private static final  String  KEYCLOAK_ADMIN_API = KEYCLOAK_BASE_URL+"/admin/realms/master/users";
     private static final  String  TOKEN_URL = KEYCLOAK_BASE_URL+"/realms/master/protocol/openid-connect/token";
 
     private static final String CLIENT_ID = "salon-booking-client";
-    private static final String CLIENT_SECRET = "evhO44qvqdInCmJubw1zzCTwPuIYaLyy";
+    private static final String CLIENT_SECRET = "EcYScWkSjDCuVPz8BIDKavkBDZyqigAM";
     private static final String GRANT_TYPE = "password";
     private static final String USERNAME = "mohit";
     private static final String PASSWORD = "mohit";
     private static final String scope="openid profile email";
-    private static final String client_id="f01375eb-3e6b-4b93-8220-df216fde2cf0";
+    private static final String client_id="24239f65-e929-4e14-875b-65b6edecc350";
 
     
     private final RestTemplate restTemplate;

@@ -13,7 +13,7 @@ import com.mohit.model.Notification;
 import com.mohit.payload_DTO.NotificationDTO;
 import com.mohit.repository.NotificationRepository;
 import com.mohit.service.NotificationService;
-import com.mohit.service.clients.BookingClient;
+import com.mohit.service.clients.BookingClient;cd user
 
 @Service
 public class NotificationServiceImpl implements NotificationService {
