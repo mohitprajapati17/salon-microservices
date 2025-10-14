@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5a6ba65-61e8-4d4f-8462-39d2181f4ef5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gateway.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/payment-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/payment-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-Service/src/main/java/com/mohit/service/serviceImpl/NotificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-Service/src/main/java/com/mohit/service/serviceImpl/NotificationServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="b5a6ba65-61e8-4d4f-8462-39d2181f4ef5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -8,6 +8,7 @@ import java.util.Set;
 
 import com.mohitmac.domain.BookingStatus;
 import com.mohitmac.model.Booking;
+import com.mohitmac.model.PaymentOrder;
 import com.mohitmac.model.SalonReport;
 import com.mohitmac.payload_DTO.BookingRequest;
 import com.mohitmac.payload_DTO.SalonDTO;
@@ -23,5 +24,6 @@ public interface BookingService {
     Booking updateBooking(Long bookingId,BookingStatus status);
     List<Booking> getBookingsByDate(LocalDate date,Long salonId);
     SalonReport getSalonReport(Long salonId);
+    Booking bookingSuccess(PaymentOrder paymentOrder);
 
 }

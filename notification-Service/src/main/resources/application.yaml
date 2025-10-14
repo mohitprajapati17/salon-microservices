@@ -1,10 +1,6 @@
 
-
-
 server:
   port: 5007
-
-
 
 
 spring:
@@ -18,7 +14,11 @@ spring:
     username: postgres
     password: 2006
     driver-class-name: org.postgresql.Driver
-
+  rabbitmq:
+    host: rabbit
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   instance:

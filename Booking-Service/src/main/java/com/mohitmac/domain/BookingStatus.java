@@ -6,7 +6,7 @@ import java.util.*;
 
 public enum BookingStatus {
     
-    BOOKING,
+    CONFIRMED,
     CANCELLED,
     PENDING,
 }

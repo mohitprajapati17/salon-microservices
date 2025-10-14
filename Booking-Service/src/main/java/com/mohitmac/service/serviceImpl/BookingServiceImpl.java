@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import com.mohitmac.domain.BookingStatus;
 import com.mohitmac.model.Booking;
+import com.mohitmac.model.PaymentOrder;
 import com.mohitmac.model.SalonReport;
 import com.mohitmac.payload_DTO.BookingRequest;
 import com.mohitmac.payload_DTO.SalonDTO;
@@ -127,6 +128,13 @@ public class BookingServiceImpl implements BookingService {
         return salonReport;
 
         
+    }
+
+    @Override
+    public Booking bookingSuccess(PaymentOrder paymentOrder) {
+        Booking booking=getBookingById(paymentOrder.getBookingId());
+        booking.setStatus(BookingStatus.CONFIRMED);
+        return bookingServiceRepository.save(booking);
     }
 
 }
