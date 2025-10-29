@@ -1,4 +1,4 @@
-package com.mohitmac.Payment.Service.configuration;
+package com.mohitmac.configuration;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -27,10 +27,6 @@ public class RabbitMqConf {
         return new Queue("booking-queue");
     }
 
-    @Bean
-    public Queue notificationQueue(){
-        return new Queue("notification-queue");
-    }
-
+   
     
 }

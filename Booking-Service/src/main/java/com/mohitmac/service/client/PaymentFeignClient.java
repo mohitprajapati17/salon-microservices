@@ -16,8 +16,5 @@ public interface PaymentFeignClient {
     @PostMapping("/api/payment/create")
     public ResponseEntity<PaymentLinkResponse> createPayment(@RequestBody BookingDTO bookingDTO, @RequestParam PaymentMethod paymentMethod,@RequestHeader("Authorization") String jwt);
         
-       
-
-    
 } 
 

@@ -25,9 +25,10 @@ public class NotificationSalonOwner {
     private BookingClient bookingClient;
 
     @GetMapping("/salon/{salonId}")
-    public ResponseEntity<List<NotificationDTO>> getAllNotificationsBySalonId(@PathVariable Long salonId, @RequestHeader("Authorization") String jwt){
+    public ResponseEntity<List<NotificationDTO>> getAllNotificationsBySalonId(@PathVariable Long salonId,@RequestHeader("Authorization") String jwt){
         List<NotificationDTO> notificationDTO=notificationService.getAllNotificationsBySalonId(salonId);
-        return ResponseEntity.ok(notificationDTO);
+        return  ResponseEntity.ok(notificationDTO);
+        
     }
     
 }

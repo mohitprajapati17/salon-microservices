@@ -32,11 +32,7 @@ public class SecurityConfig {
         http.authorizeExchange(exchanges -> exchanges
                 .pathMatchers("/auth/**").permitAll()
                 .pathMatchers("/api/notifications/ws/**").permitAll()
-                .pathMatchers("/api/categories/salon-owner/**",
-                              "/api/notifications/salon-owner/**",
-                              "/api/service-offering/salon-owner/**")
-                    .hasRole("SALON_OWNER")
-                .pathMatchers("/api/salons/**",
+                 .pathMatchers("/api/salons/**",
                               "/api/categories/**",
                               "/api/notifications/**",
                               "/api/service-offering/**",
@@ -45,7 +41,12 @@ public class SecurityConfig {
                               "/api/users/**",
                               "/api/reviews/**")
                     .hasAnyRole("CUSTOMER", "ADMIN", "SALON_OWNER")
-                .anyExchange().authenticated()
+                .pathMatchers("/api/categories/salon-owner/**",
+                              "/api/notifications/salon-owner/**",
+                              "/api/service-offering/salon-owner/**")
+                    .hasRole("SALON_OWNER")
+               
+                
             )
             .oauth2ResourceServer(oauth2 -> oauth2
                 .jwt(jwt -> jwt.jwtAuthenticationConverter(grantAuthoritiesExtractor()))
@@ -62,7 +63,7 @@ public class SecurityConfig {
 
     private CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration  configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(Arrays.asList("http://localhost:3000 , http://localhost:5170"));
+        configuration.setAllowedOrigins(Arrays.asList("http://localhost:3000", "http://localhost:5170"));
         configuration.setAllowedMethods(Arrays.asList("GET","POST","PUT","DELETE","OPTIONS","PATCH"));
         configuration.setExposedHeaders(Collections.singletonList("Authorization"));
         configuration.setAllowedHeaders(Collections.singletonList("*"));

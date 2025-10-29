@@ -2,6 +2,8 @@ package com.mohitmac.Payment.Service.service.serviceImpl;
 
 import com.mohitmac.Payment.Service.domain.PaymentMethod;
 import com.mohitmac.Payment.Service.domain.PaymentOrderStatus;
+import com.mohitmac.Payment.Service.messaging.BookingEventProducer;
+import com.mohitmac.Payment.Service.messaging.NotificationEventProducer;
 import com.mohitmac.Payment.Service.model.PaymentOrder;
 import com.mohitmac.Payment.Service.payloadResponse.PaymentLinkResponse;
 import com.mohitmac.Payment.Service.payloadResponse.payload_DTO.BookingDTO;
@@ -22,6 +24,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class PaymentServiceImpl implements PaymentService {
 
+
+    @Autowired
+    private BookingEventProducer bookingEventProducer;
+
+    @Autowired
+    private NotificationEventProducer notificationEventProducer;
+    
     @Autowired
     private Repository repository;
     @Value("${stripe.api.key}")
@@ -155,6 +164,8 @@ public class PaymentServiceImpl implements PaymentService {
                     Integer amount = payment.get("amount");
                     String status = payment.get("status");
                     if (status.equals("captured")) {
+                        notificationEventProducer.setNotification(paymentOrder.getBookingId(), paymentOrder.getUserId(), paymentOrder.getSalonId());
+                        bookingEventProducer.sendBookingUpdateEvent(paymentOrder);
                         paymentOrder.setStatus(PaymentOrderStatus.SUCCESS);
                         repository.save(paymentOrder);
                         return true;

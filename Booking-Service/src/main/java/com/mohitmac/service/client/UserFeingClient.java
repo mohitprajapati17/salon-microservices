@@ -1,4 +1,5 @@
 package com.mohitmac.service.client;
+
 import com.mohitmac.payload_DTO.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
